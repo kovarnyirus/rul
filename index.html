@@ -11,40 +11,49 @@
 <body>
 <header class="page-header">
   <div class="container">
-    <nav>
-      <a href="#" class="page-header__logo"><img src="" alt="logo"></a>
-      <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">О нас</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Услуги</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Цены</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Мастера</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Мастера</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <div class="row">
-      <div class="col-8">
-        <h1 class="page-title">ФРАНШИЗА АВТОЗАПЧАСТИ</h1>
-        <div class="page-title__description">СЕТЬ АВТОМАГАЗИНОВ «РУЛЬ»</div>
-        <p class="page-header__suggestion">Начните зарабатывать от 500 000 ₽ по нашим методикам уже в апреле</p>
-        <p>Мы предлагаем вам открыть собственный фирменный магазин автозапчастей по франшизе «Руль» в вашем городе.</p>
+    <div class="page-header__top">
+      <div class="page-header__top-wrapper">
+        <a href="#" class="page-header__logo"><img src="./img/logo.svg" width="327" alt="logo"></a>
+        <nav class="d-flex align-items-center justify-content-between">
+          <ul class="nav justify-content-end main-nav">
+            <li class="nav-item main-nav__item ">
+              <a class="nav-link main-nav__link " href="#">home</a>
+            </li>
+            <li class="nav-item main-nav__item ">
+              <a class="nav-link main-nav__link active" href="#">О нас</a>
+            </li>
+            <li class="nav-item main-nav__item">
+              <a class="nav-link main-nav__link" href="#">Услуги</a>
+            </li>
+            <li class="nav-item main-nav__item">
+              <a class="nav-link main-nav__link" href="#">Цены</a>
+            </li>
+            <li class="nav-item main-nav__item">
+              <a class="nav-link main-nav__link" href="#">Мастера</a>
+            </li>
+            <li class="nav-item main-nav__item">
+              <a class="nav-link main-nav__link" href="#">Мастера</a>
+            </li>
+            <li class="nav-item main-nav__item">
+              <a class="nav-link main-nav__link" href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="page-header__top-phone d-md-none">
+          <a href="#" type="tel">8 950 806-44-46</a>
+        </div>
       </div>
-      <div class="col-4">
+    </div>
+    <div class="row page-header__intro">
+      <div class="col-9">
+        <div class="page-header__title-wrapper">
+          <h1 class="page-header-title">ФРАНШИЗА АВТОЗАПЧАСТИ</h1>
+          <div class="page-header-title__description">СЕТЬ АВТОМАГАЗИНОВ «РУЛЬ»</div>
+        </div>
+        <p class="page-header__suggestion bottom-line bottom-line--header">Начните зарабатывать от 500 000 ₽ по нашим методикам уже в апреле</p>
+        <p class="page-header__description">Мы предлагаем вам открыть собственный фирменный магазин автозапчастей по франшизе «Руль» в вашем городе.</p>
+      </div>
+      <div class="col-3">
         <div class="experience">
           <p class="experience__number">
             10
@@ -54,61 +63,66 @@
             мы передадим
             вам
           </p>
+          <button>Запросить смету</button>
+          <div class="experience__phone-wrapper"><a href="#" type="tel" class="phone-number experience__phone">8 910 355-36-12</a></div>
+
         </div>
-        <button class="btn">Запросить смету</button>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-3">Паушальный взнос
+    <div class="row page-header-bottom">
+      <div class="col-md-3 page-header-bottom__item">Паушальный взнос<br>
         от 400 000 руб.
       </div>
-      <div class="col-md-3">Окупаемость
+      <div class="col-md-3 page-header-bottom__item">Окупаемость<br>
         до 19 месяцев
       </div>
-      <div class="col-md-3">Окупаемость
-        до 19 месяцев
+      <div class="col-md-3 page-header-bottom__item">Инвестиции<br>
+        от 2,8 млн. руб.
       </div>
-      <div class="col-md-3">Ежемесячное
-        роялти от 2%
+      <div class="col-md-3 page-header-bottom__item">
+        <div class="">
+          Ежемесячное<br>
+          роялти от 2%
+        </div>
         <span class="page-header__action">Акция 0%</span>
       </div>
     </div>
   </div>
 </header>
-<section class="total-earnings">
-  <div class="container">
-    <div class="total-earnings__numbets">37 476 453<span class="ruble"></span></div>
+<div class="total-earnings">
+  <div class="total-earnings__wrapper">
+    <div class="total-earnings__numbets-wrapper"><div class="total-earnings__numbets">37 476 453<span class="total-earnings__ruble">₽</span></div></div>
     <p class="total-earnings__description">Суммарный заработок 3-х магазинов сети Руль за последние 12 месяцев
       Данные обновляются раз в 24 часа из базы 1С — Конфигурации «Руль»</p>
   </div>
-</section>
+</div>
 <section class="format">
   <div class="container">
     <div class="row">
       <div class="col-md-8">
-        <h2>Форматы магазинов «Руль»</h2>
+        <h2 class="bottom-line">Форматы магазинов «Руль»</h2>
         <p class="subtitle">Формат магазина автозапчастей может быть разных форматов, от небольшого магазина с одним
           продавцом, до большого маркета с большим штатом, но основное объединяющее правило — это грамотно
           сформированное наличие автозапчастей на складе, которое и определяет то, сколько вы будете зарабатать.
           Предлагаем вам ознакомиться с 3-мя основными форматами: </p>
       </div>
-      <div class="col-md-4">
-        <div class="big-number">45</div>
-        <div class="number-subtitle">
+      <div class="col-md-3 offset-1">
+        <div class="format-number">45</div>
+        <div class="format-number-subtitle">
           Дней на старт
         </div>
       </div>
     </div>
-    <div class="row">
+    <div class="row format__list">
       <div class="col-md-4 format-item">
         <h3 class="format-item__titel">
           Формат «Мини»
         </h3>
         <div class="format-item__subtitle">
-          Хороший старт для большого
+          Хороший старт для большого<br>
           автомобильного бизнеса.
         </div>
-        <img src="#" width="350" alt="img-mini">
+        <img src="./img/format/format-1.jpg" width="350" alt="img-mini">
         <div class="format-item__cost">Инвестиции 2,8 млн. руб.</div>
         <button class="btn format-item__btn">Запросить смету</button>
       </div>
@@ -117,10 +131,10 @@
           Формат «Стандарт»
         </h3>
         <div class="format-item__subtitle">
-          Достойный магазин
+          Достойный магазин<br>
           с большим наличием.
         </div>
-        <img src="#" width="350" alt="img-stand">
+        <img src="./img/format/format-2.jpg" width="350" alt="img-stand">
         <div class="format-item__cost">Инвестиции 4,6 млн. руб.</div>
         <button class="btn format-item__btn">Запросить смету</button>
       </div>
@@ -129,10 +143,10 @@
           Формат «Макси»
         </h3>
         <div class="format-item__subtitle">
-          Магазин с доходностью
+          Магазин с доходностью<br>
           от 1 000 000 рублей в месяц.
         </div>
-        <img src="#" width="350" alt="img-maxi">
+        <img src="./img/format/format-3.jpg" width="350" alt="img-maxi">
         <div class="format-item__cost">Инвестиции 6,8 млн. руб.</div>
         <button class="btn format-item__btn">Запросить смету</button>
       </div>
@@ -883,7 +897,7 @@
         <div>Предоставляем вам:</div>
         <h2>Пошаговый план
           открытия</h2>
-          <p>Собственного магазина автозапчастей!</p>
+        <p>Собственного магазина автозапчастей!</p>
       </div>
       <div class="col-md-12">
         <button>Запросить смету на открытие</button>

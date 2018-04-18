@@ -62,7 +62,7 @@ gulp.task("symbols", function() {
 
 gulp.task("serve", ["style"], function() {
   server.init({
-    port: 5050,
+    port: 3200,
     server: ".",
     notify: false,
     open: true,

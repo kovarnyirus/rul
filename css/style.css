@@ -418,42 +418,67 @@ template {
   clear: both;
 }
 @font-face {
-  font-family: "Open Sans";
+  font-family: 'rouble';
   font-style: normal;
   font-weight: 400;
-  src: local("Open Sans"), local("OpenSans"), url("../../fonts/opensans.woff2") format("woff2"), url("../../fonts/opensans.woff") format("woff");
+  src: url('../fonts/rouble.woff') format('woff'), url("../fonts/rouble.ttf") format("truetype");
 }
 @font-face {
-  font-family: "Open Sans";
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo 2"), local("Exo2"), url("../fonts/exo2-regular.eot?") format("embedded-opentype"), url("../fonts/Exo2-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
   font-style: normal;
   font-weight: 700;
-  src: local("Open Sans Bold"), local("OpenSans-Bold"), url("../../fonts/opensansbold.woff2") format("woff2"), url("../../fonts/opensansbold.woff") format("woff");
+  src: local("Exo 2 Bold"), local("Exo2-Bold"), url("../fonts/exo2-bold.eot?") format("embedded-opentype"), url("../fonts/Exo2-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Exo 2 Bold Italic"), local("Exo2-Bold-Italic"), url("../fonts/Exo2-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Exo 2 Medium Italic"), local("Exo2-Medium-Italic"), url("../fonts/Exo2-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Exo 2 Medium "), local("Exo2-Medium"), url("../fonts/Exo2-Medium.ttf") format("truetype");
 }
 body {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font-family: "Exo 2", "Arial", sans-serif;
   background-color: #fff;
-  color: #000000;
+  color: #0d0d0d;
+  line-height: 1.5;
 }
 h1 {
-  font-size: 27px;
-  line-height: 30px;
+  font-size: 65px;
   color: #231f20;
-  font-weight: bold;
-  text-align: center;
   margin: 0;
+  line-height: 1.03;
+  font-weight: bold;
+  font-style: italic;
 }
 h2 {
-  font-size: 25px;
-  line-height: 30px;
+  font-size: 51px;
+  line-height: 51px;
   color: #000000;
   font-weight: bold;
+  font-style: italic;
   margin: 0;
 }
 h3 {
-  font-size: 17px;
+  font-size: 31px;
   margin: 0;
-  font-weight: bold;
-  line-height: 24px;
+  line-height: 37px;
 }
 a {
   text-decoration: none;
@@ -461,4 +486,319 @@ a {
 img {
   max-width: 100%;
   height: auto;
+}
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-top: 30px;
+}
+.bottom-line {
+  position: relative;
+}
+.bottom-line:before {
+  position: absolute;
+  content: '';
+  display: block;
+  left: 0;
+  width: 230px;
+  height: 4px;
+  background-color: #ffe200;
+  bottom: -15px;
+  border-radius: 50px;
+}
+.bottom-line--header:before {
+  width: 389.5px;
+}
+button {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: center;
+  color: #0d0d0d;
+  padding: 9px 50px ;
+  background-color: #FFE200;
+  box-shadow: 0 3px 0 0 #a87e00;
+  border: none;
+  border-radius: 5px;
+}
+.phone-number {
+  position: relative;
+  display: block;
+  color: #fff;
+  font-family: Arial;
+  font-size: 24px;
+  padding-left: 18px;
+  padding-bottom: 15px;
+}
+.phone-number:before {
+  position: absolute;
+  left: 0;
+  content: '';
+  top: 7px;
+  display: block;
+  width: 15px;
+  height: 36px;
+  background-color: #000000;
+}
+.phone-number:after {
+  position: absolute;
+  left: 18px;
+  font-weight: normal;
+  font-style: italic;
+  content: 'Или позвоните основателю';
+  bottom: 4px;
+  font-size: 13px;
+  display: block;
+}
+.subtitle {
+  font-family: Arial;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #0d0d0d;
+}
+.page-header {
+  background: url("/img/header-bg.jpg");
+  padding-top: 86px;
+  padding-bottom: 90px;
+}
+.page-header__top-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.page-header__intro {
+  font-family: "Exo 2", "Arial", sans-serif;
+  padding-top: 45px;
+}
+.page-header__title-wrapper {
+  font-family: "Exo 2", "Arial", sans-serif;
+  width: 80%;
+  position: relative;
+  z-index: 2;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.page-header__title-wrapper:before {
+  position: absolute;
+  display: block;
+  content: '';
+  background-color: #FFE200;
+  width: 2000px;
+  height: 100%;
+  z-index: -1;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-20deg);
+  border-radius: 3px;
+}
+.page-header-title__description {
+  font-style: italic;
+  font-size: 32px;
+  line-height: 1.5;
+}
+.page-header__suggestion {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.2;
+  color: #fff;
+  padding-top: 30px;
+  width: 92%;
+  font-family: "Exo 2", "Arial", sans-serif;
+}
+.page-header__description {
+  font-family: "Exo 2", "Arial", sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: 1.36;
+  text-align: left;
+  color: #ffffff;
+  width: 92%;
+}
+.page-header-bottom {
+  padding-top: 40px;
+}
+.page-header-bottom__item {
+  font-family: "Exo 2", "Arial", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  position: relative;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #fff;
+  text-align: center;
+  border-left: 1px solid #FFE200;
+}
+.page-header-bottom__item:first-child {
+  border-left: none;
+  text-align: left;
+}
+.page-header__action {
+  position: absolute;
+  bottom: -15px;
+  left: 25%;
+  text-align: center;
+  background-color: #c30404;
+  border-radius: 30px;
+  display: block;
+  width: 133px;
+  margin-top: 10px;
+}
+.main-nav__link {
+  font-weight: bold;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  font-size: 14px;
+  padding: 0;
+  font-family: Arial;
+}
+.main-nav__link:hover {
+  color: #ffe200;
+  border-bottom: 1px solid #ffe200;
+  transition: .3s;
+}
+.main-nav__item {
+  padding: .5rem 1rem;
+}
+.active {
+  padding: 6px 21px;
+  width: 100%;
+  color: #000;
+  margin-top: -5px;
+  border-bottom: none;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+  border-radius: 2px;
+  background: #FFE200;
+}
+.active:hover {
+  border-bottom: none;
+  color: #000;
+}
+.experience button {
+  text-align: center;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.experience__number {
+  font-family: "Exo 2", "Arial", sans-serif;
+  font-size: 220px;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  line-height: 190px;
+  padding-top: 0;
+}
+.experience__text {
+  color: #fff;
+  font-size: 27px;
+  line-height: 1;
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 90%;
+  padding-bottom: 23px;
+}
+.experience__phone {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+.experience__phone-wrapper {
+  padding-left: 35px;
+}
+.total-earnings__numbets-wrapper {
+  font-size: 165px;
+  font-weight: bold;
+  text-align: center;
+}
+.total-earnings__numbets {
+  display: inline-block;
+  position: relative;
+}
+.total-earnings__numbets:before {
+  bottom: 0;
+  left: 0;
+  content: '';
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 9px;
+  background-color: #FFE200;
+}
+.total-earnings__description {
+  text-align: center;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 1.29;
+  color: #0d0d0d;
+}
+.total-earnings__wrapper {
+  max-width: 917px;
+  margin: auto;
+}
+.total-earnings__ruble {
+  font-size: 89px;
+}
+.format {
+  padding-top: 130px;
+}
+.format-number {
+  font-size: 198px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1;
+  text-align: left;
+  color: #ffe200;
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.7);
+  margin-top: -30px;
+}
+.format-number-subtitle {
+  font-family: Arial;
+  font-size: 27px;
+  font-style: italic;
+  line-height: 1;
+  color: #0d0d0d;
+}
+.format__list {
+  padding-top: 65px;
+}
+.format-item__titel {
+  font-size: 25px;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1.76;
+  text-align: center;
+  color: #0d0d0d;
+}
+.format-item__subtitle {
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+}
+.format-item__cost {
+  padding-top: 30px;
+  font-family: Arial;
+  font-size: 16px;
+  text-align: center;
+}
+.format-item__btn {
+  font-family: "Exo 2";
+  display: block;
+  margin: auto;
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  padding-left: 40px;
+  padding-right: 40px;
 }
