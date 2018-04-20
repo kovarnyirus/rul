@@ -1,0 +1,82 @@
+.installation {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  position: relative;
+  &:before {
+    background: url("/img/installation-block/installation-bg.jpg");
+    position: absolute;
+    width: 80%;
+    top: 0px;
+    bottom: 0;
+    content: '';
+    display: block;
+    z-index: -2;
+    left: 10%;
+    right: 10%;
+    border-radius: 5px;
+  }
+}
+
+.installation-top {
+  padding-bottom: 110px;
+}
+
+.installation-top__left-col {
+  padding-right: 50px;
+  position: relative;
+  &:before {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 2000px;
+    height: 128%;
+    z-index: -1;
+    right: 60px;
+    top: 0;
+    bottom: -51px;
+    border-radius: 5px;
+    background-color: @yellow-color;
+
+  }
+  &:after {
+    position: absolute;
+    display: block;
+    content: '';
+    right: 30px;
+    height: 125%;
+    top: 3px;
+    border-top: 119px solid transparent;
+    border-left: 30px solid @yellow-color;
+    border-bottom: 119px solid transparent;
+  }
+  h3 {
+    max-width: 600px;
+  }
+}
+
+.installation-top__right-col {
+  h3 {
+    color: #fff;
+  }
+}
+
+.installation-bottom {
+  padding-bottom: 80px;
+  & h4 {
+    color: #fff;
+  }
+}
+
+.installation__list {
+  color: #fff;
+
+}
+
+.installation__item {
+  &:before {
+    background-color: #fff;
+    width: 15px;
+    height: 1px;
+    top: 10px;
+  }
+}

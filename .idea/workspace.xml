@@ -2,23 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca8ad9b-af13-44ca-875f-99f539da45bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/less/blocks/care.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/blocks/chains-stores.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/blocks/essence.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/blocks/icons-row.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/blocks/proposal.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/less/blocks/sell.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/less/blocks/get.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/less/blocks/installation.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/less/blocks/technologies.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/format.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/format.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/blocks/main-nav.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/main-nav.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/total-earnings.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/total-earnings.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/global/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/global/base.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/global/fonts.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/global/fonts.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/style.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/variables.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,14 +21,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6258106">
+    <splitter split-orientation="horizontal" split-proportion="0.66715866">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="essence.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/less/blocks/essence.less">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="637">
-                  <caret line="416" column="62" selection-start-line="416" selection-start-column="62" selection-end-line="416" selection-end-column="62" />
+                <state relative-caret-position="177">
+                  <caret line="588" column="45" selection-start-line="588" selection-start-column="19" selection-end-line="588" selection-end-column="45" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -51,21 +53,34 @@
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="base.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/global/base.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1020">
-                  <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -91,9 +106,9 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="essence.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/blocks/essence.less">
+        <leaf>
+          <file leaf-file-name="get.less" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/less/blocks/get.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
                   <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
@@ -101,56 +116,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sell.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/blocks/sell.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1513">
-                  <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="proposal.less" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/less/blocks/proposal.less">
+          <file leaf-file-name="technologies.less" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/less/blocks/technologies.less">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="34">
-                  <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="care.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/blocks/care.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/style.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="chains-stores.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/blocks/chains-stores.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="40" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="icons-row.less" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/less/blocks/icons-row.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+                  <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -163,6 +133,8 @@
     <findStrings>
       <find>font</find>
       <find>font-fa</find>
+      <find>pt-15</find>
+      <find>pt-30</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -184,15 +156,18 @@
         <option value="$PROJECT_DIR$/less/blocks/chains-stores.less" />
         <option value="$PROJECT_DIR$/less/blocks/icons-row.less" />
         <option value="$PROJECT_DIR$/less/blocks/format.less" />
-        <option value="$PROJECT_DIR$/less/blocks/main-nav.less" />
         <option value="$PROJECT_DIR$/less/blocks/essence.less" />
         <option value="$PROJECT_DIR$/less/variables.less" />
         <option value="$PROJECT_DIR$/less/blocks/sell.less" />
+        <option value="$PROJECT_DIR$/less/blocks/care.less" />
+        <option value="$PROJECT_DIR$/less/blocks/proposal.less" />
+        <option value="$PROJECT_DIR$/less/blocks/main-nav.less" />
+        <option value="$PROJECT_DIR$/less/blocks/get.less" />
         <option value="$PROJECT_DIR$/less/global/base.less" />
         <option value="$PROJECT_DIR$/less/style.less" />
-        <option value="$PROJECT_DIR$/less/blocks/care.less" />
+        <option value="$PROJECT_DIR$/less/blocks/installation.less" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/less/blocks/proposal.less" />
+        <option value="$PROJECT_DIR$/less/blocks/technologies.less" />
       </list>
     </option>
   </component>
@@ -213,7 +188,8 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1552" />
+    <option name="x" value="-1585" />
+    <option name="y" value="6" />
     <option name="width" value="1484" />
     <option name="height" value="996" />
   </component>
@@ -320,7 +296,7 @@
       <workItem from="1523948067207" duration="9935000" />
       <workItem from="1524034300875" duration="24428000" />
       <workItem from="1524119981162" duration="25306000" />
-      <workItem from="1524205146741" duration="2130000" />
+      <workItem from="1524205146741" duration="18126000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <created>1523974739981</created>
@@ -340,7 +316,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80243000" />
+    <option name="totallyTimeSpent" value="96239000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1688" y="22" width="1696" height="1026" extended-state="6" />
@@ -350,12 +326,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32995495" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28153154" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28153154" />
       <window_info id="npm" order="2" sideWeight="0.51047903" side_tool="true" weight="0.17963752" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32882884" />
       <window_info anchor="right" id="Remote Host" order="3" />
       <window_info id="Gulp" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48952097" visible="true" weight="0.1717604" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48952097" visible="true" weight="0.1717604" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -399,34 +375,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/less/blocks/sell.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
-          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/care.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/chains-stores.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/blocks/icons-row.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -460,11 +408,33 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -551,11 +521,33 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -586,11 +578,33 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -621,11 +635,33 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -648,11 +684,33 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
@@ -736,13 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/main-nav.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/global/fonts.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
@@ -769,13 +820,6 @@
         <state relative-caret-position="-7140" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/essence.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/blocks/chains-stores.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -790,28 +834,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/global/base.less">
+    <entry file="file://$PROJECT_DIR$/less/blocks/care.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/style.less">
+    <entry file="file://$PROJECT_DIR$/less/blocks/proposal.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/less/blocks/sell.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1513">
+        <state relative-caret-position="144">
           <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/care.less">
+    <entry file="file://$PROJECT_DIR$/img/get2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/main-nav.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/essence.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/global/base.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="213" column="18" selection-start-line="213" selection-start-column="18" selection-end-line="213" selection-end-column="18" />
+          <folding>
+            <element signature="e#1290#1314#0" />
+            <element signature="e#1323#1348#0" />
+            <element signature="e#1357#1382#0" />
+            <element signature="e#1391#1417#0" />
+            <element signature="e#1426#1452#0" />
+            <element signature="e#1461#1488#0" />
+            <element signature="e#1497#1524#0" />
+            <element signature="e#1533#1557#0" />
+            <element signature="e#1566#1590#0" />
+            <element signature="e#1599#1623#0" />
+            <element signature="e#1632#1656#0" />
+            <element signature="e#1665#1691#0" />
+            <element signature="e#1700#1726#0" />
+            <element signature="e#1735#1760#0" />
+            <element signature="e#1769#1794#0" />
+            <element signature="e#1596#1807#0" />
+            <element signature="e#1819#1874#0" />
+            <element signature="e#1889#2159#0" />
+            <element signature="e#1921#2077#0" />
+            <element signature="e#2097#2117#0" />
+            <element signature="e#2141#2157#0" />
+            <element signature="e#2167#2402#0" />
+            <element signature="e#2418#2890#0" />
+            <element signature="e#2561#2689#0" />
+            <element signature="e#2699#2861#0" />
+            <element signature="e#2872#2888#0" />
+            <element signature="e#2902#2995#0" />
+            <element signature="e#3009#3085#0" />
+            <element signature="e#3098#3211#0" />
+            <element signature="e#3244#3338#0" />
+            <element signature="e#3412#3526#0" />
+            <element signature="e#3538#3652#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/installation.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="81" column="1" selection-start-line="81" selection-start-column="1" selection-end-line="81" selection-end-column="1" />
+          <folding>
+            <element signature="e#66#72#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/get.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
@@ -820,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="416" column="62" selection-start-line="416" selection-start-column="62" selection-end-line="416" selection-end-column="62" />
+        <state relative-caret-position="177">
+          <caret line="588" column="45" selection-start-line="588" selection-start-column="19" selection-end-line="588" selection-end-column="45" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
@@ -837,19 +956,41 @@
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#3;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/proposal.less">
+    <entry file="file://$PROJECT_DIR$/less/blocks/technologies.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>

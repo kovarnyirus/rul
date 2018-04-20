@@ -1,0 +1,97 @@
+.get{
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+.get__image-warehouse{
+  position: relative;
+  &:before{
+    position: absolute;
+    bottom: 19px;
+    left: 31px;
+    content: 'Склад 80м';
+    display: block;
+    color: #fff;
+    font-style: italic;
+    font-family: @exo;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+.get-asside__yellow {
+  margin-top: 95px;
+  padding-top: 297px;
+  position: relative;
+  background-color: @yellow-color;
+  border-radius: 0 0 5px 5px;
+  margin-bottom: 60px;
+  &:before{
+    position: absolute;
+    bottom: -58px;
+    content: '';
+    left: 5px;
+    right: 5px;
+    display: block;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    border-top: 58px solid @yellow-color;
+  }
+  &:after{
+    position: absolute;
+    top: -100px;
+    content: '';
+    background-image: url(/img/get-conrt.jpg);
+    height: 392px;
+    left: 11%;
+    right: 11%;
+    display: block;
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .17)
+  }
+  & h3{
+    text-align: center;
+    font-size: 21px;
+    line-height: 1.5;
+    padding-left: 57px;
+    padding-right: 57px;
+  }
+}
+
+.get-asside__yellow-description{
+  font-family: @arial;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #0d0d0d;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.get-asside__yellow-description{
+  position: relative;
+  &:before{
+    position: absolute;
+    bottom: -10px;
+    content: '';
+    left: 33%;
+    display: block;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 20px solid rgba(13, 13, 13, 0.28);
+  }
+  &:after{
+    position: absolute;
+    bottom: -9px;
+    content: '';
+    left: 33%;
+    display: block;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-top: 20px solid @yellow-color;
+  }
+}
+.get__button{
+  margin-left: 37px;
+  margin-right: 37px;
+  padding-left: 45px;
+  padding-right: 45px;
+}

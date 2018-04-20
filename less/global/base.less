@@ -24,9 +24,23 @@ h2 {
 }
 
 h3 {
+  font-family: @exo;
   font-size: 31px;
-  margin: 0;
-  line-height: 37px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.19;
+  text-align: left;
+  color: #0d0d0d;
+  margin-top: 30px;
+}
+
+h4 {
+  font-family: @arial;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: left;
+  color: #0d0d0d;
 }
 
 a {
@@ -37,12 +51,30 @@ img {
   max-width: 100%;
   height: auto;
 }
-li{
+
+li {
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-left: 20px;
+  position: relative;
+  font-family: @arial;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  &:before {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #ffe200;
+    left: 0;
+    top: 6px;
+    content: '';
+    display: block;
+  }
 }
-ul{
+
+ul {
   padding: 0;
   margin: 0;
 }
@@ -55,16 +87,96 @@ p {
   margin-bottom: 0;
 }
 
-.subtitle{
+.pt-30 {
   padding-top: 30px;
-  &--bold{
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pl-15 {
+  padding-left: 15px;
+}
+
+.pl-30 {
+  padding-left: 30px;
+}
+
+.pr-15 {
+  padding-right: 15px;
+}
+
+.pr-30 {
+  padding-right: 30px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.mt-30 {
+  padding-top: 30px;
+}
+
+.mt-15 {
+  padding-top: 15px;
+}
+
+.ml-15 {
+  margin-left: 15px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-15 {
+  margin-bottom: 15px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-15 {
+  margin-right: 15px;
+}
+
+.left-square {
+  position: relative;
+  padding-left: 30px;
+  &:before {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 10px;
+    content: '';
+    width: 21px;
+    height: 21px;
+    border-radius: 5px;
+    background-color: @yellow-color;
+  }
+}
+
+.subtitle {
+  padding-top: 30px;
+  &--bold {
     font-weight: bold;
   }
 }
 
-.bottom-line{
+.bottom-line {
   position: relative;
-  &:before{
+  &:before {
     position: absolute;
     content: '';
     display: block;
@@ -72,39 +184,45 @@ p {
     width: 230px;
     height: 4px;
     background-color: #ffe200;
-    bottom: -15px;
+    bottom: -20px;
     border-radius: 50px;
   }
-  &--header:before{
+  &--header:before {
     width: 389.5px;
   }
-  &--big-number:before{
+  &--big-number:before {
     left: 15px;
   }
 }
 
-button{
+button {
   font-size: 20px;
   font-weight: bold;
   font-style: italic;
   line-height: 1.5;
   text-align: center;
   color: #0d0d0d;
-  padding: 9px 50px ;
+  padding: 9px 50px;
   background-color: @yellow-color;
   box-shadow: 0 3px 0 0 #a87e00;
   border: none;
   border-radius: 5px;
 }
-.phone-number{
+
+.btn-white{
+  background-color: #fff;
+  box-shadow: none;
+}
+
+.phone-number {
   position: relative;
   display: block;
   color: #fff;
-  font-family: Arial;
+  font-family: @arial;
   font-size: 24px;
   padding-left: 18px;
   padding-bottom: 15px;
-  &:before{
+  &:before {
     position: absolute;
     left: 0;
     content: '';
@@ -114,7 +232,7 @@ button{
     height: 36px;
     background-color: #000000;
   }
-  &:after{
+  &:after {
     position: absolute;
     left: 18px;
     font-weight: normal;
@@ -124,26 +242,28 @@ button{
     font-size: 13px;
     display: block;
   }
-  &--black{
+  &--black {
     color: #000;
   }
 }
-.subtitle{
+
+.subtitle {
   font-family: Arial;
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
   color: #0d0d0d;
 }
-.big-number{
+
+.big-number {
   font-size: 108px;
   font-weight: 900;
   font-style: italic;
   line-height: 1;
 }
 
-.grey-text{
-  font-family: Arial;
+.grey-text {
+  font-family: @arial;
   font-size: 16px;
   font-style: italic;
   line-height: 1.5;
@@ -152,7 +272,7 @@ button{
 }
 
 @media @mobile-widths-only {
-  h2{
+  h2 {
     font-family: @exo;
     font-size: 19px;
     font-weight: 900;
@@ -160,12 +280,13 @@ button{
     line-height: 1;
   }
 
-  .bottom-line:before{
+  .bottom-line:before {
     width: 130px;
     height: 2px;
     bottom: -7px;
   }
-  p{
+
+  p {
     font-family: @arial;
     font-size: 12px;
     line-height: 1.5;
@@ -173,7 +294,8 @@ button{
     color: #0d0d0d;
     padding-top: 15px;
   }
-  .subtitle{
+
+  .subtitle {
     padding-top: 15px;
     font-family: @arial;
     font-size: 12px;

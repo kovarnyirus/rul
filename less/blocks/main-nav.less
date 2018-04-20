@@ -5,18 +5,21 @@
   font-size: 14px;
   padding: 0;
   font-family: Arial;
-  &:hover{
+  &:hover {
     color: @yellow-color;
     border-bottom: 1px solid @yellow-color;
     transition: .3s;
   }
 }
 
-.main-nav__item{
+.main-nav__item {
   padding: .5rem 1rem;
-
+  &:before {
+    display: none;
+  }
 }
-.active{
+
+.active {
   padding: 6px 21px;
   width: 100%;
   color: #000;
@@ -27,7 +30,7 @@
   -o-transform: skew(-20deg);
   border-radius: 2px;
   background: @yellow-color;
-  &:hover{
+  &:hover {
     border-bottom: none;
     color: #000;
   }
