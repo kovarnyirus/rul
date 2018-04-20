@@ -1,0 +1,132 @@
+//mobile first
+.sell {
+
+  padding-top: 50px;
+  & .container {
+    padding-left: 35px;
+    padding-right: 35px;
+    background-color: #efefef;
+    border-radius: 5px;
+  }
+}
+
+.sell__numder {
+  font-size: 200px;
+  font-weight: 900;
+  line-height: 1;
+  & span {
+    font-size: 60px;
+    margin-left: -20px;
+  }
+}
+
+.sell__numder-subtitle {
+  font-size: 16px;
+  font-weight: 800;
+  font-family: @exo;
+}
+
+.sell__title {
+  padding-top: 30px;
+}
+
+.sell-footer__title {
+  padding-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+}
+
+.sell-footer__site {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Exo 2", "Arial", sans-serif;
+}
+
+.sell-footer__site-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0d0d0d;
+  border-bottom: 1px solid @text-color;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.sell-footer__list {
+  padding-top: 70px;
+}
+
+.sell-footer-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.sell-footer-item__img {
+  width: 40%;
+  height: 55px;
+}
+
+@media @tablet-widths {
+  .sell{
+    padding-bottom: 60px;
+    position: relative;
+
+    & .container{
+      padding-left: 15px;
+      padding-right: 15px;
+      &:before{
+        position: absolute;
+        display: block;
+        top: 50px;
+        bottom: 0;
+        content: '';
+        left: 5%;
+        width: 90%;
+        background-color: #efefef;
+        border-radius: 5px;
+        box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16);
+        z-index: -1;
+      }
+    }
+
+
+  }
+  .sell-footer{
+    margin-top: 20px;
+    z-index: 5;
+    position: relative;
+    padding-bottom: 20px;
+    &:before{
+      width: 110%;
+      left: -5%;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      content: '';
+      display: block;
+      background-color: #f5f5f5;
+    }
+  }
+  .sell__right-col {
+    padding-left: 60px;
+  }
+  .sell-footer__list{
+    padding-top: 0;
+  }
+  .sell-footer__list{
+    padding-left: 60px;
+  }
+  .sell-footer-item{
+    padding-top: 5px;
+    width: 16.6%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

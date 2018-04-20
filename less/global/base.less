@@ -18,7 +18,7 @@ h2 {
   font-size: 51px;
   line-height: 51px;
   color: #000000;
-  font-weight: bold;
+  font-weight: 900;
   font-style: italic;
   margin: 0;
 }
@@ -37,12 +37,29 @@ img {
   max-width: 100%;
   height: auto;
 }
+li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul{
+  padding: 0;
+  margin: 0;
+}
 
 p {
   font-family: Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+.subtitle{
   padding-top: 30px;
+  &--bold{
+    font-weight: bold;
+  }
 }
 
 .bottom-line{
@@ -60,6 +77,9 @@ p {
   }
   &--header:before{
     width: 389.5px;
+  }
+  &--big-number:before{
+    left: 15px;
   }
 }
 
@@ -104,6 +124,9 @@ button{
     font-size: 13px;
     display: block;
   }
+  &--black{
+    color: #000;
+  }
 }
 .subtitle{
   font-family: Arial;
@@ -111,4 +134,51 @@ button{
   line-height: 1.5;
   text-align: left;
   color: #0d0d0d;
+}
+.big-number{
+  font-size: 108px;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1;
+}
+
+.grey-text{
+  font-family: Arial;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: left;
+  color: #7b7b7b;
+}
+
+@media @mobile-widths-only {
+  h2{
+    font-family: @exo;
+    font-size: 19px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1;
+  }
+
+  .bottom-line:before{
+    width: 130px;
+    height: 2px;
+    bottom: -7px;
+  }
+  p{
+    font-family: @arial;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    color: #0d0d0d;
+    padding-top: 15px;
+  }
+  .subtitle{
+    padding-top: 15px;
+    font-family: @arial;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    color: #0d0d0d;
+  }
 }
