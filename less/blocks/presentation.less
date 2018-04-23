@@ -1,0 +1,36 @@
+.presentation{
+  padding-bottom: 80px;
+  padding-top: 80px;
+  position: relative;
+  &:before{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 0;
+    bottom: 0;
+    background-color:#EFEFEF;
+    content: '';
+    border-radius: 5px;
+  }
+}
+.presentation__list {
+  padding-top: 50px;
+}
+
+.presentation__img {
+  opacity: .4;
+}
+.presentation__item{
+  position: relative;
+  &:before{
+    position: absolute;
+    content: '';
+    width: 23px;
+    height: 36px;
+    left: 50%;
+    top: 50%;
+    background: url("/img/icons/lock.svg");
+    transform: translate(-50%,-50%);
+  }
+}
+

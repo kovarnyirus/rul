@@ -621,6 +621,8 @@ p {
 }
 .bottom-line {
   position: relative;
+  padding-bottom: 30px;
+  line-height: 1;
 }
 .bottom-line:before {
   position: absolute;
@@ -630,7 +632,7 @@ p {
   width: 230px;
   height: 4px;
   background-color: #ffe200;
-  bottom: -20px;
+  bottom: 0;
   border-radius: 50px;
 }
 .bottom-line--header:before {
@@ -1457,6 +1459,61 @@ button {
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
+}
+.presentation {
+  padding-bottom: 80px;
+  padding-top: 80px;
+  position: relative;
+}
+.presentation:before {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 0;
+  bottom: 0;
+  background-color: #EFEFEF;
+  content: '';
+  border-radius: 5px;
+}
+.presentation__list {
+  padding-top: 50px;
+}
+.presentation__img {
+  opacity: .4;
+}
+.presentation__item {
+  position: relative;
+}
+.presentation__item:before {
+  position: absolute;
+  content: '';
+  width: 23px;
+  height: 36px;
+  left: 50%;
+  top: 50%;
+  background: url("/img/icons/lock.svg");
+  transform: translate(-50%, -50%);
+}
+.personal {
+  padding-top: 80px;
+}
+.personal-aside {
+  background-color: #fafafa;
+}
+.personal-aside__list {
+  padding-top: 30px;
+}
+.personal-aside___item {
+  padding-bottom: 15px;
+  font-weight: normal;
+}
+.personal-aside___item:before {
+  width: 27px;
+  height: 32px;
+  line-height: 1.19;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffe200;
 }
 @media (min-width: 768px) {
   .sell {
