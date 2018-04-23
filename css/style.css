@@ -1497,8 +1497,15 @@ button {
 .personal {
   padding-top: 80px;
 }
-.personal-aside {
+.personal-aside__wrapper {
   background-color: #fafafa;
+  margin-top: -30px;
+  padding-top: 1px;
+  padding-left: 30px;
+  padding-right: 25px;
+  margin-left: -15px;
+  margin-right: -15px;
+  border-radius: 5px;
 }
 .personal-aside__list {
   padding-top: 30px;
@@ -1514,6 +1521,107 @@ button {
   letter-spacing: normal;
   text-align: left;
   color: #ffe200;
+  background: url("/img/icons/question-button.svg");
+}
+.personal__btn {
+  margin: auto;
+  margin-top: 15px;
+  display: block;
+}
+.personal__phone {
+  margin-top: 15px;
+  display: inline-block;
+  margin-left: 80px;
+}
+.data-base {
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+.data-base__lock {
+  text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.7);
+}
+.data-base__number {
+  font-family: "Exo 2", sans-serif;
+  font-size: 106px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1;
+  text-align: center;
+  color: #0d0d0d;
+}
+.data-base__description {
+  text-align: center;
+  padding-top: 15px;
+}
+.audience {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #EFEFEF;
+}
+.audience img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.audience__title {
+  margin: 0;
+}
+.marketing {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.control {
+  padding-right: 60px;
+}
+.profit {
+  padding-top: 80px;
+}
+.appeal {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background: url("/img/appeal/appeal-bg.jpg");
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 80px;
+  text-align: center;
+  border-radius: 5px;
+}
+.appeal__title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 1;
+  font-weight: bold;
+  font-style: italic;
+  color: #fff;
+  padding-bottom: 60px;
+}
+.appeal__subtitle {
+  margin-top: 150px;
+  color: #fff;
+  font-size: 31px;
+  line-height: 1;
+  font-style: italic;
+}
+.page-footer {
+  margin-top: 100px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  bottom: 0;
+  top: 0;
+  background-color: #EFEFEF;
+  padding: 70px 0;
+  border-radius: 5px;
+  color: #4A4A4A;
+  font-size: 16px;
+}
+.page-footer a {
+  color: #4A4A4A;
+  border-bottom: 1px solid #3c3c3c;
 }
 @media (min-width: 768px) {
   .sell {
