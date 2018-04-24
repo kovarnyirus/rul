@@ -1573,11 +1573,89 @@ button {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+.marketing__img-wrapper {
+  min-height: 225px;
+  margin-top: 30px;
+}
+.marketing__img-wrapper img {
+  margin-left: 30px;
+}
+.plan__top-wrapper {
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-color: #FFE200;
+  border-radius: 5px;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  margin-bottom: 50px;
+}
+.plan-btn {
+  margin: auto;
+  display: block;
+}
+.plan__suptittle {
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+.plan__title {
+  font-size: 83px;
+  font-weight: 900;
+  font-style: italic;
+  font-family: "Exo 2", sans-serif;
+  line-height: 1;
+}
+.plan__subtitle {
+  margin-top: 19px;
+  font-size: 30px;
+  line-height: 1.5;
+  font-family: "Exo 2", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 100px;
+}
+.promotion {
+  margin-top: 30px;
+}
+.promotion h4 {
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+.promotion p {
+  padding-top: 5px;
+  font-size: 16px;
+}
 .control {
-  padding-right: 60px;
+  margin-top: 60px;
 }
 .profit {
-  padding-top: 80px;
+  padding-top: 90px;
+}
+.profit__list {
+  padding-left: 30px;
+}
+.profit__item {
+  font-size: 16px;
+  font-weight: normal;
+  font-family: 'Arial', sans-serif;
+  padding-left: 0;
+}
+.profit__item span {
+  font-size: 10px;
+}
+.profit__item:before {
+  display: none;
+}
+.plan__link {
+  margin-top: 15px;
+  display: inline-block;
+  border-bottom: 1px solid #C7C7C7 ;
+  color: #0D0D0D;
 }
 .appeal {
   padding-top: 80px;
@@ -1605,6 +1683,37 @@ button {
   font-size: 31px;
   line-height: 1;
   font-style: italic;
+}
+.form {
+  margin-top: 90px;
+}
+.form-group {
+  border-radius: 5px;
+}
+.form-control {
+  padding: 16px 30px;
+}
+.form-control input {
+  color: #4A4A4A;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+}
+.form__description {
+  margin-top: 90px;
+  text-align: center;
+}
+.slogan {
+  text-align: center;
+  margin-top: 90px;
+  font-size: 80px;
+  font-weight: 900;
+  font-style: italic;
+  margin-bottom: 100px;
+}
+.form-btn {
+  margin: auto;
+  display: block;
+  margin-top: 15px;
 }
 .page-footer {
   margin-top: 100px;
