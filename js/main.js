@@ -32,10 +32,30 @@
 //     }
 //   }
 // });
-$('.slick-slider').slick({
-  infinite: true,
-  dots: false,
-  arrows: false,
-  slidesToShow: 4,
-  slidesToScroll: 1
+
+$(document).ready(function() {
+  $('.slick-slider').slick({
+    infinite: true,
+    dots: false,
+    arrows: false,
+    slidesToShow: 4,
+    slidesToScroll: 1
+  });
+
+  $('.popup-gallery').each(function () { // the containers for all your galleries
+    $(this).magnificPopup({
+      delegate: 'a',
+      type: 'image',
+      tLoading: 'Загрузка',
+      mainClass: 'mfp-img-mobile',
+      gallery: {
+        enabled: true,
+        navigateByImgClick: true,
+        preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+      },
+      image: {
+        tError: 'изобраджение не найдено',
+      }
+    });
+  });
 });

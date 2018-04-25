@@ -1,26 +1,28 @@
-.care{
+.care {
   padding-top: 90px;
   padding-bottom: 20px;
-  & h2{
+  & h2 {
     width: 70%;
   }
-  & p{
+  & p {
     width: 78%;
   }
-  .care-item__description{
+  .care-item__description {
     width: 100%;
   }
 }
-.care-list{
+
+.care-list {
   text-align: center;
   padding-top: 45px;
 }
-.care-item__title{
+
+.care-item__title {
   padding-top: 30px;
   font-weight: bold;
 }
 
-.care-item__description{
+.care-item__description {
   padding-top: 5px;
   padding-left: 10px;
   padding-right: 10px;
@@ -28,5 +30,23 @@
   font-size: 14px;
   line-height: 1.5;
   text-align: center;
+}
 
+@media @mobile-widths-only {
+  .care {
+    padding-top: 50px;
+    padding-right: 0;
+    & h2{
+      width: 70%;
+    }
+    & p{
+      width: 100%;
+    }
+  }
+  .care-item__title{
+    padding-top: 10px;
+  }
+  .care-item{
+    padding-bottom: 30px;
+  }
 }

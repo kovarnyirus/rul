@@ -211,7 +211,7 @@ button {
   border-radius: 5px;
 }
 
-.btn-white{
+.btn-white {
   background-color: #fff;
   box-shadow: none;
 }
@@ -281,11 +281,31 @@ button {
     font-style: italic;
     line-height: 1;
   }
+  h3{
+    font-family: @exo;
+    font-size: 19px;
+    font-weight: bold;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #0d0d0d;
+  }
 
-  .bottom-line:before {
-    width: 130px;
-    height: 2px;
-    bottom: -7px;
+  .bottom-line {
+    position: relative;
+    padding-bottom: 10px;
+    line-height: 1;
+    &:before {
+      width: 130px;
+      height: 2px;
+      bottom: 0px;
+    }
+    &--big-number:before {
+      width: 187px;
+      left: 30px;
+    }
   }
 
   p {
@@ -304,5 +324,24 @@ button {
     line-height: 1.5;
     text-align: left;
     color: #0d0d0d;
+    padding-bottom: 15px;
+  }
+  .container{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .big-number {
+    font-size: 87px;
+    text-align: center;
+    padding-left: 10px;
+  }
+  .sm-text-black{
+    color: #0d0d0d;
+    font-size: 12px;
+  }
+  button {
+    font-size: 17px;
+    width: 100%;
   }
 }

@@ -1,12 +1,12 @@
-.proposal{
+.proposal {
   padding-top: 40px;
   padding-bottom: 60px;
   text-align: center;
-  & h2{
+  & h2 {
     font-size: 83px;
     line-height: 102px;
   }
-  & p{
+  & p {
     padding-top: 30px;
     width: 80%;
     margin: auto;
@@ -17,5 +17,19 @@
     font-style: italic;
     line-height: 1.36;
     text-align: center;
+  }
+}
+
+@media @mobile-widths-only {
+  .proposal {
+    & h2 {
+      font-size: 34px;
+      line-height: 1;
+    }
+    & p{
+      padding-top: 50px;
+      font-size: 20px;
+      width: 90%;
+    }
   }
 }
