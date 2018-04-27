@@ -1494,6 +1494,9 @@ button {
   background: url("/img/icons/lock.svg");
   transform: translate(-50%, -50%);
 }
+.presentation__condition {
+  padding-top: 15px;
+}
 .personal {
   padding-top: 80px;
 }
@@ -1655,7 +1658,7 @@ button {
 .plan__link {
   margin-top: 15px;
   display: inline-block;
-  border-bottom: 1px solid #C7C7C7 ;
+  border-bottom: 1px solid #C7C7C7;
   color: #0D0D0D;
 }
 .appeal {
@@ -1806,6 +1809,70 @@ button {
     text-align: left;
     color: #0d0d0d;
   }
+  li {
+    font-size: 12px;
+  }
+  li:before {
+    top: 5px;
+    width: 10px;
+    height: 10px;
+  }
+  p {
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    color: #0d0d0d;
+    padding-top: 15px;
+  }
+  .pt-sm-30 {
+    padding-top: 30px;
+  }
+  .pt-sm-15 {
+    padding-top: 15px;
+  }
+  .pl-sm-15 {
+    padding-left: 15px;
+  }
+  .pl-sm-30 {
+    padding-left: 30px;
+  }
+  .pr-sm-15 {
+    padding-right: 15px;
+  }
+  .pr-sm-30 {
+    padding-right: 30px;
+  }
+  .pb-sm-15 {
+    padding-bottom: 15px;
+  }
+  .pb-sm-30 {
+    padding-bottom: 30px;
+  }
+  .mt-sm-30 {
+    padding-top: 30px;
+  }
+  .mt-sm-15 {
+    padding-top: 15px;
+  }
+  .ml-sm-15 {
+    margin-left: 15px;
+  }
+  .ml-sm-30 {
+    margin-left: 30px;
+  }
+  .mb-sm-30 {
+    margin-bottom: 30px;
+  }
+  .mb-sm-15 {
+    margin-bottom: 15px;
+  }
+  .mr-sm-30 {
+    margin-right: 30px;
+  }
+  .mr-sm-15 {
+    margin-right: 15px;
+  }
   .bottom-line {
     position: relative;
     padding-bottom: 10px;
@@ -1820,14 +1887,6 @@ button {
     width: 187px;
     left: 30px;
   }
-  p {
-    font-family: 'Arial', sans-serif;
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: left;
-    color: #0d0d0d;
-    padding-top: 15px;
-  }
   .subtitle {
     padding-top: 15px;
     font-family: 'Arial', sans-serif;
@@ -1836,10 +1895,6 @@ button {
     text-align: left;
     color: #0d0d0d;
     padding-bottom: 15px;
-  }
-  .container {
-    padding-left: 30px;
-    padding-right: 30px;
   }
   .big-number {
     font-size: 87px;
@@ -1853,6 +1908,18 @@ button {
   button {
     font-size: 17px;
     width: 100%;
+  }
+  .left-square {
+    padding-left: 25px;
+  }
+  .left-square:before {
+    top: 3px;
+    left: 0px;
+    width: 14px;
+    height: 14px;
+  }
+  .page-header-title {
+    font-size: 23px;
   }
   .total-earnings__numbets {
     font-size: 44px;
@@ -2047,5 +2114,296 @@ button {
     padding-top: 50px;
     font-size: 20px;
     width: 90%;
+  }
+  .get-asside {
+    margin-top: 30px;
+  }
+  .get-asside__yellow {
+    padding-top: 200px;
+  }
+  .get-asside__yellow:after {
+    background-size: contain;
+    height: 290px;
+  }
+  .get-asside__yellow h3 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .get-asside__yellow .get-asside__yellow-description {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .get__button {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 230px;
+    display: block;
+    margin: auto;
+  }
+  .installation {
+    padding-top: 30px;
+  }
+  .installation:before {
+    left: 5%;
+    right: 5%;
+    width: 90%;
+  }
+  .installation-top {
+    padding-bottom: 0;
+  }
+  .installation-top__left-col {
+    padding-right: 38px;
+    padding-left: 38px;
+  }
+  .installation-top__left-col:before {
+    display: none;
+  }
+  .installation-top__left-col:after {
+    border: none;
+  }
+  .installation-top__left-col h3 {
+    color: #fff;
+    font-size: 19px;
+    text-align: center;
+  }
+  .installation-top__left-col p {
+    color: #fff;
+  }
+  .installation-top__right-col {
+    padding-right: 35px;
+    padding-left: 35px;
+  }
+  .installation-top__right-col h3 {
+    text-align: center;
+    font-size: 29px;
+  }
+  .installation-bottom {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .installation-bottom h4 {
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+  }
+  .installation__list {
+    padding-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .installation__btn {
+    margin: 0;
+  }
+  .technologies {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 50px;
+  }
+  .technologies-aside__title {
+    font-size: 18px;
+  }
+  .technologies-aside__subtitle {
+    font-weight: bold;
+    padding-right: 15px;
+    font-size: 18px;
+  }
+  .technologies__screen-description {
+    padding-top: 30px;
+  }
+  .technologies__screen-link {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .technologies__screen-link-description {
+    font-size: 12px;
+  }
+  .technologies__screen-link-description span {
+    font-weight: normal;
+  }
+  .technologies__screen-description {
+    font-size: 12px;
+  }
+  .technologies__bottom {
+    padding-top: 10px;
+  }
+  .technologies__bottom-title {
+    font-size: 15px;
+  }
+  .technologies__bottom-description {
+    font-size: 12px;
+    padding-top: 5px;
+  }
+  .technolodies__bottom-item {
+    margin-bottom: 10px;
+  }
+  .presentation {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+  }
+  .presentation:before {
+    left: 5%;
+    right: 5%;
+  }
+  .presentation__list {
+    padding-top: 15px;
+  }
+  .presentation-btn {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+  .presentation__condition {
+    text-align: center;
+    color: #7b7b7b;
+    font-size: 15px;
+  }
+  .personal {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .personal-aside__wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 30px;
+  }
+  .personal-aside___item {
+    padding-bottom: 20px;
+  }
+  .personal-aside___item:last-child {
+    padding-bottom: 35px;
+  }
+  .personal__btn {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    margin-top: 30px;
+  }
+  .personal__phone {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .data-base {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+  .data-base__number {
+    font-size: 70px;
+  }
+  .data-base__description {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .data-base__item:nth-child(2n) {
+    padding-left: 5px;
+  }
+  .data-base__item:nth-child(2n-1) {
+    padding-right: 5px;
+  }
+  .audience {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border-radius: 5px;
+  }
+  .marketing {
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+  }
+  .marketing h2 {
+    margin-bottom: 15px;
+  }
+  .marketing h3 {
+    margin-top: 15px;
+  }
+  .marketing__img-wrapper {
+    margin-top: 15px;
+  }
+  .marketing__img-wrapper {
+    min-height: 150px;
+  }
+  .plan {
+    padding-bottom: 0;
+  }
+  .plan__top-wrapper {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 15px;
+    margin-bottom: 10px;
+  }
+  .plan__suptittle {
+    font-size: 9px;
+    margin-bottom: 10px;
+  }
+  .plan__title {
+    font-size: 28px;
+  }
+  .plan__subtitle {
+    margin-top: 5px;
+    padding-top: 11px;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 900;
+  }
+  .promotion {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .promotion h4 {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .promotion p {
+    font-size: 12px;
+  }
+  .promotion__item {
+    margin-bottom: 20px;
+  }
+  .control {
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .profit {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+  }
+  .profit__list {
+    padding-left: 25px;
+  }
+  .profit__item {
+    font-size: 12px;
+  }
+  .plan__link {
+    display: none;
+  }
+  .appeal {
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+  .appeal__title {
+    margin-top: 0;
+    font-size: 20px;
+  }
+  .appeal__subtitle {
+    font-size: 12px;
+    font-weight: 900;
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
   }
 }

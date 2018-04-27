@@ -19,3 +19,25 @@
   text-align: center;
   padding-top: 15px;
 }
+@media @mobile-widths-only {
+  .data-base{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0;
+  }
+  .data-base__number{
+    font-size: 70px;
+  }
+  .data-base__description{
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .data-base__item{
+    &:nth-child(2n){
+      padding-left: 5px;
+    }
+    &:nth-child(2n-1){
+      padding-right: 5px;
+    }
+  }
+}

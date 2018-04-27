@@ -281,7 +281,8 @@ button {
     font-style: italic;
     line-height: 1;
   }
-  h3{
+
+  h3 {
     font-family: @exo;
     font-size: 19px;
     font-weight: bold;
@@ -291,6 +292,90 @@ button {
     letter-spacing: normal;
     text-align: left;
     color: #0d0d0d;
+  }
+
+
+
+  li {
+    font-size: 12px;
+    &:before {
+      top: 5px;
+      width: 10px;
+      height: 10px;
+    }
+  }
+
+  p {
+    font-family: @arial;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    color: #0d0d0d;
+    padding-top: 15px;
+  }
+
+  .pt-sm-30 {
+    padding-top: 30px;
+  }
+
+  .pt-sm-15 {
+    padding-top: 15px;
+  }
+
+  .pl-sm-15 {
+    padding-left: 15px;
+  }
+
+  .pl-sm-30 {
+    padding-left: 30px;
+  }
+
+  .pr-sm-15 {
+    padding-right: 15px;
+  }
+
+  .pr-sm-30 {
+    padding-right: 30px;
+  }
+
+  .pb-sm-15 {
+    padding-bottom: 15px;
+  }
+
+  .pb-sm-30 {
+    padding-bottom: 30px;
+  }
+
+  .mt-sm-30 {
+    padding-top: 30px;
+  }
+
+  .mt-sm-15 {
+    padding-top: 15px;
+  }
+
+  .ml-sm-15 {
+    margin-left: 15px;
+  }
+
+  .ml-sm-30 {
+    margin-left: 30px;
+  }
+
+  .mb-sm-30 {
+    margin-bottom: 30px;
+  }
+
+  .mb-sm-15 {
+    margin-bottom: 15px;
+  }
+
+  .mr-sm-30 {
+    margin-right: 30px;
+  }
+
+  .mr-sm-15 {
+    margin-right: 15px;
   }
 
   .bottom-line {
@@ -308,15 +393,6 @@ button {
     }
   }
 
-  p {
-    font-family: @arial;
-    font-size: 12px;
-    line-height: 1.5;
-    text-align: left;
-    color: #0d0d0d;
-    padding-top: 15px;
-  }
-
   .subtitle {
     padding-top: 15px;
     font-family: @arial;
@@ -326,22 +402,31 @@ button {
     color: #0d0d0d;
     padding-bottom: 15px;
   }
-  .container{
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 
   .big-number {
     font-size: 87px;
     text-align: center;
     padding-left: 10px;
   }
-  .sm-text-black{
+
+  .sm-text-black {
     color: #0d0d0d;
     font-size: 12px;
   }
+
   button {
     font-size: 17px;
     width: 100%;
+  }
+
+  .left-square {
+    padding-left: 25px;
+    &:before {
+      top: 3px;
+      left: 0px;
+      width: 14px;
+      height: 14px;
+
+    }
   }
 }

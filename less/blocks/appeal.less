@@ -1,7 +1,7 @@
-.appeal{
+.appeal {
   padding-top: 80px;
   padding-bottom: 80px;
-  background:url("/img/appeal/appeal-bg.jpg") ;
+  background: url("/img/appeal/appeal-bg.jpg");
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
@@ -9,7 +9,8 @@
   text-align: center;
   border-radius: 5px;
 }
-.appeal__title{
+
+.appeal__title {
   text-align: center;
   font-size: 50px;
   line-height: 1;
@@ -18,10 +19,32 @@
   color: #fff;
   padding-bottom: 60px;
 }
-.appeal__subtitle{
+
+.appeal__subtitle {
   margin-top: 150px;
   color: #fff;
   font-size: 31px;
   line-height: 1;
   font-style: italic;
+}
+
+@media @mobile-widths-only {
+  .appeal {
+    margin-top: 50px;
+    padding-top: 30px;
+  }
+
+  .appeal__title {
+    margin-top: 0;
+    font-size: 20px;
+  }
+
+  .appeal__subtitle {
+    font-size: 12px;
+    font-weight: 900;
+    width: 60%;
+    display: block;
+    margin: auto;
+    text-align: center;
+  }
 }
