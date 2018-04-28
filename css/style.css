@@ -2406,4 +2406,15 @@ button {
     margin: auto;
     text-align: center;
   }
+  .form {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .form-control {
+    padding: 10px 30px;
+  }
+  .form-btn {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
