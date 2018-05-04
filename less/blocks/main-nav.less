@@ -5,11 +5,24 @@
   font-size: 14px;
   padding: 0;
   font-family: Arial;
+  padding: 0;
   &:hover {
     color: @yellow-color;
     border-bottom: 1px solid @yellow-color;
     transition: .3s;
   }
+}
+
+.main-nav__link--home{
+  border-bottom: none;
+}
+
+
+.navbar{
+  width: 100%;
+}
+.collapse{
+  justify-content: flex-end;
 }
 
 .main-nav__item {
@@ -34,4 +47,26 @@
     border-bottom: none;
     color: #000;
   }
+}
+@media @mobile-widths-only {
+  .navbar-toggler {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    width: 20%;
+    &:before {
+      content: "";
+      position: absolute;
+      right: 14px;
+      top: 17px;
+      width: 20px;
+      height: 2px;
+      background-color: #fff;
+      box-shadow: 0 6px 0 0 #fff, 0 12px 0 0 #fff;
+    }
+  }
+  .main-nav__link{
+    text-align: center;
+  }
+
 }

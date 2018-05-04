@@ -45,6 +45,11 @@ h4 {
 
 a {
   text-decoration: none;
+  &:hover {
+    text-decoration: none;
+    color: #c30404;
+    border-color: #c30404;
+  }
 }
 
 img {
@@ -226,13 +231,14 @@ button {
   padding-bottom: 15px;
   &:before {
     position: absolute;
-    left: 0;
     content: '';
-    top: 7px;
+    left: -15px;
+    top: 13px;
     display: block;
-    width: 15px;
-    height: 36px;
-    background-color: #000000;
+    width: 33px;
+    height: 35px;
+    background-image: url("/img/icons/mobile.svg");
+    background-size: cover;
   }
   &:after {
     position: absolute;
@@ -246,6 +252,10 @@ button {
   }
   &--black {
     color: #000;
+    &:before{
+      background-image: url("/img/icons/mobile-black.svg");
+      top: 5px;
+    }
   }
 }
 
@@ -293,8 +303,6 @@ button {
     text-align: left;
     color: #0d0d0d;
   }
-
-
 
   li {
     font-size: 12px;

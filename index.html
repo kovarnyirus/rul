@@ -15,32 +15,37 @@
 <header class="page-header">
   <div class="container">
     <div class="page-header__top">
-      <div class="page-header__top-wrapper">
-        <a href="#" class="page-header__logo"><img src="./img/logo.svg" width="327" alt="logo"></a>
-        <nav class="d-flex align-items-center justify-content-between">
-          <ul class="nav justify-content-end main-nav">
-            <li class="nav-item main-nav__item ">
-              <a class="nav-link main-nav__link " href="#">home</a>
-            </li>
-            <li class="nav-item main-nav__item ">
-              <a class="nav-link main-nav__link active" href="#">О нас</a>
-            </li>
-            <li class="nav-item main-nav__item">
-              <a class="nav-link main-nav__link" href="#">Услуги</a>
-            </li>
-            <li class="nav-item main-nav__item">
-              <a class="nav-link main-nav__link" href="#">Цены</a>
-            </li>
-            <li class="nav-item main-nav__item">
-              <a class="nav-link main-nav__link" href="#">Мастера</a>
-            </li>
-            <li class="nav-item main-nav__item">
-              <a class="nav-link main-nav__link" href="#">Мастера</a>
-            </li>
-            <li class="nav-item main-nav__item">
-              <a class="nav-link main-nav__link" href="#">Контакты</a>
-            </li>
-          </ul>
+      <div class="page-header__top-wrapper fixed-container">
+        <nav class="navbar navbar-expand-lg justify-content-around">
+          <a href="#" class="page-header__logo"><img src="./img/logo.svg" width="327" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav main-nav">
+              <li class="nav-item main-nav__item ">
+                <a class="nav-link main-nav__link main-nav__link--home" href="#"><img src="/img/icons/home.svg" width="14" alt=""></a>
+              </li>
+              <li class="nav-item main-nav__item ">
+                <a class="nav-link main-nav__link active" href="#">О нас</a>
+              </li>
+              <li class="nav-item main-nav__item">
+                <a class="nav-link main-nav__link" href="#">Услуги</a>
+              </li>
+              <li class="nav-item main-nav__item">
+                <a class="nav-link main-nav__link" href="#">Цены</a>
+              </li>
+              <li class="nav-item main-nav__item">
+                <a class="nav-link main-nav__link" href="#">Мастера</a>
+              </li>
+              <li class="nav-item main-nav__item">
+                <a class="nav-link main-nav__link" href="#">Мастера</a>
+              </li>
+              <li class="nav-item main-nav__item">
+                <a class="nav-link main-nav__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
         </nav>
         <div class="page-header__top-phone d-md-none">
           <a href="#" type="tel">8 950 806-44-46</a>
@@ -48,7 +53,7 @@
       </div>
     </div>
     <div class="row page-header__intro">
-      <div class="col-9">
+      <div class="col-12 col-md-9">
         <div class="page-header__title-wrapper">
           <h1 class="page-header-title">ФРАНШИЗА АВТОЗАПЧАСТИ</h1>
           <div class="page-header-title__description">СЕТЬ АВТОМАГАЗИНОВ «РУЛЬ»</div>
@@ -58,7 +63,7 @@
         <p class="page-header__description">Мы предлагаем вам открыть собственный фирменный магазин автозапчастей по
           франшизе «Руль» в вашем городе.</p>
       </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3 order-1 order-md-0">
         <div class="experience">
           <p class="experience__number">
             10
@@ -74,26 +79,30 @@
 
         </div>
       </div>
-    </div>
-    <div class="row page-header-bottom">
-      <div class="col-md-3 page-header-bottom__item">Паушальный взнос<br>
-        от 400 000 руб.
-      </div>
-      <div class="col-md-3 page-header-bottom__item">Окупаемость<br>
-        до 19 месяцев
-      </div>
-      <div class="col-md-3 page-header-bottom__item">Инвестиции<br>
-        от 2,8 млн. руб.
-      </div>
-      <div class="col-md-3 page-header-bottom__item">
-        <div class="">
-          Ежемесячное<br>
-          роялти от 2%
+      <div class="col-12">
+        <div class="row page-header-bottom">
+          <div class="col-6 col-md-3 page-header-bottom__item">Паушальный взнос<br>
+            от 400 000 руб.
+          </div>
+          <div class="col-6 col-md-3 page-header-bottom__item">Окупаемость<br>
+            до 19 месяцев
+          </div>
+          <div class="col-6 col-md-3 page-header-bottom__item">Инвестиции<br>
+            от 2,8 млн. руб.
+          </div>
+          <div class="col-6 col-md-3 page-header-bottom__item">
+            <div class="">
+              Ежемесячное<br>
+              роялти от 2%
+            </div>
+            <span class="page-header__action">Акция 0%</span>
+          </div>
         </div>
-        <span class="page-header__action">Акция 0%</span>
       </div>
     </div>
+
   </div>
+  <img src="/img/bottom-bg.png"  class="header-bottom-line" alt="">
 </header>
 <div class="total-earnings">
   <div class="total-earnings__wrapper">
@@ -203,7 +212,7 @@
   <div class="container ">
     <div class="row">
       <div class="col-12 icons">
-        <img src="/img/b4.jpg" alt="">
+        <img src="/img/icons/gray_icons.svg" alt="">
       </div>
     </div>
   </div>
@@ -241,7 +250,7 @@
           <h3 class="essence__name">Игорь
             Холмецкий</h3>
           <span>
-            <a href="" class="essence__name-social-link">vk</a>
+            <a href="" class="essence__name-social-link"><img src="/img/icons/vk-social-logotype.svg" alt=""></a>
           </span>
         </div>
         <p class="grey-text sm-text-black">Сооснователь и соучредитель сети фирменных
@@ -432,6 +441,7 @@
             вас обмануть.
           </div>
         </div>
+        <img src="/img/bottom-triangle.png" class="get-bottom-triangle" alt="">
         <p class="pl-sm-15 pr-sm-15 pl-30 pr-30 pb-30 text-center">Если у вас уже есть собственное
           помещение или вы в процессе
           подписание документов, отправьте нам заявку и мы составим вам предвариельную смету на ваш будущий
@@ -840,11 +850,11 @@
     </div>
   </div>
 </div>
-<div class="icons-row">
+<div class="icons-row d-none d-md-block">
   <div class="container ">
     <div class="row">
       <div class="col-12 icons">
-        <img src="/img/b4.jpg" alt="">
+        <img src="/img/icons/gray_icons.svg" alt="">
       </div>
     </div>
   </div>
@@ -888,7 +898,7 @@
         </div>
       </div>
     </div>
-    <div class="row pt-30 d-none d-md-block">
+    <div class="row pt-30 d-none d-md-flex">
       <div class="col-md-6 offset-2">
         <button>Получить коммерческое предложение</button>
       </div>
@@ -1250,6 +1260,7 @@
 </footer>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/sticky-header.js"></script>
 <script src="js/jquery.magnific-popup.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>

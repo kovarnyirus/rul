@@ -59,3 +59,71 @@ $(document).ready(function() {
     });
   });
 });
+
+
+//прилипающее меню
+function getPageScroll() {
+  return window.pageYOffset;
+}
+
+var fixedContainer = document.querySelector('.fixed-container');
+var container = document.querySelector('.container');
+var header = document.querySelector('.page-header__top');
+
+window.onscroll = function() {
+  if (getPageScroll() > 200) {
+    header.classList.add("fixed");
+    fixedContainer.style.width = container.offsetWidth + 'px';
+  } else {
+    header.classList.remove("fixed");
+  }
+}
+//end прилипающее меню
+
+
+// $(window).on('scroll', function (e) {
+//   var $header = $(".page-header__top");
+//   var $headerContainer = $(".container");
+//   var screen = window.screen;
+//   console.log($headerContainer.width());
+//   if (getPageScroll() > 200) {
+//     $header.addClass("fixed").fadeIn();
+//   } else {
+//     $header.removeClass("fixed");
+//   }
+// })
+
+// $('.page-header__top').stickMe({
+//     topOffset: 130
+// });
+
+// $(document).ready(function(){
+//   $('.example').stickMe({
+//
+//     // Длительность анимации появления
+//     transitionDuration: 300,
+//
+//     // Включает тень у шапки
+//     shadow: false,
+//
+//     // Прозрачность тени у шапки
+//     shadowOpacity: 0.3,
+//
+//     // Включение анимации при появлении шапки
+//     animate: true,
+//
+//     // true: Шапка прилипнет к верху когда окно браузера будет достигнут центр страницы
+//     // false: Шапка прилипнет к верху как только пропадет из поля зрения при скролинге страницы
+//     triggerAtCenter: true,
+//
+//     //  Шапка прилипнет к верху при пролистывании страницы на 200 пикселей
+//     topOffset: 200,
+//
+//     // Плавное появление 'fade' или скольжение при появлении 'slide'
+//     transitionStyle: 'fade',
+//
+//     //  Шапка прикреплена к верху при загрузке страницы
+//     stickyAlready: false
+//
+//   });
+// })
