@@ -178,11 +178,11 @@
       <find>fix</find>
       <find>sti</find>
       <find>page-header__logo</find>
-      <find>.navbar-expand-lg .navbar-nav .nav-link</find>
-      <find>.navbar-nav .nav-link</find>
-      <find>.navbar-nav .nav-link{pa</find>
+      <find />
+      <find />
+      <find />
       <find>.page-header__logo</find>
-      <find>row pt-30 d-none d-md-block</find>
+      <find />
       <find>control</find>
       <find>.get-asside__yellow</find>
       <find>.phone-number</find>
@@ -192,7 +192,7 @@
       <find>chains-stores__video</find>
       <find>you</find>
       <find>main-nav__link</find>
-      <find>все для</find>
+      <find />
       <find>игорь</find>
       <find>посмотреть</find>
       <find>смету</find>
@@ -201,7 +201,7 @@
       <find>запрос</find>
       <find>смет</find>
       <find>button</find>
-      <find>plan pb-30 pt-30</find>
+      <find />
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -315,7 +315,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="813" />
     <option name="width" value="1114" />
     <option name="height" value="1047" />
