@@ -1,4 +1,4 @@
-.plan__top-wrapper{
+.plan__top-wrapper {
   text-align: center;
   width: 80%;
   margin-left: 10%;
@@ -8,25 +8,30 @@
   padding-top: 80px;
   padding-bottom: 30px;
   margin-bottom: 50px;
+  z-index: 1;
 }
-.plan-btn{
+
+.plan-btn {
   margin: auto;
+  margin-top: 270px;
   display: block;
 }
 
-.plan__suptittle{
+.plan__suptittle {
   font-size: 30px;
   font-weight: bold;
   font-style: italic;
 }
-.plan__title{
-font-size: 83px;
+
+.plan__title {
+  font-size: 83px;
   font-weight: 900;
   font-style: italic;
   font-family: @exo;
   line-height: 1;
 }
-.plan__subtitle{
+
+.plan__subtitle {
   margin-top: 19px;
   font-size: 30px;
   line-height: 1.5;
@@ -36,32 +41,41 @@ font-size: 83px;
   margin-bottom: 100px;
 }
 
+.plan__bottom-img {
+  z-index: -15;
+  margin-top: -30px;
+  margin-bottom: -450px;
+  position: relative;
+}
+
 @media @mobile-widths-only {
-  .plan{
+  .plan {
     padding-bottom: 0;
   }
-  .plan__top-wrapper{
+
+  .plan__top-wrapper {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
     padding-top: 15px;
     margin-bottom: 10px;
   }
-  .plan__suptittle{
+
+  .plan__suptittle {
     font-size: 9px;
     margin-bottom: 10px;
   }
-  .plan__title{
+
+  .plan__title {
     font-size: 28px
   }
-  .plan__subtitle{
+
+  .plan__subtitle {
     margin-top: 5px;
     padding-top: 11px;
     font-size: 9px;
     text-align: center;
     font-weight: 900;
-  }
-  .plan__subtitle{
-
+    margin-bottom: 0;
   }
 }

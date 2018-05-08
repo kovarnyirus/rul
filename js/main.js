@@ -58,6 +58,17 @@ $(document).ready(function() {
       }
     });
   });
+
+  $('.popup-youtube, .popup-vimeo, .popup-gmaps').each(function () { // the containers for all your galleries
+    $(this).magnificPopup({
+      disableOn: 700,
+      type: 'iframe',
+      mainClass: 'mfp-fade',
+      removalDelay: 160,
+      preloader: false,
+      fixedContentPos: false
+    });
+  });
 });
 
 
@@ -80,50 +91,13 @@ window.onscroll = function() {
 }
 //end прилипающее меню
 
+// активация/деактивация кнопки отправки формы
+function toggleButton(id, target) {
+  if (target.checked) {
+    document.getElementById(id).removeAttribute('disabled');
+  } else {
+    document.getElementById(id).setAttribute('disabled', 'disabled')
+  }
+}
 
-// $(window).on('scroll', function (e) {
-//   var $header = $(".page-header__top");
-//   var $headerContainer = $(".container");
-//   var screen = window.screen;
-//   console.log($headerContainer.width());
-//   if (getPageScroll() > 200) {
-//     $header.addClass("fixed").fadeIn();
-//   } else {
-//     $header.removeClass("fixed");
-//   }
-// })
 
-// $('.page-header__top').stickMe({
-//     topOffset: 130
-// });
-
-// $(document).ready(function(){
-//   $('.example').stickMe({
-//
-//     // Длительность анимации появления
-//     transitionDuration: 300,
-//
-//     // Включает тень у шапки
-//     shadow: false,
-//
-//     // Прозрачность тени у шапки
-//     shadowOpacity: 0.3,
-//
-//     // Включение анимации при появлении шапки
-//     animate: true,
-//
-//     // true: Шапка прилипнет к верху когда окно браузера будет достигнут центр страницы
-//     // false: Шапка прилипнет к верху как только пропадет из поля зрения при скролинге страницы
-//     triggerAtCenter: true,
-//
-//     //  Шапка прилипнет к верху при пролистывании страницы на 200 пикселей
-//     topOffset: 200,
-//
-//     // Плавное появление 'fade' или скольжение при появлении 'slide'
-//     transitionStyle: 'fade',
-//
-//     //  Шапка прикреплена к верху при загрузке страницы
-//     stickyAlready: false
-//
-//   });
-// })

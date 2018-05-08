@@ -1,0 +1,33 @@
+.popup-close {
+  position: relative;
+  box-shadow: none;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  cursor: pointer;
+  float: right;
+  &:before {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 13px;
+    width: 25px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #221f1f;
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 13px;
+    width: 25px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #221f1f;
+    transform: rotate(-45deg);
+  }
+}

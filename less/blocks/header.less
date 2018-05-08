@@ -132,14 +132,14 @@
   z-index: 300;
   width: 100%;
   padding-top: 0;
-  & + .page-header__intro{
+  & + .page-header__intro {
     margin-top: 100px;
   }
   & .navbar {
     margin: auto;
   }
 
-  & .fixed-container{
+  & .fixed-container {
     margin: auto;
   }
 }
@@ -191,22 +191,6 @@
     font-weight: 500;
   }
 
-  .experience__number {
-    display: none;
-  }
-
-  .experience__text {
-    display: none;
-  }
-
-  .experience__phone-wrapper {
-    display: none;
-  }
-
-  .experience {
-    margin-top: 30px;
-  }
-
   .page-header-bottom__item {
     font-size: 12px;
     &:nth-child(2n - 1) {
@@ -217,5 +201,23 @@
   .page-header__action {
     display: none;
 
+  }
+}
+
+@media (min-width: 768px) and @tablet-widths-only {
+  .page-header-title {
+    font-size: 45px;
+  }
+
+  .page-header-title__description {
+    font-size: 24px;
+  }
+
+  .page-header__suggestion {
+    font-size: 19px;
+  }
+
+  .page-header__description {
+    font-size: 19px;
   }
 }

@@ -40,13 +40,15 @@
   text-align: center;
   padding-bottom: 10px;
 }
-.format-item__cost{
+
+.format-item__cost {
   padding-top: 30px;
   font-family: Arial;
   font-size: 16px;
   text-align: center;
 }
-.format-item__btn{
+
+.format-item__btn {
   font-family: "Exo 2";
   display: block;
   margin: auto;
@@ -58,14 +60,57 @@
   padding-right: 40px;
 }
 
+.format__tour {
+  color: #0D0D0D;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  & span{
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+  }
+}
+
 @media @mobile-widths-only {
   .format {
     padding-top: 30px;
   }
-  .format__list{
+
+  .format__list {
     padding-top: 50px;
   }
-  .format-number{
+
+  .format__list{
+    & img{
+      display: block;
+      margin: auto;
+    }
+  }
+  .format-number {
     margin-top: 0;
+    text-align: center;
+  }
+  .format-number-subtitle{
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and @tablet-widths-only{
+  .format__list{
+    & img{
+      display: block;
+      margin: auto;
+    }
+  }
+  .format-number {
+    margin-top: 0;
+    text-align: center;
+  }
+  .format-number-subtitle{
+    text-align: center;
+  }
+  .format-item__btn{
+    font-size: 15px;
   }
 }

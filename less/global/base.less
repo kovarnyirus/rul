@@ -214,6 +214,7 @@ button {
   box-shadow: 0 3px 0 0 #a87e00;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .btn-white {
@@ -252,7 +253,7 @@ button {
   }
   &--black {
     color: #000;
-    &:before{
+    &:before {
       background-image: url("/img/icons/mobile-black.svg");
       top: 5px;
     }
@@ -281,6 +282,32 @@ button {
   line-height: 1.5;
   text-align: left;
   color: #7b7b7b;
+}
+
+.arrow-down {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 10px;
+  &:before {
+    position: absolute;
+    transform: translate(-3px, 8px) rotate(45deg);
+    content: '';
+    top: 1px;
+    width: 10px;
+    height: 3px;
+    background-color: #0D0D0D;
+    transition: transform 250ms ease;
+  }
+  &:after {
+    position: absolute;
+    transform: translate(3px, 8px) rotate(-45deg);
+    content: '';
+    width: 10px;
+    height: 3px;
+    top: 1px;
+    background-color: #0D0D0D;
+    transition: transform 250ms ease;
+  }
 }
 
 @media @mobile-widths-only {

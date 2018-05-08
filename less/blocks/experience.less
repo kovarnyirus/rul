@@ -1,5 +1,5 @@
-.experience{
-  & button{
+.experience {
+  & button {
     text-align: center;
     padding-left: 0;
     padding-right: 0;
@@ -7,7 +7,7 @@
   }
 }
 
-.experience__number{
+.experience__number {
   font-family: "Exo 2", "Arial", sans-serif;
   font-size: 220px;
   font-weight: bold;
@@ -16,7 +16,8 @@
   line-height: 190px;
   padding-top: 0;
 }
-.experience__text{
+
+.experience__text {
   color: #fff;
   font-size: 27px;
   line-height: 1;
@@ -28,11 +29,30 @@
   padding-bottom: 23px;
 }
 
-.experience__phone{
+.experience__phone {
   padding-top: 10px;
   padding-left: 15px;
   font-weight: bold;
 }
-.experience__phone-wrapper{
+
+.experience__phone-wrapper {
   padding-left: 35px;
+}
+
+@media @tablet-widths-only {
+  .experience__number {
+    display: none;
+  }
+
+  .experience__text {
+    display: none;
+  }
+
+  .experience__phone-wrapper {
+    display: none;
+  }
+
+  .experience {
+    margin-top: 30px;
+  }
 }

@@ -664,6 +664,7 @@ button {
   box-shadow: 0 3px 0 0 #a87e00;
   border: none;
   border-radius: 5px;
+  cursor: pointer;
 }
 .btn-white {
   background-color: #fff;
@@ -726,6 +727,31 @@ button {
   line-height: 1.5;
   text-align: left;
   color: #7b7b7b;
+}
+.arrow-down {
+  position: relative;
+  padding-right: 15px;
+  padding-left: 10px;
+}
+.arrow-down:before {
+  position: absolute;
+  transform: translate(-3px, 8px) rotate(45deg);
+  content: '';
+  top: 1px;
+  width: 10px;
+  height: 3px;
+  background-color: #0D0D0D;
+  transition: transform 250ms ease;
+}
+.arrow-down:after {
+  position: absolute;
+  transform: translate(3px, 8px) rotate(-45deg);
+  content: '';
+  width: 10px;
+  height: 3px;
+  top: 1px;
+  background-color: #0D0D0D;
+  transition: transform 250ms ease;
 }
 .page-header {
   background: url("/img/header-bg.jpg");
@@ -1025,6 +1051,18 @@ button {
   padding-left: 40px;
   padding-right: 40px;
 }
+.format__tour {
+  color: #0D0D0D;
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.format__tour span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
 .chains-stores {
   padding-top: 180px;
   position: relative;
@@ -1181,6 +1219,7 @@ button {
 }
 .sell {
   padding-top: 50px;
+  z-index: 0;
 }
 .sell .container {
   padding-left: 35px;
@@ -1192,6 +1231,7 @@ button {
   font-size: 200px;
   font-weight: 900;
   line-height: 1;
+  text-align: center;
 }
 .sell__numder span {
   font-size: 60px;
@@ -1636,6 +1676,27 @@ button {
   margin-left: 10%;
   margin-right: 10%;
   background-color: #EFEFEF;
+  position: relative;
+}
+.audience:before {
+  position: absolute;
+  display: block;
+  content: 'А вот, как мы с ней работаем!';
+  bottom: -36px;
+  right: 350px;
+  color: #0D0D0D;
+  font-size: 16px;
+}
+.audience:after {
+  position: absolute;
+  display: block;
+  content: '';
+  bottom: -130px;
+  right: 510px;
+  background-image: url("/img/icons/bottom-row.svg");
+  background-size: cover;
+  width: 97px;
+  height: 80px;
 }
 .audience img {
   display: block;
@@ -1666,9 +1727,11 @@ button {
   padding-top: 80px;
   padding-bottom: 30px;
   margin-bottom: 50px;
+  z-index: 1;
 }
 .plan-btn {
   margin: auto;
+  margin-top: 270px;
   display: block;
 }
 .plan__suptittle {
@@ -1691,6 +1754,12 @@ button {
   font-weight: 900;
   font-style: italic;
   margin-bottom: 100px;
+}
+.plan__bottom-img {
+  z-index: -15;
+  margin-top: -30px;
+  margin-bottom: -450px;
+  position: relative;
 }
 .promotion {
   margin-top: 30px;
@@ -1809,58 +1878,95 @@ button {
   color: #4A4A4A;
   border-bottom: 1px solid #3c3c3c;
 }
-@media (min-width: 768px) {
-  .sell {
-    padding-bottom: 60px;
-    position: relative;
+.popup-close {
+  position: relative;
+  box-shadow: none;
+  padding: 0;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  cursor: pointer;
+  float: right;
+}
+.popup-close:before {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 13px;
+  width: 25px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #221f1f;
+  transform: rotate(45deg);
+  box-shadow: none;
+}
+.popup-close:after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 13px;
+  width: 25px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: #221f1f;
+  transform: rotate(-45deg);
+}
+.accordion {
+  z-index: -2;
+}
+.accordion .container {
+  position: relative;
+}
+.accordion .container:before {
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  background-color: #FFE200;
+  content: '';
+  right: -5%;
+  left: -5%;
+  z-index: -1;
+  bottom: 0;
+  top: 0;
+  display: block;
+}
+.accordion-wrapper {
+  padding-top: 60px;
+}
+.accordion_toggle {
+  cursor: pointer;
+  float: right;
+  padding-right: 20px;
+  padding-top: 15px;
+}
+.accordion_toggle span {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) and (max-width: 1150px) {
+  .page-header-title {
+    font-size: 45px;
   }
-  .sell .container {
-    padding-left: 15px;
-    padding-right: 15px;
+  .page-header-title__description {
+    font-size: 24px;
   }
-  .sell .container:before {
-    position: absolute;
+  .page-header__suggestion {
+    font-size: 19px;
+  }
+  .page-header__description {
+    font-size: 19px;
+  }
+  .format__list img {
     display: block;
-    top: 50px;
-    bottom: 0;
-    content: '';
-    left: 5%;
-    width: 90%;
-    background-color: #efefef;
-    border-radius: 5px;
-    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16);
-    z-index: -1;
+    margin: auto;
   }
-  .sell-footer {
-    margin-top: 20px;
-    z-index: 5;
-    position: relative;
-    padding-bottom: 20px;
+  .format-number {
+    margin-top: 0;
+    text-align: center;
   }
-  .sell-footer:before {
-    width: 110%;
-    left: -5%;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    content: '';
-    display: block;
-    background-color: #f5f5f5;
+  .format-number-subtitle {
+    text-align: center;
   }
-  .sell__right-col {
-    padding-left: 60px;
-  }
-  .sell-footer__list {
-    padding-top: 0;
-  }
-  .sell-footer__list {
-    padding-left: 60px;
-  }
-  .sell-footer-item {
-    padding-top: 5px;
-    width: 16.6%;
-    padding-left: 0;
-    padding-right: 0;
+  .format-item__btn {
+    font-size: 15px;
   }
 }
 @media (max-width: 767px) {
@@ -2028,18 +2134,6 @@ button {
     padding-top: 19px;
     font-weight: 500;
   }
-  .experience__number {
-    display: none;
-  }
-  .experience__text {
-    display: none;
-  }
-  .experience__phone-wrapper {
-    display: none;
-  }
-  .experience {
-    margin-top: 30px;
-  }
   .page-header-bottom__item {
     font-size: 12px;
   }
@@ -2099,8 +2193,16 @@ button {
   .format__list {
     padding-top: 50px;
   }
+  .format__list img {
+    display: block;
+    margin: auto;
+  }
   .format-number {
     margin-top: 0;
+    text-align: center;
+  }
+  .format-number-subtitle {
+    text-align: center;
   }
   .chains-stores {
     padding-top: 80px;
@@ -2309,6 +2411,7 @@ button {
   }
   .installation-top__left-col:after {
     border: none;
+    display: none;
   }
   .installation-top__left-col h3 {
     color: #fff;
@@ -2438,6 +2541,10 @@ button {
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .presentation__item img {
+    display: block;
+    margin: auto;
+  }
   .data-base {
     padding-left: 10px;
     padding-right: 10px;
@@ -2462,6 +2569,12 @@ button {
     width: 90%;
     border-radius: 5px;
   }
+  .audience:before {
+    display: none;
+  }
+  .audience:after {
+    display: none;
+  }
   .marketing {
     margin-top: 30px;
     padding-left: 15px;
@@ -2473,6 +2586,10 @@ button {
   }
   .marketing h3 {
     margin-top: 15px;
+  }
+  .marketing img {
+    display: block;
+    margin: auto;
   }
   .marketing__img-wrapper {
     margin-top: 15px;
@@ -2503,10 +2620,12 @@ button {
     font-size: 9px;
     text-align: center;
     font-weight: 900;
+    margin-bottom: 0;
   }
   .promotion {
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 80px;
   }
   .promotion h4 {
     margin-top: 15px;
@@ -2517,6 +2636,10 @@ button {
   }
   .promotion__item {
     margin-bottom: 20px;
+  }
+  .promotion__item img {
+    margin: auto;
+    display: block;
   }
   .control {
     margin-top: 20px;
@@ -2561,6 +2684,78 @@ button {
     padding: 10px 30px;
   }
   .form-btn {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .form__description {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1150px) {
+  .experience__number {
+    display: none;
+  }
+  .experience__text {
+    display: none;
+  }
+  .experience__phone-wrapper {
+    display: none;
+  }
+  .experience {
+    margin-top: 30px;
+  }
+  .total-earnings__numbets {
+    font-size: 100px;
+  }
+  .sell {
+    padding-bottom: 60px;
+    position: relative;
+  }
+  .sell .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .sell .container:before {
+    position: absolute;
+    display: block;
+    top: 50px;
+    bottom: 0;
+    content: '';
+    left: 5%;
+    width: 90%;
+    background-color: #efefef;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16);
+    z-index: -1;
+  }
+  .sell-footer {
+    margin-top: 20px;
+    z-index: 5;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .sell-footer:before {
+    width: 110%;
+    left: -5%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: #f5f5f5;
+  }
+  .sell__right-col {
+    padding-left: 60px;
+  }
+  .sell-footer__list {
+    padding-top: 0;
+  }
+  .sell-footer__list {
+    padding-left: 60px;
+  }
+  .sell-footer-item {
+    padding-top: 5px;
+    width: 16.6%;
     padding-left: 0;
     padding-right: 0;
   }

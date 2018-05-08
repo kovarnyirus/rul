@@ -1,0 +1,30 @@
+.accordion{
+  z-index: -2;
+  & .container{
+    position: relative;
+    &:before{
+      border-radius: 0 0 10px 10px;
+      position: absolute;
+      background-color: @yellow-color;
+      content: '';
+      right: -5%;
+      left: -5%;
+      z-index: -1;
+      bottom: 0;
+      top: 0;
+      display: block;
+    }
+  }
+}
+.accordion-wrapper{
+  padding-top: 60px;
+}
+.accordion_toggle{
+  cursor: pointer;
+  float: right;
+  padding-right: 20px;
+  padding-top: 15px;
+  & span{
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+  }
+}
