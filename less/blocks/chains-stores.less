@@ -1,7 +1,7 @@
 .chains-stores {
   padding-top: 180px;
   position: relative;
-  &:before{
+  &:before {
     position: absolute;
     width: 90%;
     display: block;
@@ -23,11 +23,12 @@
   text-align: center;
   padding-right: 80px;
 }
-.chains-stores__video{
+
+.chains-stores__video {
   position: relative;
 }
 
-.chains-stores__video-title{
+.chains-stores__video-title {
   position: absolute;
   display: block;
   bottom: 50px;
@@ -39,12 +40,12 @@
   line-height: 1.17;
   text-align: left;
   color: #ffffff;
-  &:before{
+  &:before {
     display: block;
     position: absolute;
     content: '';
     top: -17px;
-    right:195px;
+    right: 195px;
     width: 80px;
     background-image: url("/img/icons/youtube.svg");
     background-size: cover;
@@ -55,13 +56,20 @@
 @media @mobile-widths-only {
   .chains-stores {
     padding-top: 80px;
-    &:before{
+    &:before {
       top: 50px;
       height: 96%;
     }
 
   }
-  .chains-stores__opening{
+
+  .chains-stores__opening {
     padding-right: 0;
+  }
+}
+
+@media @tablet-widths-min and @tablet-widths-max {
+  .chains-stores__top {
+    padding-bottom: 30px;
   }
 }

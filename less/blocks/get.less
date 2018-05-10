@@ -66,7 +66,8 @@
     padding-right: 57px;
   }
 }
-.get-bottom-triangle{
+
+.get-bottom-triangle {
   margin-top: -5px;
   margin-bottom: 60px;
 }
@@ -142,5 +143,34 @@
     width: 230px;
     display: block;
     margin: auto;
+  }
+}
+
+@media @tablet-widths-min and @tablet-widths-max {
+  .get-asside__yellow::after {
+    background-size: cover;
+    height: 250px;
+  }
+
+  .get-asside__yellow {
+    padding-top: 150px;
+    & h3 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+    .get-asside__yellow-description {
+      padding-left: 15px;
+      padding-right: 15px;
+      &:before {
+        left: 22%;
+      }
+      &:after {
+        left: 22%;
+      }
+    }
+  }
+  .get__button{
+    margin-left: 0;
+    margin-right: 0;
   }
 }

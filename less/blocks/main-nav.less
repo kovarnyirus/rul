@@ -68,5 +68,27 @@
   .main-nav__link{
     text-align: center;
   }
+}
 
+@media @tablet-widths-min and @tablet-widths-max {
+  .navbar-toggler {
+    border: none;
+    padding: 0;
+    box-shadow: none;
+    width: 50px;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      right: 14px;
+      top: 12px;
+      width: 20px;
+      height: 2px;
+      background-color: #fff;
+      box-shadow: 0 6px 0 0 #fff, 0 12px 0 0 #fff;
+    }
+  }
+  .main-nav__link{
+    text-align: center;
+  }
 }

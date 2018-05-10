@@ -91,6 +91,53 @@ window.onscroll = function() {
 }
 //end прилипающее меню
 
+function formHandler(selector) {
+
+  // debugger;
+  $(selector).on('submit', function (e) {
+
+    e.preventDefault();
+
+    var _this = $(this),
+      $nameField = _this.find('input[name=name]'),
+      $emailField = _this.find('input[name=email]'),
+      $phoneField = _this.find('input[name=phone]'),
+      $cityField = _this.find('input[name=city]');
+
+
+    if
+    ($emailField.val() === '')
+    {
+      $emailField.addClass('has-error');
+    }
+    if ($phoneField.val() === '') {
+      $phoneField.addClass('has-error');
+    }
+    else if ($emailField.val() !== '' && $phoneField.val() !== '') {
+
+      var ajaxdata = 'name=' + $nameField.val() + '&email=' + $emailField.val() + '&phone=' + $phoneField.val() + '&city=' + $cityField.val();
+
+
+      $.ajax({
+        type: "POST",
+        url: "form_handler.php",
+        data: ajaxdata,
+        success: function ($output) {
+          $('.modal-content').html($output);
+          yaCounter47997302.reachGoal('order');
+        },
+        error: function (error) {
+          console.log(error);
+        }
+      });
+    }
+  });
+
+
+}
+
+formHandler('#contactForm');
+
 // активация/деактивация кнопки отправки формы
 function toggleButton(id, target) {
   if (target.checked) {
