@@ -3,36 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bca8ad9b-af13-44ca-875f-99f539da45bd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/appeal.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/appeal.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/audience.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/audience.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/care.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/care.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/chains-stores.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/chains-stores.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/control.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/control.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/data-base.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/data-base.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/essence.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/essence.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/experience.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/experience.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/footer.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/footer.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/form.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/form.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/format.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/format.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/get.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/get.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/header.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/header.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/installation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/installation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/main-nav.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/main-nav.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/personal.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/personal.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/plan.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/plan.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/presentation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/presentation.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/profit.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/profit.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/promotion.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/promotion.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/sell.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/sell.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/slogan.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/slogan.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/technologies.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/technologies.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/total-earnings.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/total-earnings.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/global/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/global/base.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/variables.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -145,10 +115,15 @@
           <file leaf-file-name="form_handler.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/form_handler.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="200">
-                  <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+                <state relative-caret-position="207">
+                  <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
                 </state>
               </provider>
+            </entry>
+          </file>
+          <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.editorconfig">
+              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
         </leaf>
@@ -321,7 +296,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="206" />
     <option name="y" value="-18" />
     <option name="width" value="1114" />
@@ -480,7 +455,7 @@
       <workItem from="1525674690883" duration="15619000" />
       <workItem from="1525760608424" duration="676000" />
       <workItem from="1525769033794" duration="12191000" />
-      <workItem from="1525933491480" duration="15973000" />
+      <workItem from="1525933491480" duration="16219000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <created>1523974739981</created>
@@ -510,14 +485,21 @@
       <option name="project" value="LOCAL" />
       <updated>1525791050290</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="отправка формы">
+      <created>1525959798223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1525959798223</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262230000" />
+    <option name="totallyTimeSpent" value="262476000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -581,7 +563,8 @@
     <MESSAGE value="разметка" />
     <MESSAGE value="стили" />
     <MESSAGE value="ная версия" />
-    <option name="LAST_COMMIT_MESSAGE" value="ная версия" />
+    <MESSAGE value="отправка формы" />
+    <option name="LAST_COMMIT_MESSAGE" value="отправка формы" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,12 +583,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DRa0.713/fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome.css" />
-    <entry file="file://$PROJECT_DIR$/node_modules/browser-sync/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3162" />
-      </provider>
-    </entry>
     <entry file="file://D:/ЯД-2017/YandexDisk/! 2017/22. Новостройки/верстка/less/global/fonts.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1088,10 +1065,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/form_handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="207">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
         </state>
       </provider>
     </entry>
