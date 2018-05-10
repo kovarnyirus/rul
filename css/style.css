@@ -478,7 +478,7 @@ template {
   src: local("Panton Black Italic"), url("/fonts/Panton-BlackItalic.otf?") format("embedded-opentype");
 }
 body {
-  font-family: "Exo-2", "Arial", sans-serif;
+  font-family: "Exo-2", sans-serif;
   background-color: #fff;
   color: #0d0d0d;
   line-height: 1.5;
@@ -492,7 +492,7 @@ h1 {
   font-style: italic;
 }
 h2 {
-  font-size: 51px;
+  font-size: 50px;
   line-height: 51px;
   color: #000000;
   font-weight: 900;
@@ -528,6 +528,7 @@ a:hover {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 li {
   list-style: none;
@@ -625,14 +626,14 @@ p {
   background-color: #FFE200;
 }
 .subtitle {
-  padding-top: 30px;
+  padding-top: 28px;
 }
 .subtitle--bold {
   font-weight: bold;
 }
 .bottom-line {
   position: relative;
-  padding-bottom: 30px;
+  padding-bottom: 28px;
   line-height: 1;
 }
 .bottom-line:before {
@@ -953,7 +954,7 @@ button {
   width: 100%;
 }
 .experience__number {
-  font-family: "Exo 2", "Arial", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 220px;
   font-weight: bold;
   font-style: italic;
@@ -990,9 +991,10 @@ button {
   font-style: italic;
   font-weight: bold;
   font-size: 165px;
+  font-family: "Exo-2", sans-serif;
 }
 .total-earnings__numbets:before {
-  bottom: 0;
+  bottom: 13px;
   left: 0;
   content: '';
   position: absolute;
@@ -1000,6 +1002,7 @@ button {
   width: 100%;
   height: 9px;
   background-color: #FFE200;
+  border-radius: 5px;
 }
 .total-earnings__description {
   text-align: center;
@@ -1036,7 +1039,7 @@ button {
   color: #0d0d0d;
 }
 .format__list {
-  padding-top: 65px;
+  padding-top: 36px;
 }
 .format-item__titel {
   font-size: 25px;
@@ -1050,10 +1053,11 @@ button {
   font-family: Arial;
   font-size: 16px;
   text-align: center;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  line-height: 1.2;
 }
 .format-item__cost {
-  padding-top: 30px;
+  padding-top: 27px;
   font-family: Arial;
   font-size: 16px;
   text-align: center;
@@ -1082,19 +1086,22 @@ button {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 .chains-stores {
-  padding-top: 180px;
+  padding-top: 191px;
   position: relative;
 }
 .chains-stores:before {
   position: absolute;
-  width: 90%;
+  width: 94%;
   display: block;
   content: '';
-  top: 120px;
-  left: 5%;
+  top: 91px;
+  left: 3%;
   background-color: #EFEFEF;
-  height: 55%;
+  height: 66%;
   border-radius: 5px;
+}
+.chains-stores__top {
+  padding-bottom: 30px;
 }
 .chains-stores__opening {
   padding-top: 20px;
@@ -1111,8 +1118,8 @@ button {
 .chains-stores__video-title {
   position: absolute;
   display: block;
-  bottom: 50px;
-  left: 140px;
+  bottom: 36px;
+  left: 133px;
   width: 180px;
   font-size: 18px;
   font-weight: bold;
@@ -1133,10 +1140,10 @@ button {
   height: 68px;
 }
 .icons-row {
-  padding-top: 60px;
+  padding-top: 78px;
 }
 .essence {
-  padding-top: 60px;
+  padding-top: 68px;
   padding-bottom: 20px;
 }
 .essence__qote {
@@ -1186,6 +1193,7 @@ button {
   font-style: italic;
   line-height: 1.11;
   color: #0d0d0d;
+  margin-top: 15px;
 }
 .essence__name:before {
   position: absolute;
@@ -1196,7 +1204,10 @@ button {
   background-image: url(/img/igor.jpg);
   content: '';
   left: -140px;
-  top: -20px;
+  top: -25px;
+}
+.essence__name-description {
+  padding-top: 10px;
 }
 .essence__name-social-link {
   position: absolute;
@@ -1212,7 +1223,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 3px;
 }
 .essence__list {
   padding-top: 15px;
@@ -1234,6 +1245,9 @@ button {
   top: 6px;
   content: '';
   display: block;
+}
+.essence__buttn {
+  padding: 9px 63px;
 }
 .sell {
   padding-top: 50px;
@@ -1322,11 +1336,11 @@ button {
   padding-top: 45px;
 }
 .care-item__title {
-  padding-top: 30px;
+  padding-top: 26px;
   font-weight: bold;
 }
 .care-item__description {
-  padding-top: 5px;
+  padding-top: 0;
   padding-left: 10px;
   padding-right: 10px;
   font-family: 'Arial', sans-serif;
@@ -1335,16 +1349,19 @@ button {
   text-align: center;
 }
 .proposal {
-  padding-top: 40px;
-  padding-bottom: 60px;
+  padding-top: 35px;
+  padding-bottom: 55px;
   text-align: center;
+  border-top: 1px solid #95989A;
+  border-bottom: 1px solid #95989A;
+  margin-top: 18px;
 }
 .proposal h2 {
   font-size: 83px;
   line-height: 102px;
 }
 .proposal p {
-  padding-top: 30px;
+  padding-top: 25px;
   width: 80%;
   margin: auto;
   display: block;
@@ -1356,7 +1373,7 @@ button {
   text-align: center;
 }
 .get {
-  padding-top: 60px;
+  padding-top: 66px;
   padding-bottom: 80px;
 }
 .get__image-warehouse {
@@ -1375,7 +1392,7 @@ button {
   font-size: 18px;
 }
 .get-asside__yellow {
-  margin-top: 95px;
+  margin-top: 117px;
   padding-top: 297px;
   position: relative;
   background-color: #FFE200;
@@ -1383,7 +1400,7 @@ button {
 }
 .get-asside__yellow:after {
   position: absolute;
-  top: -100px;
+  top: -125px;
   content: '';
   background-image: url(/img/get-conrt.jpg);
   height: 392px;
@@ -1398,10 +1415,10 @@ button {
   line-height: 1.5;
   padding-left: 57px;
   padding-right: 57px;
+  margin-top: 0;
 }
 .get-bottom-triangle {
   margin-top: -5px;
-  margin-bottom: 60px;
 }
 .get-asside__yellow-description {
   font-family: 'Arial', sans-serif;
@@ -2176,64 +2193,6 @@ button {
     margin-left: 30%;
     margin-bottom: 30px;
   }
-  .sell {
-    padding-bottom: 60px;
-    position: relative;
-  }
-  .sell .container {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-  .sell .container:before {
-    position: absolute;
-    display: block;
-    top: 50px;
-    bottom: 0;
-    content: '';
-    left: 5%;
-    width: 90%;
-    background-color: #efefef;
-    border-radius: 5px;
-    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16);
-    z-index: -1;
-  }
-  .sell-footer {
-    margin-top: 20px;
-    z-index: 5;
-    position: relative;
-    padding-bottom: 20px;
-  }
-  .sell-footer:before {
-    width: 110%;
-    left: -5%;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    content: '';
-    display: block;
-    background-color: #f5f5f5;
-  }
-  .sell__right-col {
-    padding-left: 60px;
-  }
-  .sell-footer__list {
-    padding-top: 0;
-  }
-  .sell-footer__list {
-    padding-left: 60px;
-  }
-  .sell-footer-item {
-    padding-top: 5px;
-    width: 16.6%;
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .page-header__action {
-    display: none;
-  }
-  .sell__numder-subtitle {
-    text-align: center;
-  }
   .care p {
     width: 100%;
   }
@@ -2512,6 +2471,70 @@ button {
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+  }
+}
+@media (min-width: 768px) {
+  .sell {
+    padding-top: 120px;
+    padding-bottom: 60px;
+    position: relative;
+  }
+  .sell .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .sell .container:before {
+    position: absolute;
+    display: block;
+    top: 50px;
+    bottom: 0;
+    content: '';
+    left: 5%;
+    width: 90%;
+    background-color: #efefef;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16);
+    z-index: -1;
+  }
+  .sell-footer {
+    margin-top: 20px;
+    z-index: 5;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .sell-footer:before {
+    width: 110%;
+    left: -5%;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: '';
+    display: block;
+    background-color: #f5f5f5;
+  }
+  .sell__right-col {
+    padding-left: 60px;
+  }
+  .sell-footer__list {
+    padding-top: 0;
+  }
+  .sell-footer__list {
+    padding-left: 60px;
+  }
+  .sell-footer-item {
+    padding-top: 5px;
+    width: 16.6%;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .page-header__action {
+    display: none;
+  }
+  .sell__numder-subtitle {
+    text-align: center;
+  }
+  .sell-footer-item__descriptoin {
+    font-size: 16px;
   }
 }
 @media (max-width: 767px) {
