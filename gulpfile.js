@@ -62,12 +62,10 @@ gulp.task("symbols", function() {
 
 gulp.task("serve", ["style"], function() {
   server.init({
-    port: 3200,
     server: ".",
     notify: false,
     open: true,
-    cors: true,
-    ui: false
+    cors: true
   });
   gulp.watch("less/**/*.less", ["style"]);
   gulp.watch("js/**/*.js", ["style"]);
@@ -90,7 +88,8 @@ gulp.task("copy", function() {
       "img/**",
       "css/**",
       "js/**",
-      "*.html"
+      "*.html",
+      "*.php"
     ], {
       base: "."
     })

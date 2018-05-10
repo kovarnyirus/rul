@@ -427,55 +427,55 @@ template {
   font-family: 'Exo-2';
   font-style: normal;
   font-weight: 400;
-  src: local("Exo-2"), local("Exo2"), url("/fonts/Exo2.0-Regular.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Regular.ttf") format("truetype");
+  src: url("/fonts/Exo2.0-Regular.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Exo-2';
   font-style: italic;
   font-weight: 400;
-  src: local("Exo-2"), local("Exo2"), url("/fonts/Exo2.0-Italic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Italic.ttf") format("truetype");
+  src: url("/fonts/Exo2.0-Italic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Italic.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Exo-2';
   font-style: normal;
   font-weight: 700;
-  src: local("Exo-2 Bold"), local("Exo2-Bold"), url("/fonts/Exo2.0-Bold.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Bold.ttf") format("truetype");
+  src: url("/fonts/Exo2.0-Bold.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Exo-2';
   font-style: italic;
   font-weight: 700;
-  src: local("Exo-2 Bold Italic"), local("Exo2-Bold-Italic"), url("/fonts/Exo2.0-BoldItalic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-BoldItalic.ttf") format("truetype");
+  src: url("/fonts/Exo2.0-BoldItalic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-BoldItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Exo-2';
   font-style: italic;
   font-weight: 300;
-  src: local("Exo-2 Medium Italic"), local("Exo2-Medium-Italic"), url("/fonts/Exo2.0-MediumItalic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-MediumItalic.ttf") format("truetype");
+  src: url("/fonts/Exo2.0-MediumItalic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-MediumItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Exo-2';
   font-style: normal;
   font-weight: 300;
-  src: local("Exo-2 Medium "), local("Exo2-Medium"), url("/fonts/Exo2.0-Medium.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Medium.ttf") format("truetype");
+  src: url("/fonts/Exo2.0-Medium.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Medium.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Exo-2';
   font-style: italic;
   font-weight: 900;
-  src: local("Exo-2 Black Italic"), local("Exo2-Medium-Italic"), url("/fonts/ttf/Exo2-BlackItalic.ttf") format("truetype");
+  src: url("/fonts/ttf/Exo2-BlackItalic.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Exo-2';
   font-style: normal;
   font-weight: 900;
-  src: local("Exo-2 Black "), local("Exo2-Black"), url("/fonts/ttf/Exo2-Black.ttf") format("truetype");
+  src: url("/fonts/ttf/Exo2-Black.ttf") format("truetype");
 }
 @font-face {
   font-family: 'Panton';
   font-style: italic;
   font-weight: 900;
-  src: local("Panton Black Italic"), local("Panton-Black-Italic"), url("/fonts/Panton-BlackItalic.otf?") format("embedded-opentype");
+  src: local("Panton Black Italic"), url("/fonts/Panton-BlackItalic.otf?") format("embedded-opentype");
 }
 body {
   font-family: "Exo-2", "Arial", sans-serif;
@@ -646,6 +646,9 @@ p {
   bottom: 0;
   border-radius: 50px;
 }
+.bottom-line--header {
+  padding-bottom: 24px;
+}
 .bottom-line--header:before {
   width: 389.5px;
 }
@@ -755,18 +758,17 @@ button {
 }
 .page-header {
   background: url("/img/header-bg.jpg");
-  padding-top: 86px;
-  margin-bottom: 90px;
-  margin-left: 5%;
-  margin-right: 5%;
+  padding-top: 71px;
+  margin-left: 3%;
+  margin-right: 3%;
   border-radius: 5px;
   position: relative;
   background-size: cover;
-  margin-top: 50px;
+  margin-top: 42px;
 }
 .page-header-title {
   font-size: 63px;
-  font-family: "Panton", "Arial", sans-serif;
+  font-family: "Panton", sans-serif;
   font-weight: 900;
   font-style: italic;
 }
@@ -784,11 +786,11 @@ button {
       justify-content: space-between;
 }
 .page-header__intro {
-  font-family: "Exo 2", "Arial", sans-serif;
+  font-family: "Exo-2", sans-serif;
   padding-top: 45px;
 }
 .page-header__title-wrapper {
-  font-family: "Exo 2", "Arial", sans-serif;
+  font-family: "Exo 2", sans-serif;
   width: 80%;
   position: relative;
   z-index: 2;
@@ -821,11 +823,11 @@ button {
   line-height: 1.2;
   color: #fff;
   padding-top: 30px;
-  width: 92%;
-  font-family: "Exo 2", "Arial", sans-serif;
+  width: 82%;
+  font-family: "Exo-2", sans-serif;
 }
 .page-header__description {
-  font-family: "Exo 2", "Arial", sans-serif;
+  font-family: "Exo-2", sans-serif;
   font-size: 25px;
   font-weight: 300;
   font-style: italic;
@@ -833,20 +835,24 @@ button {
   text-align: left;
   color: #ffffff;
   width: 92%;
+  padding-top: 28px;
 }
 .page-header-bottom {
   padding-top: 40px;
+  padding-bottom: 20px;
 }
 .page-header-bottom__item {
-  font-family: "Exo 2", "Arial", sans-serif;
+  font-family: "Exo-2", sans-serif;
   font-weight: bold;
   font-style: italic;
   position: relative;
-  padding-top: 16px;
+  padding-top: 10px;
   padding-bottom: 16px;
+  font-size: 19px;
   color: #fff;
   text-align: center;
   border-left: 1px solid #FFE200;
+  line-height: 1.2;
 }
 .page-header-bottom__item:first-child {
   border-left: none;
@@ -909,6 +915,7 @@ button {
   border-bottom: none;
 }
 .navbar {
+  padding: 0;
   width: 100%;
 }
 .collapse {
@@ -916,7 +923,9 @@ button {
       justify-content: flex-end;
 }
 .main-nav__item {
-  padding: .5rem 1rem;
+  padding-top: 0;
+  padding-left: 31px;
+  padding-right: 0;
 }
 .main-nav__item:before {
   display: none;
@@ -949,7 +958,7 @@ button {
   font-weight: bold;
   font-style: italic;
   color: #fff;
-  line-height: 190px;
+  line-height: 169px;
   padding-top: 0;
 }
 .experience__text {
@@ -958,7 +967,7 @@ button {
   line-height: 1;
   font-weight: bold;
   font-style: italic;
-  padding-top: 20px;
+  padding-top: 30px;
   padding-left: 20px;
   width: 90%;
   padding-bottom: 23px;
@@ -1641,10 +1650,11 @@ button {
   width: 27px;
   height: 32px;
   line-height: 1.19;
+  left: -27px;
   letter-spacing: normal;
   text-align: left;
-  color: #ffe200;
   background: url("/img/icons/question-button.svg");
+  background-size: cover;
 }
 .personal__btn {
   margin: auto;
@@ -2651,7 +2661,7 @@ button {
   }
   .page-header-title {
     font-size: 24px;
-    font-family: "Panton", "Arial", sans-serif;
+    font-family: "Panton", sans-serif;
     font-weight: 900;
     font-style: italic;
   }
