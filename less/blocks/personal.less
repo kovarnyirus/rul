@@ -1,6 +1,14 @@
 .personal {
-  padding-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 86px;
+  margin-bottom: 65px;
+}
+
+.personal-aside {
+  & h3 {
+    margin-top: 35px;
+    line-height: 1.3;
+    font-size: 27px;
+  }
 }
 
 .personal-aside__wrapper {
@@ -8,24 +16,25 @@
   margin-top: -30px;
   padding-top: 1px;
   padding-left: 30px;
-  padding-right: 25px;
-  margin-left: -15px;
-  margin-right: -15px;
+  padding-right: 30px;
+
   border-radius: 5px;
 }
 
 .personal-aside__list {
-  padding-top: 30px;
+  padding-top: 22px;
 }
 
 .personal-aside___item {
+  padding-left: 35px;
   padding-bottom: 15px;
   font-weight: normal;
   &:before {
-    width: 27px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     line-height: 1.19;
-    left: -27px;
+    top: 2px;
+    left: 0;
     letter-spacing: normal;
     text-align: left;
     background: url("/img/icons/question-button.svg");
@@ -33,20 +42,21 @@
   }
 }
 
-.personal__btn{
+.personal__btn {
   margin: auto;
-  margin-top: 15px;
+  margin-top: 25px;
   display: block;
 
 }
-.personal__phone{
+
+.personal__phone {
   margin-top: 15px;
   display: inline-block;
   margin-left: 80px;
 }
 
 @media @tablet-widths-min and @tablet-widths-max {
-  .personal__phone{
+  .personal__phone {
     display: none;
   }
 }

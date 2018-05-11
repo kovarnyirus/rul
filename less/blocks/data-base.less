@@ -1,14 +1,16 @@
-.data-base{
-  padding-top: 60px;
+.data-base {
+  padding-top: 67px;
   padding-bottom: 90px;
 }
-.data-base__lock{
+
+.data-base__lock {
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.7);
   display: block;
   margin: auto;
+  margin-top: -25px;
 }
 
-.data-base__number{
+.data-base__number {
   font-family: @exo;
   font-size: 106px;
   font-weight: bold;
@@ -17,51 +19,66 @@
   text-align: center;
   color: #0d0d0d;
 }
-.data-base__description{
+
+.data-base__description {
   text-align: center;
   padding-top: 15px;
 }
+
+.data-base__btn {
+  margin-left: 210px;
+  margin-right: 45px;
+  padding-left: 30px;
+  padding-right: 25px;
+}
+
 @media @mobile-widths-only {
-  .data-base{
+  .data-base {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0;
   }
-  .data-base__number{
+
+  .data-base__number {
     font-size: 70px;
   }
-  .data-base__description{
+
+  .data-base__description {
     font-size: 12px;
     margin-bottom: 20px;
   }
-  .data-base__item{
-    &:nth-child(2n){
+
+  .data-base__item {
+    &:nth-child(2n) {
       padding-left: 5px;
     }
-    &:nth-child(2n-1){
+    &:nth-child(2n-1) {
       padding-right: 5px;
     }
   }
 }
 
 @media @tablet-widths-min and @tablet-widths-max {
-  .data-base{
+  .data-base {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 0;
   }
-  .data-base__number{
+
+  .data-base__number {
     font-size: 70px;
   }
-  .data-base__description{
+
+  .data-base__description {
     font-size: 12px;
     margin-bottom: 20px;
   }
-  .data-base__item{
-    &:nth-child(2n){
+
+  .data-base__item {
+    &:nth-child(2n) {
       padding-left: 5px;
     }
-    &:nth-child(2n-1){
+    &:nth-child(2n-1) {
       padding-right: 5px;
     }
   }

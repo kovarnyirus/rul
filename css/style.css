@@ -1,3 +1,63 @@
+@font-face {
+  font-family: 'rouble';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/rouble.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Exo-2 Medium "), local("Exo2-Medium"), url("/fonts/ttf/Exo2-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Exo-2 Medium Italic"), local("Exo2-Medium-Italic"), url("/fonts/ttf/Exo2-MediumItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Exo-2"), local("Exo2"), url("/fonts/Exo2.0-Regular.otf?") format("opentype"), url("/fonts/ttf/Exo2-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Exo-2"), local("Exo2"), url("/fonts/Exo2.0-Italic.otf?") format("opentype"), url("/fonts/ttf/Exo2-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Exo-2 Bold"), local("Exo2-Bold"), url("/fonts/Exo2.0-Bold.otf?") format("opentype"), url("/fonts/ttf/Exo2-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Exo-2 Bold Italic"), local("Exo2-Bold-Italic"), url("/fonts/ttf/Exo2-BoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: normal;
+  font-weight: 900;
+  src: local("Exo-2 Black "), local("Exo2-Black"), url("/fonts/ttf/Exo2-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Exo 2';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Exo-2 Black Italic"), local("Exo2-Medium-Italic"), url("/fonts/ttf/Exo2-BlackItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Panton';
+  font-style: italic;
+  font-weight: 900;
+  src: local("Panton Black Italic"), local("Panton-Black-Italic"), url("/fonts/Panton-BlackItalic.otf?") format("opentype");
+}
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -417,68 +477,8 @@ template {
   display: table;
   clear: both;
 }
-@font-face {
-  font-family: 'rouble';
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/rouble.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Exo-2';
-  font-style: normal;
-  font-weight: 400;
-  src: url("/fonts/Exo2.0-Regular.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Exo-2';
-  font-style: italic;
-  font-weight: 400;
-  src: url("/fonts/Exo2.0-Italic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Italic.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Exo-2';
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/Exo2.0-Bold.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Bold.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Exo-2';
-  font-style: italic;
-  font-weight: 700;
-  src: url("/fonts/Exo2.0-BoldItalic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-BoldItalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Exo-2';
-  font-style: italic;
-  font-weight: 300;
-  src: url("/fonts/Exo2.0-MediumItalic.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-MediumItalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Exo-2';
-  font-style: normal;
-  font-weight: 300;
-  src: url("/fonts/Exo2.0-Medium.otf?") format("embedded-opentype"), url("/fonts/ttf/Exo2-Medium.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Exo-2';
-  font-style: italic;
-  font-weight: 900;
-  src: url("/fonts/ttf/Exo2-BlackItalic.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Exo-2';
-  font-style: normal;
-  font-weight: 900;
-  src: url("/fonts/ttf/Exo2-Black.ttf") format("truetype");
-}
-@font-face {
-  font-family: 'Panton';
-  font-style: italic;
-  font-weight: 900;
-  src: local("Panton Black Italic"), url("/fonts/Panton-BlackItalic.otf?") format("embedded-opentype");
-}
 body {
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   background-color: #fff;
   color: #0d0d0d;
   line-height: 1.5;
@@ -492,15 +492,16 @@ h1 {
   font-style: italic;
 }
 h2 {
-  font-size: 50px;
+  font-size: 49px;
   line-height: 51px;
   color: #000000;
   font-weight: 900;
   font-style: italic;
   margin: 0;
+  font-family: "Exo 2", sans-serif;
 }
 h3 {
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 31px;
   font-weight: bold;
   font-style: italic;
@@ -610,9 +611,37 @@ p {
 .mr-15 {
   margin-right: 15px;
 }
+.pt-20 {
+  padding-top: 20px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pl-20 {
+  padding-left: 20px;
+}
+.pr-20 {
+  padding-right: 20px;
+}
+.pt-10 {
+  padding-top: 10px;
+}
+.pb-10 {
+  padding-bottom: 10px;
+}
+.pl-10 {
+  padding-left: 10px;
+}
+.pr-10 {
+  padding-right: 10px;
+}
 .left-square {
   position: relative;
   padding-left: 30px;
+}
+.left-square--personal {
+  margin-top: 46px;
+  margin-left: 5px;
 }
 .left-square:before {
   position: absolute;
@@ -630,6 +659,28 @@ p {
 }
 .subtitle--bold {
   font-weight: bold;
+}
+.login-wrapper {
+  text-align: center;
+}
+.login-link {
+  text-align: center;
+  color: #0D0D0D;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
+.icon-thorns {
+  position: relative;
+}
+.icon-thorns:before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 36px;
+  height: 29px;
+  background-image: url("/img/icons/thorns.svg");
+  background-size: cover;
 }
 .bottom-line {
   position: relative;
@@ -654,7 +705,8 @@ p {
   width: 389.5px;
 }
 .bottom-line--big-number:before {
-  left: 15px;
+  left: 55px;
+  bottom: 4px;
 }
 button {
   font-size: 20px;
@@ -682,6 +734,7 @@ button {
   font-size: 24px;
   padding-left: 18px;
   padding-bottom: 15px;
+  font-weight: bold;
 }
 .phone-number:before {
   position: absolute;
@@ -723,6 +776,7 @@ button {
   font-weight: 900;
   font-style: italic;
   line-height: 1;
+  text-align: center;
 }
 .grey-text {
   font-family: 'Arial', sans-serif;
@@ -772,6 +826,7 @@ button {
   font-family: "Panton", sans-serif;
   font-weight: 900;
   font-style: italic;
+  padding-top: 5px;
 }
 .page-header__logo {
   width: 30%;
@@ -787,7 +842,7 @@ button {
       justify-content: space-between;
 }
 .page-header__intro {
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   padding-top: 45px;
 }
 .page-header__title-wrapper {
@@ -823,12 +878,12 @@ button {
   font-style: italic;
   line-height: 1.2;
   color: #fff;
-  padding-top: 30px;
+  padding-top: 26px;
   width: 82%;
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 .page-header__description {
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 25px;
   font-weight: 300;
   font-style: italic;
@@ -843,7 +898,7 @@ button {
   padding-bottom: 20px;
 }
 .page-header-bottom__item {
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
   font-style: italic;
   position: relative;
@@ -989,12 +1044,13 @@ button {
   display: inline-block;
   position: relative;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 900;
   font-size: 165px;
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
+  line-height: 220px;
 }
 .total-earnings__numbets:before {
-  bottom: 13px;
+  bottom: 20px;
   left: 0;
   content: '';
   position: absolute;
@@ -1010,6 +1066,7 @@ button {
   font-size: 24px;
   line-height: 1.29;
   color: #0d0d0d;
+  padding-top: 10px;
 }
 .total-earnings__wrapper {
   max-width: 917px;
@@ -1019,42 +1076,44 @@ button {
   font-size: 89px;
 }
 .format {
-  padding-top: 130px;
+  padding-top: 135px;
 }
 .format-number {
   font-size: 198px;
   font-weight: 900;
   font-style: italic;
-  line-height: 1;
+  line-height: 188px;
   text-align: left;
+  font-family: "Exo 2", sans-serif;
   color: #ffe200;
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.7);
   margin-top: -30px;
 }
 .format-number-subtitle {
-  font-family: Arial;
+  font-family: 'Arial', sans-serif;
   font-size: 27px;
   font-style: italic;
   line-height: 1;
   color: #0d0d0d;
+  text-align: center;
+  padding-top: 15px;
 }
 .format__list {
   padding-top: 36px;
 }
 .format-item__titel {
   font-size: 25px;
-  font-weight: 800;
   font-style: italic;
   line-height: 1.76;
   text-align: center;
   color: #0d0d0d;
 }
 .format-item__subtitle {
-  font-family: Arial;
+  font-family: 'Arial', sans-serif;
   font-size: 16px;
-  text-align: center;
   padding-bottom: 15px;
   line-height: 1.2;
+  text-align: center;
 }
 .format-item__cost {
   padding-top: 27px;
@@ -1086,7 +1145,7 @@ button {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 .chains-stores {
-  padding-top: 191px;
+  padding-top: 188px;
   position: relative;
 }
 .chains-stores:before {
@@ -1097,20 +1156,21 @@ button {
   top: 91px;
   left: 3%;
   background-color: #EFEFEF;
-  height: 66%;
+  height: 63%;
   border-radius: 5px;
 }
 .chains-stores__top {
   padding-bottom: 30px;
 }
 .chains-stores__opening {
-  padding-top: 20px;
-  font-family: Arial;
+  padding-top: 22px;
+  font-family: 'Arial', sans-serif;
   font-size: 22px;
   font-style: italic;
   line-height: 1.32;
   text-align: center;
-  padding-right: 80px;
+  width: 80%;
+  margin: auto;
 }
 .chains-stores__video {
   position: relative;
@@ -1158,12 +1218,12 @@ button {
   background-color: #EFEFEF;
   border-radius: 3px;
 }
-.qote__subtitle {
+.essence__qote-subtitle {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   font-style: italic;
   color: #868686;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-left: 20px;
 }
 .essence__video {
@@ -1172,8 +1232,8 @@ button {
 .essence__video-lint {
   position: absolute;
   display: block;
-  bottom: 50px;
-  left: 220px;
+  bottom: 64px;
+  left: 210px;
   width: 300px;
   font-size: 18px;
   font-weight: bold;
@@ -1207,7 +1267,7 @@ button {
   top: -25px;
 }
 .essence__name-description {
-  padding-top: 10px;
+  padding-top: 2px;
 }
 .essence__name-social-link {
   position: absolute;
@@ -1223,7 +1283,8 @@ button {
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
-  padding-top: 3px;
+  padding-top: 9px;
+  width: 96%;
 }
 .essence__list {
   padding-top: 15px;
@@ -1246,8 +1307,10 @@ button {
   content: '';
   display: block;
 }
-.essence__buttn {
-  padding: 9px 63px;
+.essence__btn {
+  padding: 7px 63px;
+  font-weight: 900;
+  font-family: "Exo 2", sans-serif;
 }
 .sell {
   padding-top: 50px;
@@ -1260,19 +1323,22 @@ button {
   border-radius: 5px;
 }
 .sell__numder {
+  padding-top: 15px;
   font-size: 200px;
   font-weight: 900;
   line-height: 1;
   text-align: center;
+  margin-bottom: 18px;
 }
 .sell__numder span {
   font-size: 60px;
   margin-left: -20px;
+  line-height: 1;
 }
 .sell__numder-subtitle {
   font-size: 16px;
   font-weight: 800;
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
 }
 .sell__title {
   padding-top: 30px;
@@ -1349,8 +1415,8 @@ button {
   text-align: center;
 }
 .proposal {
-  padding-top: 35px;
-  padding-bottom: 55px;
+  padding-top: 29px;
+  padding-bottom: 60px;
   text-align: center;
   border-top: 1px solid #95989A;
   border-bottom: 1px solid #95989A;
@@ -1365,7 +1431,7 @@ button {
   width: 80%;
   margin: auto;
   display: block;
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 25px;
   font-weight: 500;
   font-style: italic;
@@ -1387,9 +1453,12 @@ button {
   display: block;
   color: #fff;
   font-style: italic;
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: bold;
   font-size: 18px;
+}
+.get__word-success {
+  padding-top: 20px;
 }
 .get-asside__yellow {
   margin-top: 117px;
@@ -1467,15 +1536,15 @@ button {
 .installation:before {
   background: url("/img/installation-block/installation-bg.jpg");
   position: absolute;
-  width: 80%;
+  width: 94%;
   top: 0px;
   bottom: 0;
   content: '';
   display: block;
   z-index: -2;
-  left: 10%;
-  right: 10%;
-  border-radius: 5px;
+  left: 3%;
+  right: 3%;
+  border-radius: 10px;
 }
 .installation-top {
   padding-bottom: 110px;
@@ -1483,17 +1552,17 @@ button {
 .installation-top__left-col {
   padding-right: 50px;
   position: relative;
+  padding-bottom: 55px;
 }
 .installation-top__left-col:before {
   position: absolute;
   display: block;
   content: '';
   width: 2000px;
-  height: 128%;
   z-index: -1;
   right: 60px;
   top: 0;
-  bottom: -51px;
+  bottom: 0;
   border-radius: 5px;
   background-color: #FFE200;
 }
@@ -1502,26 +1571,48 @@ button {
   display: block;
   content: '';
   right: 24px;
-  height: 125%;
-  top: 3px;
+  top: 0;
+  bottom: 0;
+  height: 100%;
   width: 40px;
   background-image: url("/img/right-triangle.png");
   background-size: cover;
 }
 .installation-top__left-col h3 {
-  max-width: 600px;
+  max-width: 660px;
+  padding-left: 30px;
+  padding-top: 10px;
 }
 .installation-top__right-col h3 {
   color: #fff;
 }
 .installation-bottom {
-  padding-bottom: 80px;
+  padding-bottom: 35px;
 }
 .installation-bottom h4 {
   color: #fff;
+  text-align: center;
+  width: 80%;
+  padding-bottom: 20px;
+  min-height: 92px;
+  position: relative;
+}
+.installation-bottom h4:before {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 9%;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 .installation__list {
   color: #fff;
+  padding-top: 14px;
+  padding-left: 15px;
+}
+.installation__item {
+  padding-bottom: 0;
 }
 .installation__item:before {
   background-color: #fff;
@@ -1530,22 +1621,28 @@ button {
   top: 10px;
 }
 .technologies {
-  margin-top: 80px;
-  padding-bottom: 80px;
+  margin-top: 85px;
+  padding-bottom: 65px;
+}
+.technologies h3 {
+  margin-top: 35px;
 }
 .technologies-aside__title {
-  font-size: 27px;
   font-weight: 900;
   font-style: italic;
   line-height: 2.41;
   text-align: right;
   color: rgba(13, 13, 13, 0.9);
+  font-family: 'Panton', sans-serif;
+  font-size: 28px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .technologies-aside__subtitle {
   border-radius: 5px;
   background-color: #efefef;
   padding: 20px 50px 20px 19px;
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 20px;
   font-weight: 800;
   font-style: italic;
@@ -1568,7 +1665,7 @@ button {
   padding-top: 15px;
 }
 .technologies__screen-link-description {
-  padding-left: 15px;
+  padding-left: 18px;
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   font-weight: bold;
@@ -1585,10 +1682,10 @@ button {
   text-align: left;
 }
 .technologies__bottom {
-  padding-top: 60px;
+  padding-top: 30px;
 }
 .technolodies__bottom-item {
-  margin-bottom: 30px;
+  margin-bottom: 36px;
 }
 .technologies__bottom-title {
   margin-bottom: 0;
@@ -1599,21 +1696,21 @@ button {
   text-align: left;
 }
 .technologies__bottom-description {
-  padding-top: 10px;
+  padding-top: 5px;
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   text-align: left;
 }
 .presentation {
-  padding-bottom: 80px;
-  padding-top: 80px;
+  padding-bottom: 88px;
+  padding-top: 95px;
   position: relative;
 }
 .presentation:before {
   position: absolute;
-  left: 10%;
-  right: 10%;
+  left: 3%;
+  right: 3%;
   top: 0;
   bottom: 0;
   background-color: #EFEFEF;
@@ -1621,7 +1718,7 @@ button {
   border-radius: 5px;
 }
 .presentation__list {
-  padding-top: 50px;
+  padding-top: 55px;
 }
 .presentation__img {
   opacity: .4;
@@ -1633,41 +1730,48 @@ button {
   position: absolute;
   content: '';
   width: 23px;
-  height: 36px;
+  height: 25px;
   left: 50%;
   top: 50%;
   background: url("/img/icons/lock.svg");
   transform: translate(-50%, -50%);
+  background-size: cover;
 }
 .presentation__condition {
-  padding-top: 15px;
+  padding-top: 3px;
+  margin-left: 22px;
 }
 .personal {
-  padding-top: 80px;
-  margin-bottom: 80px;
+  padding-top: 86px;
+  margin-bottom: 65px;
+}
+.personal-aside h3 {
+  margin-top: 35px;
+  line-height: 1.3;
+  font-size: 27px;
 }
 .personal-aside__wrapper {
   background-color: #fafafa;
   margin-top: -30px;
   padding-top: 1px;
   padding-left: 30px;
-  padding-right: 25px;
-  margin-left: -15px;
-  margin-right: -15px;
+  padding-right: 30px;
   border-radius: 5px;
 }
 .personal-aside__list {
-  padding-top: 30px;
+  padding-top: 22px;
 }
 .personal-aside___item {
+  padding-left: 35px;
   padding-bottom: 15px;
   font-weight: normal;
 }
 .personal-aside___item:before {
-  width: 27px;
-  height: 32px;
+  width: 30px;
+  height: 30px;
   line-height: 1.19;
-  left: -27px;
+  top: 2px;
+  left: 0;
   letter-spacing: normal;
   text-align: left;
   background: url("/img/icons/question-button.svg");
@@ -1675,7 +1779,7 @@ button {
 }
 .personal__btn {
   margin: auto;
-  margin-top: 15px;
+  margin-top: 25px;
   display: block;
 }
 .personal__phone {
@@ -1684,16 +1788,17 @@ button {
   margin-left: 80px;
 }
 .data-base {
-  padding-top: 60px;
+  padding-top: 67px;
   padding-bottom: 90px;
 }
 .data-base__lock {
   text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.7);
   display: block;
   margin: auto;
+  margin-top: -25px;
 }
 .data-base__number {
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-size: 106px;
   font-weight: bold;
   font-style: italic;
@@ -1705,21 +1810,29 @@ button {
   text-align: center;
   padding-top: 15px;
 }
+.data-base__btn {
+  margin-left: 210px;
+  margin-right: 45px;
+  padding-left: 30px;
+  padding-right: 25px;
+}
 .audience {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-top: 72px;
+  padding-bottom: 45px;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
   background-color: #EFEFEF;
   position: relative;
+  border-radius: 5px;
 }
 .audience:before {
   position: absolute;
   display: block;
   content: 'А вот, как мы с ней работаем!';
-  bottom: -36px;
-  right: 350px;
+  font-style: italic;
+  bottom: -46px;
+  right: 290px;
   color: #0D0D0D;
   font-size: 16px;
 }
@@ -1727,12 +1840,12 @@ button {
   position: absolute;
   display: block;
   content: '';
-  bottom: -130px;
-  right: 510px;
+  bottom: -177px;
+  right: 460px;
   background-image: url("/img/icons/bottom-row.svg");
   background-size: cover;
-  width: 97px;
-  height: 80px;
+  width: 140px;
+  height: 130px;
 }
 .audience img {
   display: block;
@@ -1741,23 +1854,33 @@ button {
 }
 .audience__title {
   margin: 0;
+  font-size: 38px;
+  font-weight: normal;
+  line-height: 1;
 }
 .marketing {
-  margin-top: 100px;
+  margin-top: 123px;
   margin-bottom: 100px;
 }
+.marketing p {
+  padding-top: 0;
+  width: 84%;
+}
 .marketing__img-wrapper {
-  min-height: 225px;
+  min-height: 213px;
   margin-top: 30px;
 }
 .marketing__img-wrapper img {
   margin-left: 30px;
 }
+.plan {
+  padding-top: 10px;
+}
 .plan__top-wrapper {
   text-align: center;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
   background-color: #FFE200;
   border-radius: 5px;
   padding-top: 80px;
@@ -1779,14 +1902,14 @@ button {
   font-size: 83px;
   font-weight: 900;
   font-style: italic;
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   line-height: 1;
 }
 .plan__subtitle {
-  margin-top: 19px;
+  margin-top: 10px;
   font-size: 30px;
   line-height: 1.5;
-  font-family: "Exo-2", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 900;
   font-style: italic;
   margin-bottom: 100px;
@@ -1798,27 +1921,30 @@ button {
   position: relative;
 }
 .promotion {
-  margin-top: 30px;
+  margin-top: 40px;
 }
 .promotion h4 {
-  margin-top: 30px;
+  margin-top: 37px;
   margin-bottom: 0;
   font-size: 20px;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
 }
 .promotion p {
-  padding-top: 5px;
+  padding-top: 1px;
   font-size: 16px;
 }
 .control {
-  margin-top: 60px;
+  margin-top: 80px;
+}
+.control h3 {
+  width: 80%;
 }
 .profit {
-  padding-top: 90px;
+  padding-top: 104px;
 }
 .profit__list {
-  padding-top: 15px;
+  padding-top: 22px;
   padding-left: 30px;
 }
 .profit__item {
@@ -1826,6 +1952,7 @@ button {
   font-weight: normal;
   font-family: 'Arial', sans-serif;
   padding-left: 0;
+  padding-bottom: 0;
 }
 .profit__item span {
   font-size: 10px;
@@ -1834,19 +1961,19 @@ button {
   display: none;
 }
 .plan__link {
-  margin-top: 15px;
+  margin-top: 22px;
   display: inline-block;
   border-bottom: 1px solid #C7C7C7;
   color: #0D0D0D;
 }
 .appeal {
-  padding-top: 80px;
+  padding-top: 35px;
   padding-bottom: 80px;
   background: url("/img/appeal/appeal-bg.jpg");
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 80px;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 92px;
   text-align: center;
   border-radius: 5px;
 }
@@ -1854,43 +1981,52 @@ button {
   text-align: center;
   font-size: 50px;
   line-height: 1;
-  font-weight: bold;
   font-style: italic;
   color: #fff;
   padding-bottom: 60px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 .appeal__subtitle {
-  margin-top: 150px;
+  margin-top: 125px;
   color: #fff;
   font-size: 31px;
   line-height: 1;
   font-style: italic;
 }
 .form {
-  margin-top: 90px;
+  margin-top: 70px;
 }
 .form-group {
   border-radius: 5px;
 }
 .form-control {
-  padding: 16px 30px;
+  padding: 11px 30px;
 }
 .form-control input {
   color: #4A4A4A;
   font-size: 16px;
   font-family: 'Arial', sans-serif;
 }
+.form-group {
+  margin-bottom: 20px;
+}
 .form__description {
   margin-top: 90px;
   text-align: center;
 }
+.form-btn {
+  width: 100%;
+}
 .slogan {
   text-align: center;
-  margin-top: 90px;
+  margin-top: 112px;
   font-size: 80px;
   font-weight: 900;
   font-style: italic;
-  margin-bottom: 100px;
+  margin-bottom: 145px;
+  text-transform: uppercase;
+  font-family: 'Panton', sans-serif;
 }
 .form-btn {
   margin: auto;
@@ -1898,14 +2034,15 @@ button {
   margin-top: 15px;
 }
 .page-footer {
-  margin-top: 100px;
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
   bottom: 0;
   top: 0;
   background-color: #EFEFEF;
-  padding: 70px 0;
+  padding: 68px 0;
   border-radius: 5px;
   color: #4A4A4A;
   font-size: 16px;
@@ -1913,6 +2050,9 @@ button {
 .page-footer a {
   color: #4A4A4A;
   border-bottom: 1px solid #3c3c3c;
+}
+.page-footer__development {
+  padding-left: 52px;
 }
 .popup-close {
   position: relative;
@@ -1989,14 +2129,14 @@ button {
     height: 90%;
   }
   h2 {
-    font-family: "Exo-2", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 19px;
     font-weight: 900;
     font-style: italic;
     line-height: 1;
   }
   h3 {
-    font-family: "Exo-2", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 19px;
     font-weight: bold;
     font-style: italic;
@@ -2489,11 +2629,10 @@ button {
     top: 50px;
     bottom: 0;
     content: '';
-    left: 5%;
-    width: 90%;
+    left: 3%;
+    width: 94%;
     background-color: #efefef;
     border-radius: 5px;
-    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16);
     z-index: -1;
   }
   .sell-footer {
@@ -2513,13 +2652,14 @@ button {
     background-color: #f5f5f5;
   }
   .sell__right-col {
-    padding-left: 60px;
+    padding-left: 48px;
+  }
+  .sell__right-col .subtitle {
+    padding-top: 22px;
   }
   .sell-footer__list {
-    padding-top: 0;
-  }
-  .sell-footer__list {
-    padding-left: 60px;
+    padding-left: 55px;
+    padding-top: 25px;
   }
   .sell-footer-item {
     padding-top: 5px;
@@ -2534,19 +2674,31 @@ button {
     text-align: center;
   }
   .sell-footer-item__descriptoin {
-    font-size: 16px;
+    font-size: 15px;
+    padding-top: 20px;
+  }
+  .sell-footer__title {
+    padding-top: 45px;
+    font-family: "Exo 2", sans-serif;
+    font-size: 20px;
+  }
+  .sell-footer__site {
+    padding-top: 28px;
+    font-family: "Exo 2", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
   }
 }
 @media (max-width: 767px) {
   h2 {
-    font-family: "Exo-2", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 19px;
     font-weight: 900;
     font-style: italic;
     line-height: 1;
   }
   h3 {
-    font-family: "Exo-2", sans-serif;
+    font-family: "Exo 2", sans-serif;
     font-size: 19px;
     font-weight: bold;
     font-style: italic;
