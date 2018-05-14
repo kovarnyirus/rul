@@ -1,6 +1,5 @@
 .plan{
   padding-top: 10px;
-
 }
 
 .plan__top-wrapper {
@@ -14,7 +13,19 @@
   padding-top: 80px;
   padding-bottom: 30px;
   margin-bottom: 50px;
-  z-index: 1;
+  &:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 250px;
+    bottom: -245px;
+    left: 0;
+    display: block;
+    background-image: url("/img/icons/yellow-borrom-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 0px;
+  }
 }
 
 .plan-btn {
@@ -49,16 +60,9 @@
 
 .plan__bottom-img {
   z-index: -15;
-  margin-top: -30px;
+  margin-top: -39px;
   margin-bottom: -450px;
   position: relative;
-}
-.plan-bottom-bg{
-  position: absolute;
-  width: 100%;
-  left: 0;
-  z-index: 2;
-  bottom: -47px;
 }
 
 @media @mobile-widths-only {

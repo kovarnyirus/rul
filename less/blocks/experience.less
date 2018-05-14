@@ -39,7 +39,24 @@
   padding-left: 35px;
 }
 
-@media @tablet-widths-min and @tablet-widths-max{
+@media @mobile-widths-only {
+  .experience{
+    padding-top: 8px;
+  }
+  .experience__number {
+    display: none;
+  }
+
+  .experience__text {
+    display: none;
+  }
+
+  .experience__phone-wrapper {
+    display: none;
+  }
+}
+
+@media @tablet-widths-min and @tablet-widths-max {
   .experience__number {
     display: none;
   }

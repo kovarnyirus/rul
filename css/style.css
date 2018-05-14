@@ -722,6 +722,19 @@ button {
   border-radius: 5px;
   cursor: pointer;
 }
+button:hover {
+  background-color: #FFEE6C;
+}
+button:active {
+  position: relative;
+  top: 2px;
+  box-shadow: 0 1px 0 0 #a87e00;
+  outline: none;
+}
+button:focus {
+  outline: 0;
+  outline-offset: 0;
+}
 .btn-white {
   background-color: #fff;
   box-shadow: none;
@@ -739,7 +752,7 @@ button {
 .phone-number:before {
   position: absolute;
   content: '';
-  left: -15px;
+  left: -20px;
   top: 13px;
   display: block;
   width: 33px;
@@ -749,7 +762,7 @@ button {
 }
 .phone-number:after {
   position: absolute;
-  left: 18px;
+  left: 15px;
   font-weight: normal;
   font-style: italic;
   content: 'Или позвоните основателю';
@@ -922,8 +935,12 @@ button {
   background-color: #c30404;
   border-radius: 30px;
   display: block;
+  padding-bottom: 5px;
   width: 133px;
   margin-top: 10px;
+  font-size: 16px;
+  font-family: "Exo 2", sans-serif;
+  vertical-align: middle;
 }
 .fixed {
   position: fixed;
@@ -957,7 +974,7 @@ button {
 .main-nav__link {
   font-weight: bold;
   color: #fff;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   font-size: 14px;
   font-family: Arial;
   padding: 0;
@@ -1112,7 +1129,7 @@ button {
   font-family: 'Arial', sans-serif;
   font-size: 16px;
   padding-bottom: 15px;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
 }
 .format-item__cost {
@@ -1198,6 +1215,14 @@ button {
   background-image: url("/img/icons/youtube.svg");
   background-size: cover;
   height: 68px;
+}
+.chains-stores-slider__description {
+  font-size: 14px;
+  text-align: center;
+}
+.chains-stores-slider__year {
+  padding-top: 15px;
+  text-align: center;
 }
 .icons-row {
   padding-top: 78px;
@@ -1593,6 +1618,8 @@ button {
   color: #fff;
   text-align: center;
   width: 80%;
+  margin: 0 auto;
+  font-style: italic;
   padding-bottom: 20px;
   min-height: 92px;
   position: relative;
@@ -1887,7 +1914,19 @@ button {
   padding-top: 80px;
   padding-bottom: 30px;
   margin-bottom: 50px;
-  z-index: 1;
+}
+.plan__top-wrapper:before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 250px;
+  bottom: -245px;
+  left: 0;
+  display: block;
+  background-image: url("/img/icons/yellow-borrom-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 0px 0px;
 }
 .plan-btn {
   margin: auto;
@@ -1917,16 +1956,9 @@ button {
 }
 .plan__bottom-img {
   z-index: -15;
-  margin-top: -30px;
+  margin-top: -39px;
   margin-bottom: -450px;
   position: relative;
-}
-.plan-bottom-bg {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  z-index: 2;
-  bottom: -47px;
 }
 .promotion {
   margin-top: 40px;
@@ -1984,6 +2016,13 @@ button {
   margin-top: 92px;
   text-align: center;
   border-radius: 5px;
+  position: relative;
+}
+.appeal-bottom-bg {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
 }
 .appeal__title {
   text-align: center;
@@ -2001,6 +2040,40 @@ button {
   font-size: 31px;
   line-height: 1;
   font-style: italic;
+}
+.appeal-arrow-down:before {
+  position: absolute;
+  transform: translate(-29px, 8px) rotate(15deg);
+  left: 47%;
+  content: '';
+  bottom: -35px;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+  transition: transform 250ms ease;
+}
+.appeal-arrow-down:after {
+  position: absolute;
+  transform: translate(29px, 8px) rotate(-15deg);
+  content: '';
+  left: 47%;
+  bottom: -35px;
+  width: 60px;
+  height: 1px;
+  background-color: #fff;
+  transition: transform 250ms ease;
+}
+.modal-header {
+  padding-left: 50px;
+}
+.modal-header h3 {
+  margin-top: 0;
+}
+.modal-body {
+  padding-top: 0!important;
+}
+.modal-body p {
+  padding-bottom: 20px;
 }
 .form {
   margin-top: 70px;
@@ -2642,6 +2715,7 @@ button {
     background-color: #efefef;
     border-radius: 5px;
     z-index: -1;
+    box-shadow: 0 10px 50px -20px rgba(0, 0, 0, 0.56);
   }
   .sell-footer {
     margin-top: 20px;
@@ -2675,9 +2749,6 @@ button {
     padding-left: 0;
     padding-right: 0;
   }
-  .page-header__action {
-    display: none;
-  }
   .sell__numder-subtitle {
     text-align: center;
   }
@@ -2694,7 +2765,6 @@ button {
     padding-top: 28px;
     font-family: "Exo 2", sans-serif;
     font-weight: 300;
-    letter-spacing: 1px;
   }
 }
 @media (max-width: 767px) {
@@ -2731,6 +2801,18 @@ button {
     text-align: left;
     color: #0d0d0d;
     padding-top: 15px;
+  }
+  .pt-sm-0 {
+    padding-top: 0;
+  }
+  .pb-sm-0 {
+    padding: 0;
+  }
+  .pl-sm-0 {
+    padding-left: 0;
+  }
+  .pr-sm-0 {
+    padding-right: 0;
   }
   .pt-sm-30 {
     padding-top: 30px;
@@ -2793,6 +2875,14 @@ button {
   .bottom-line--big-number:before {
     width: 187px;
     left: 30px;
+    height: 4px;
+    border-radius: 10px;
+  }
+  .bottom-line--header {
+    padding-bottom: 12px;
+  }
+  .bottom-line--header:before {
+    width: 80px;
   }
   .subtitle {
     padding-top: 15px;
@@ -2807,6 +2897,8 @@ button {
     font-size: 87px;
     text-align: center;
     padding-left: 10px;
+    padding-top: 13px;
+    padding-bottom: 25px;
   }
   .sm-text-black {
     color: #0d0d0d;
@@ -2825,22 +2917,29 @@ button {
     width: 14px;
     height: 14px;
   }
+  .page-header {
+    padding-top: 20px;
+    border-radius: 3px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .page-header__intro {
+    padding-top: 20px;
+  }
+  .page-header__logo {
+    padding-left: 5px;
+    width: 47%;
+  }
   .page-header-title {
     font-size: 23px;
   }
   .page-header__top-phone {
     display: none;
   }
-  .page-header {
-    padding-top: 30px;
-    border-radius: 5px;
-  }
-  .page-header__logo {
-    width: 80%;
-  }
-  .page-header {
-    width: 90%;
-    margin: auto;
+  .page-header__title-wrapper {
+    padding-top: 5px;
+    padding-bottom: 7px;
   }
   .page-header-title {
     font-size: 24px;
@@ -2856,14 +2955,20 @@ button {
     font-weight: bold;
     font-style: italic;
     color: #ffffff;
+    padding-top: 12px;
   }
   .page-header__description {
     font-size: 13px;
     padding-top: 19px;
     font-weight: 500;
+    line-height: 1.1;
+  }
+  .page-header-bottom {
+    padding-top: 23px;
   }
   .page-header-bottom__item {
     font-size: 12px;
+    padding-bottom: 8px;
   }
   .page-header-bottom__item:nth-child(2n - 1) {
     border-left: none;
@@ -2875,20 +2980,33 @@ button {
     border: none;
     padding: 0;
     box-shadow: none;
-    width: 20%;
+    width: 10%;
   }
   .navbar-toggler:before {
     content: "";
     position: absolute;
-    right: 14px;
-    top: 17px;
-    width: 20px;
+    right: 5px;
+    top: 5px;
+    width: 15px;
     height: 2px;
     background-color: #fff;
     box-shadow: 0 6px 0 0 #fff, 0 12px 0 0 #fff;
+    border-radius: 10px;
   }
   .main-nav__link {
     text-align: center;
+  }
+  .experience {
+    padding-top: 8px;
+  }
+  .experience__number {
+    display: none;
+  }
+  .experience__text {
+    display: none;
+  }
+  .experience__phone-wrapper {
+    display: none;
   }
   .total-earnings__numbets {
     font-size: 44px;
@@ -2910,30 +3028,66 @@ button {
   }
   .total-earnings__description {
     font-size: 12px;
+    padding-top: 18px;
+    line-height: 1.5;
   }
   .total-earnings__wrapper {
-    padding-top: 30px;
+    padding-top: 27px;
     max-width: 80%;
+  }
+  .total-earnings__numbets {
+    padding-bottom: 16px;
   }
   .format {
     padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
   .format__list {
-    padding-top: 50px;
+    padding-top: 38px;
   }
   .format__list img {
     display: block;
     margin: auto;
   }
+  .format-item {
+    padding-top: 15px;
+  }
   .format-number {
     margin-top: 0;
     text-align: center;
+    font-size: 152px;
+    line-height: 115px;
   }
   .format-number-subtitle {
+    padding-top: 34px;
     text-align: center;
+    font-size: 21px;
+  }
+  .format-item__cost {
+    padding-top: 13px;
+    font-size: 11px;
+  }
+  .format-item__btn {
+    padding-bottom: 10px;
+  }
+  .format__tour {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+  .format-item__titel {
+    width: 50%;
+    margin: auto;
+    font-size: 19px;
+    line-height: 1;
+  }
+  .format-item__subtitle {
+    margin-top: 15px;
+    font-size: 12px;
   }
   .chains-stores {
     padding-top: 80px;
+    padding-bottom: 40px;
   }
   .chains-stores:before {
     top: 50px;
@@ -2942,14 +3096,44 @@ button {
   .chains-stores__opening {
     padding-right: 0;
   }
+  .chains-stores__top {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+  .chains-stores__opening {
+    font-size: 17px;
+  }
+  .chains-stores-slider img {
+    display: block;
+    margin: auto;
+  }
+  .chains-stores-slider__year {
+    font-size: 24px;
+    font-weight: 300;
+  }
+  .chains-stores-slider__description {
+    padding-top: 10px;
+    width: 70%;
+    margin: auto;
+    padding-bottom: 20px;
+    font-size: 12px;
+  }
+  .chains-stores__video {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .essence {
-    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 34px;
   }
   .essence__qote {
+    margin-top: 0;
     font-size: 17px;
-    padding: 15px;
+    padding: 13px;
   }
-  .qote__subtitle {
+  .essence__qote-subtitle {
     padding-top: 10px;
     padding-left: 15px;
     font-size: 11px;
@@ -2961,11 +3145,11 @@ button {
     font-size: 12px;
     left: 38%;
     width: 45%;
-    bottom: 5%;
+    bottom: 7%;
   }
   .essence__name {
     font-size: 22px;
-    margin-top: 15px;
+    margin-top: 8px;
     margin-bottom: 20px;
     margin-left: 45%;
   }
@@ -2973,7 +3157,7 @@ button {
     width: 102px;
     height: 102px;
     left: -70%;
-    top: -30px;
+    top: -22px;
   }
   .essence__name-social-link {
     top: 0px;
@@ -2993,6 +3177,15 @@ button {
     margin: auto;
     margin-top: 15px;
   }
+  .essence__name-description {
+    padding-top: 25px;
+  }
+  .essence__right-col-text {
+    padding-top: 15px;
+  }
+  .essence__btn {
+    margin-top: 35px;
+  }
   .sell {
     padding-left: 0px;
     padding-right: 0px;
@@ -3002,6 +3195,8 @@ button {
     position: relative;
     background-color: #efefef;
     border-radius: 5px;
+    margin-top: 25px;
+    padding-top: 0;
   }
   .sell .container {
     padding-left: 15px;
@@ -3018,21 +3213,32 @@ button {
     width: 90%;
     background-color: #efefef;
     border-radius: 5px;
-    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.16);
     z-index: -1;
+    box-shadow: 0 10px 50px -20px rgba(0, 0, 0, 0.56);
   }
-  .sell .sell__right-col {
+  .sell__title {
+    padding-top: 35px;
+  }
+  .sell__numder {
+    line-height: 0.9;
+    font-size: 190px;
+    margin-bottom: 14px;
+  }
+  .sell__numder-subtitle {
+    line-height: 1.3;
+  }
+  .sell__right-col {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .sell .sell-footer::before {
+  .sell-footer::before {
     display: none;
   }
-  .sell .sell-footer__list {
+  .sell-footer__list {
     padding-left: 15px;
     padding-right: 15px;
   }
-  .sell .sell-footer-item {
+  .sell-footer-item {
     padding-left: 5px;
     padding-right: 5px;
   }
@@ -3052,20 +3258,21 @@ button {
     display: block;
     background-color: #f5f5f5;
   }
-  .sell__right-col {
-    padding-left: 60px;
-  }
   .sell-footer__list {
     padding-top: 0;
-  }
-  .sell-footer__list {
-    padding-left: 60px;
+    margin-top: 70px;
   }
   .sell-footer-item {
     padding-top: 5px;
     width: 16.6%;
     padding-left: 0;
     padding-right: 0;
+  }
+  .sell-footer__site {
+    padding-top: 18px;
+  }
+  .sell-footer-item__descriptoin {
+    padding-top: 12px;
   }
   .care {
     padding-top: 50px;

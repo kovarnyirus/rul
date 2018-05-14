@@ -8,7 +8,14 @@
   margin-top: 92px;
   text-align: center;
   border-radius: 5px;
+  position: relative;
+}
 
+.appeal-bottom-bg {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
 }
 
 .appeal__title {
@@ -28,6 +35,31 @@
   font-size: 31px;
   line-height: 1;
   font-style: italic;
+}
+
+.appeal-arrow-down {
+  &:before{
+    position: absolute;
+    transform: translate(-29px,8px) rotate(15deg);
+    left: 47%;
+    content: '';
+    bottom: -35px;
+    width: 60px;
+    height: 1px;
+    background-color: #fff;
+    transition: transform 250ms ease;
+  }
+  &:after{
+    position: absolute;
+    transform: translate(29px,8px) rotate(-15deg);
+    content: '';
+    left: 47%;
+    bottom: -35px;
+    width: 60px;
+    height: 1px;
+    background-color: #fff;
+    transition: transform 250ms ease;
+  }
 }
 
 @media @mobile-widths-only {
@@ -51,7 +83,7 @@
   }
 }
 
-@media @tablet-widths-min and @tablet-widths-max{
+@media @tablet-widths-min and @tablet-widths-max {
   .appeal {
     margin-top: 50px;
     padding-top: 30px;

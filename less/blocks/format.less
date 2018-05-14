@@ -40,7 +40,7 @@
   font-family: @arial;
   font-size: 16px;
   padding-bottom: 15px;
-  line-height: 1.2;
+  line-height: 1.5;
   text-align: center;
 }
 
@@ -71,7 +71,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   cursor: pointer;
-  & span{
+  & span {
     border-bottom: 1px solid rgba(0, 0, 0, .3);
   }
 }
@@ -79,44 +79,84 @@
 @media @mobile-widths-only {
   .format {
     padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .format__list {
-    padding-top: 50px;
+    padding-top: 38px;
+    & img {
+      display: block;
+      margin: auto;
+    }
   }
 
-  .format__list{
-    & img{
-      display: block;
-      margin: auto;
-    }
+  .format-item{
+    padding-top: 15px;
   }
+
   .format-number {
     margin-top: 0;
     text-align: center;
+    font-size: 152px;
+    line-height: 115px;
   }
-  .format-number-subtitle{
+
+  .format-number-subtitle {
+    padding-top: 34px;
     text-align: center;
+    font-size: 21px;
+  }
+
+  .format-item__cost{
+    padding-top: 13px;
+    font-size: 11px;
+  }
+
+  .format-item__btn{
+    padding-bottom: 10px;
+  }
+
+  .format__tour{
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+
+  .format-item__titel {
+    width: 50%;
+    margin: auto;
+    font-size: 19px;
+    line-height: 1;
+  }
+
+  .format-item__subtitle {
+    margin-top: 15px;
+    font-size: 12px;
   }
 }
-@media @tablet-widths-min and @tablet-widths-max{
-  .format__list{
-    & img{
+
+@media @tablet-widths-min and @tablet-widths-max {
+  .format__list {
+    & img {
       display: block;
       margin: auto;
     }
   }
+
   .format-number {
     margin-top: 0;
     text-align: center;
   }
-  .format-number-subtitle{
+
+  .format-number-subtitle {
     text-align: center;
   }
-  .format-item__subtitle{
+
+  .format-item__subtitle {
     font-size: 15px;
   }
-  .format-item__btn{
+
+  .format-item__btn {
     font-size: 15px;
   }
 }
