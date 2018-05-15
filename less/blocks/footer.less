@@ -1,4 +1,4 @@
-.page-footer{
+.page-footer {
   margin-top: 70px;
   margin-bottom: 30px;
   width: 94%;
@@ -6,19 +6,46 @@
   margin-right: 3%;
   bottom: 0;
   top: 0;
-  background-color:#EFEFEF;
+  background-color: #EFEFEF;
   padding: 68px 0;
   border-radius: 5px;
   color: #4A4A4A;
   font-size: 16px;
-  & a{
+  & a {
     color: #4A4A4A;
     border-bottom: 1px solid #3c3c3c;
-  };
+  }
+;
 }
-.page-footer__development{
+
+.page-footer__development {
   padding-left: 52px;
 }
+
+@media @mobile-widths-only {
+  .page-footer {
+    padding-top: 35px;
+    padding-bottom: 40px;
+  }
+
+  .page-footer__copyright {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .page-footer__privacy {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .page-footer__development{
+    font-size: 12px;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 20px;
+  }
+}
+
 @media @tablet-widths-min and @tablet-widths-max {
   .page-footer {
     margin-top: 50px;
