@@ -3,7 +3,7 @@ $(document).ready(function() {
     infinite: true,
     dots: false,
     arrows: false,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1
   });
 
@@ -112,4 +112,12 @@ function toggleButton(id, target) {
   }
 }
 
+var menuWrapper = document.querySelector('#navbarNav');
+var menuLinks = menuWrapper.querySelectorAll('a');
 
+// document.addEventListener('scroll', onScroll);
+//
+// function onScroll(event){
+//   console.log(window.pageYOffset)
+//   console.log(menuLinks[1].href);
+// }

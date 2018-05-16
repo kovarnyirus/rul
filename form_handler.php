@@ -32,7 +32,7 @@ if (!$errors) {
     $msg .= '</html>'."\n";
 
     if (mail($to, $subject, $msg, $header, '-fno-reply@'.$_SERVER['HTTP_HOST'])) {
-        $output .= '<p class="text-center gr"><strong>Спасибо, '.$name.'! Ваша заявка принята!</strong><br>В ближайшее время с вами свяжется специалист.</p>';
+        $output .= '<p class="text-center pb-4 gr"><strong>Спасибо, '.$name.'! Ваша заявка принята!</strong><br>В ближайшее время с вами свяжется специалист.</p>';
     } else {
         $output = '<p>Произошла ошибка, пожалуйста повторите попытку позже.</p>';
     }
