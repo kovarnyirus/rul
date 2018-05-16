@@ -2,49 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca8ad9b-af13-44ca-875f-99f539da45bd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form_handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/form_handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/appeal/appeal-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/appeal/appeal-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/appeal/appeal-bg@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/brands/mitsu.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/brands/mitsu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/care/care1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/care/care1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/care/care2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/care/care2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/care/care3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/care/care3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chains-stores/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chains-stores/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chains-stores/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chains-stores/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chains-stores/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chains-stores/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/chains-stores/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/chains-stores/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/control/control1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/control/control1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/control/control2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/control/control2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/format/format-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/format/format-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/format/format-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/format/format-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/format/format-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/format/format-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/get-conrt.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/get-conrt.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/get1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/get1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/get2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/get2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/header-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/igor.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/igor.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/installation-block/installation-bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/installation-block/installation-bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/marketing/marketing1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/marketing/marketing1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/marketing/marketing2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/marketing/marketing2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/marketing/marketing3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/marketing/marketing3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/presentation1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/presentation/presentation1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/presentation2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/presentation/presentation2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/presentation3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/presentation/presentation3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/presentation4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/presentation/presentation4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/presentation5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/presentation/presentation5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/presentation6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/presentation/presentation6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/s2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/presentation/s2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/s3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/presentation/s3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promotion/b1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promotion/b1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promotion/b2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promotion/b2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promotion/b3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promotion/b3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promotion/b4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promotion/b4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/promotion/b5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/promotion/b5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/video1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/video1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/video2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/video2.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -179,9 +137,9 @@
       <find>sell-footer__site</find>
       <find>btn</find>
       <find>home</find>
-      <find>ваше имя</find>
+      <find />
       <find>butt</find>
-      <find>phone-number experience__phone</find>
+      <find />
       <find>.phone-number</find>
       <find>стандарт</find>
       <find>мини</find>
@@ -190,15 +148,15 @@
       <find>коротко</find>
       <find>letter</find>
       <find>installation-bottom</find>
-      <find>popup-youtube technologies__screen-link</find>
-      <find>col-12 col-md-6 get__image-warehouse</find>
+      <find />
+      <find />
       <find>button</find>
       <find>toggl</find>
       <find>показать</find>
       <find>смотреть</find>
       <find>#</find>
       <find>plan__li</find>
-      <find>РУЛЬ в Липецке</find>
+      <find />
       <find>$city2</find>
       <find>$formname</find>
       <find>$kp</find>
@@ -209,7 +167,7 @@
       <replace>/</replace>
       <replace>Exo-2</replace>
       <replace>Ваше</replace>
-      <replace>‭8 905 855-05-05</replace>
+      <replace />
       <replace>$name</replace>
     </replaceStrings>
     <dirStrings>
@@ -514,7 +472,7 @@
       <workItem from="1526371880272" duration="18244000" />
       <workItem from="1526452749728" duration="4104000" />
       <workItem from="1526460416692" duration="3598000" />
-      <workItem from="1526464886750" duration="12072000" />
+      <workItem from="1526464886750" duration="13219000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <created>1523974739981</created>
@@ -555,20 +513,20 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="359430000" />
+    <option name="totallyTimeSpent" value="360577000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" weight="0.32928178" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32995495" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2044199" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2044199" />
       <window_info id="npm" order="3" sideWeight="0.26944444" side_tool="true" visible="true" weight="0.14217253" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32842582" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.20340788" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.20340788" />
       <window_info id="Gulp" order="1" sideWeight="0.52934664" side_tool="true" weight="0.08795309" />
       <window_info content_ui="combo" id="Project" order="4" sideWeight="0.73055553" visible="true" weight="0.14217253" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -983,7 +941,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
