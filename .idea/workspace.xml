@@ -2,46 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bca8ad9b-af13-44ca-875f-99f539da45bd" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/less/global/animation.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/1/1@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/1/1@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/1/2@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/1/2@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/1/3@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/1/3@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/1/4@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/1/4@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/1/5@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/1/5@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/2/1@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/2/1@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/2/2@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/2/2@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/2/3@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/2/3@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/2/4@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/2/4@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/2/5@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/2/5@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/3/1@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/3/1@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/3/2@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/3/2@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/3/3@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/3/3@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/3/4@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/3/4@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/3/5@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/3/5@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/4/1@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/4/1@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/4/2@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/4/2@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/4/3@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/4/3@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/4/4@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/4/4@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/gallery-slick/4/5@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/gallery-slick/4/5@2x.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/s1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/s2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/s2@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/s3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/presentation/s3@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/technologies/s1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/technologies/s1@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/technologies/s2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/technologies/s2@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/technologies/s3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/technologies/s3@2x.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/appeal.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/appeal.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/global/base.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/global/base.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/style.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,171 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="1103" column="42" selection-start-line="1103" selection-start-column="42" selection-end-line="1103" selection-end-column="42" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#a#0;n#div#2;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#section#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#3;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#2;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#2;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#h4#0;n#div#5;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#div#4;n#div#0;n#section#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#9;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#9;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#h3#0;n#div#0;n#div#0;n#div#0;n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#0;n#div#0;n#div#0;n#div#0;n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#h3#1;n#div#0;n#div#0;n#div#0;n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#1;n#div#0;n#div#0;n#div#0;n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#h3#2;n#div#0;n#div#0;n#div#0;n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#p#2;n#div#0;n#div#0;n#div#0;n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#2;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#3;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#a#4;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#11;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#1;n#div#0;n#section#11;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#12;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#12;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#12;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#section#12;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#13;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#section#13;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#14;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#14;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#14;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#section#14;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#15;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#0;n#div#0;n#section#15;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#section#15;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#section#15;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#section#15;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#4;n#div#0;n#div#0;n#section#15;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#section#16;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#0;n#section#16;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#0;n#div#1;n#div#0;n#section#16;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#div#1;n#div#0;n#section#16;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#section#16;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#8;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#9;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#10;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#11;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#12;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#13;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appeal.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/less/blocks/appeal.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="154" column="3" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
-              <folding>
-                <element signature="n#!!block;n#formHandler#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/style.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="animation.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/global/animation.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1081">
-              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -263,11 +61,15 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/less/README" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/js/jquery-3.3.1.min.js" />
         <option value="$PROJECT_DIR$/less/mixin.less" />
@@ -318,6 +120,7 @@
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/blocks/appeal.less" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -405,7 +208,12 @@
             <path>
               <item name="rul" type="b2602c69:ProjectViewProjectNode" />
               <item name="rul" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rul" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rul" type="462c0819:PsiDirectoryNode" />
+              <item name="less" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -535,7 +343,7 @@
       <workItem from="1526452749728" duration="4104000" />
       <workItem from="1526460416692" duration="3598000" />
       <workItem from="1526464886750" duration="13412000" />
-      <workItem from="1526537944678" duration="11754000" />
+      <workItem from="1526537944678" duration="12131000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <created>1523974739981</created>
@@ -572,15 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1525959798223</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="gallery reload img">
+      <created>1526554192957</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1526554192957</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="372524000" />
+    <option name="totallyTimeSpent" value="372901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -590,9 +404,9 @@
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.20552486" />
       <window_info id="npm" order="3" sideWeight="0.27144867" side_tool="true" weight="0.157082" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32842582" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.16080937" />
+      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.16080937" />
       <window_info id="Gulp" order="1" sideWeight="0.52934664" side_tool="true" weight="0.08795309" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.7285513" visible="true" weight="0.22310969" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.7285513" visible="true" weight="0.22310969" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -620,7 +434,8 @@
     <MESSAGE value="стили" />
     <MESSAGE value="ная версия" />
     <MESSAGE value="отправка формы" />
-    <option name="LAST_COMMIT_MESSAGE" value="отправка формы" />
+    <MESSAGE value="gallery reload img" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery reload img" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,15 +454,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://D:/ЯД-2017/YandexDisk/! 2017/37. Упаковка франшиз/public_html/html/modals.html" />
-    <entry file="file://$PROJECT_DIR$/../../fr/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="2266" column="3" selection-start-line="2266" selection-start-column="3" selection-end-line="2266" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/autoprefixer/lib/hacks/filter-value.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -971,17 +777,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/style.less">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="23">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/global/animation.less">
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/blocks/appeal.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+        <state relative-caret-position="253">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -1107,10 +919,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/blocks/appeal.less">
+    <entry file="file://$PROJECT_DIR$/less/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="92">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/global/animation.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1081">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
         </state>
       </provider>
     </entry>
