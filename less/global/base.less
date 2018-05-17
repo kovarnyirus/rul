@@ -94,19 +94,19 @@ p {
   margin-bottom: 0;
 }
 
-.fluid-gallery{
+.fluid-gallery {
   max-width: 1920px;
   margin: auto;
 }
 
-.mfp-arrow{
-  &:active{
+.mfp-arrow {
+  &:active {
     position: absolute;
     top: 50%;
   }
 }
 
-.mfp-close{
+.mfp-close {
 
 }
 
@@ -320,6 +320,12 @@ button {
   &:focus {
     outline: 0;
     outline-offset: 0;
+  }
+  &:disabled {
+    transition: .3s;
+    box-shadow: none;
+    background-color: #CCCCCC;
+    color: #8c8c8c;
   }
 }
 
@@ -629,7 +635,7 @@ button {
       width: 14px;
       height: 14px;
     }
-    &--personal{
+    &--personal {
       margin-top: 31px;
       margin-bottom: 0;
     }
