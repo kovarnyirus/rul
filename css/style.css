@@ -1398,7 +1398,7 @@ button:disabled {
 }
 .sell {
   padding-top: 50px;
-  z-index: 0;
+  z-index: 1;
 }
 .sell .container {
   padding-left: 35px;
@@ -2230,9 +2230,6 @@ button:disabled {
   border-radius: 10px;
   background-color: #221f1f;
   transform: rotate(-45deg);
-}
-.accordion {
-  z-index: -2;
 }
 .accordion .container {
   position: relative;
@@ -3845,6 +3842,16 @@ button:disabled {
     text-align: center;
     padding-left: 0;
     margin-top: 20px;
+  }
+  .accordion {
+    z-index: -2;
+  }
+  .accordion .container {
+    position: relative;
+  }
+  .accordion .container:before {
+    right: 0;
+    left: 0;
   }
 }
 @media (max-width: 1150px) {

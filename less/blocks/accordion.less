@@ -1,5 +1,4 @@
 .accordion{
-  z-index: -2;
   & .container{
     position: relative;
     &:before{
@@ -26,5 +25,18 @@
   padding-top: 15px;
   & span{
     border-bottom: 1px solid rgba(0, 0, 0, .3);
+  }
+}
+
+@media @mobile-widths-only {
+  .accordion {
+    z-index: -2;
+    & .container {
+      position: relative;
+      &:before {
+        right: 0;
+        left: 0;
+      }
+    }
   }
 }

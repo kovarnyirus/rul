@@ -68,22 +68,22 @@ window.addEventListener('scroll', function () {
 
 
 //прилипающее меню
-function getPageScroll() {
-  return window.pageYOffset;
-}
-
-var fixedContainer = document.querySelector('.fixed-container');
-var container = document.querySelector('.container');
-var header = document.querySelector('.page-header__top');
-
-window.onscroll = function () {
-  if (getPageScroll() > 200) {
-    header.classList.add("fixed");
-    fixedContainer.style.width = container.offsetWidth + 'px';
-  } else {
-    header.classList.remove("fixed");
-  }
-}
+// function getPageScroll() {
+//   return window.pageYOffset;
+// }
+//
+// var fixedContainer = document.querySelector('.fixed-container');
+// var container = document.querySelector('.container');
+// var header = document.querySelector('.page-header__top');
+//
+// window.onscroll = function () {
+//   if (getPageScroll() > 200) {
+//     header.classList.add("fixed");
+//     fixedContainer.style.width = container.offsetWidth + 'px';
+//   } else {
+//     header.classList.remove("fixed");
+//   }
+// }
 
 //end прилипающее меню
 
@@ -145,12 +145,11 @@ function toggleButton(id, target) {
 
 // const menuWrapper = document.querySelector('#navbarNav');
 // const menuLinks = menuWrapper.querySelectorAll('a');
-// const menuIndex = menuLinks[2].hash
-// const elem = document.querySelector(menuIndex)
+// // const menuItem = menuWrapper.querySelectorAll('li');
 // const possitionMenuElements = [];
 //
 // document.addEventListener('scroll', onScroll);
-//
+
 // function onScroll(event) {
 //   // console.log( 'скрол ' + window.pageYOffset);
 //   // console.log('elem ' + elem.offsetTop);
@@ -164,9 +163,13 @@ function toggleButton(id, target) {
 //       })
 //     }
 //     if(item.hash){
-//       if (scrollPage > possitionMenuElements[index].offsetTop) {
-//           possitionMenuElements[index].classList.add('active');
+//       if(possitionMenuElements[index]){
+//         if (scrollPage > possitionMenuElements[index].offsetTop) {
+//           let nextIndex = index + 1;
+//           menuLinks[index].classList.remove('active');
+//           menuLinks[nextIndex].classList.add('active');
 //         }
+//       }
 //     }
 //     // if (item.hash === menuIndex) {
 //     //   console.log(item.classList.add('active'))
