@@ -2022,6 +2022,12 @@ button:disabled {
   margin-bottom: -450px;
   position: relative;
 }
+.plan__link {
+  margin-top: 22px;
+  display: inline-block;
+  border-bottom: 1px solid #C7C7C7;
+  color: #0D0D0D;
+}
 .promotion {
   margin-top: 40px;
 }
@@ -2061,12 +2067,6 @@ button:disabled {
 }
 .profit__item:before {
   display: none;
-}
-.plan__link {
-  margin-top: 22px;
-  display: inline-block;
-  border-bottom: 1px solid #C7C7C7;
-  color: #0D0D0D;
 }
 .appeal {
   padding-top: 35px;
@@ -2715,9 +2715,6 @@ button:disabled {
   }
   .profit__item {
     font-size: 12px;
-  }
-  .plan__link {
-    display: none;
   }
   .appeal {
     margin-top: 50px;
@@ -3731,6 +3728,11 @@ button:disabled {
   .plan__bottom-img {
     margin-top: 4px;
   }
+  .plan__link {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
   .promotion {
     padding-left: 15px;
     padding-right: 15px;
@@ -3770,9 +3772,6 @@ button:disabled {
   }
   .profit__item {
     font-size: 12px;
-  }
-  .plan__link {
-    display: none;
   }
   .appeal {
     margin-top: 50px;
