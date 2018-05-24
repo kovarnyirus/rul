@@ -1220,6 +1220,23 @@ button:disabled {
 .format__tour span {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
+.video {
+  padding-top: 70px;
+}
+.video__title {
+  max-width: 70%;
+}
+.video__subtitle {
+  max-width: 70%;
+  margin-bottom: 30px;
+}
+.video__player {
+  margin-top: 15px;
+}
+.video__btn {
+  margin-top: 30px;
+  width: 100%;
+}
 .chains-stores {
   padding-top: 188px;
   position: relative;
@@ -2162,6 +2179,75 @@ button:disabled {
 .form-btn {
   width: 100%;
 }
+.contacts__item {
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 25px;
+}
+.contacts__wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.contacts__photo {
+  margin-right: 15px;
+  width: 96px;
+  height: 96px;
+}
+.contacts__title {
+  font-size: 31px;
+  font-family: "Exo 2", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.contacts__name {
+  font-size: 23px;
+  font-weight: bold;
+}
+.contacts__phone {
+  font-size: 23px;
+  color: #0d0d0d;
+  margin-bottom: 20px;
+}
+.contacts__vk {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+.contacts__vk:before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 25px;
+  left: 0;
+  top: 0;
+  background-image: url("/img/icons/vk-yellow.svg");
+  background-size: cover;
+}
+.contacts__instagramm {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+.contacts__instagramm:before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 25px;
+  left: 0;
+  top: 0;
+  background-image: url("/img/icons/insta.svg");
+  background-size: cover;
+}
 .slogan {
   text-align: center;
   margin-top: 112px;
@@ -3059,7 +3145,12 @@ button:disabled {
     border-left: none;
   }
   .page-header__action {
-    display: none;
+    bottom: -15px;
+    left: 25%;
+    width: 103px;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
   }
   .navbar-toggler {
     border: none;

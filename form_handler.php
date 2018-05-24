@@ -589,7 +589,7 @@ if (!$errors) {
 						<!-- ======= main section button ======= -->
 
 						<div class="edit_text" style="line-height: 26px;">
-							<multiline class="button"><a href="https://yadi.sk/i/7V_ki-mR3W538Y" download
+							<multiline class="button"><a href="https://yadi.sk/i/yrYw75Zj3W7zDh" download
 							                             style="color: #000000; text-decoration: none; font-weight: bold;">СКАЧАТЬ КОММЕРЧЕСКОЕ ПРЕДЛОЖЕНИЕ</a></multiline>
 						</div>
 					</td>
