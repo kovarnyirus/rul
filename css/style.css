@@ -3334,6 +3334,7 @@ button:disabled {
     height: 102px;
     left: -70%;
     top: -22px;
+    background-position: -20px;
   }
   .essence__name-social-link {
     top: 0px;
@@ -3908,6 +3909,14 @@ button:disabled {
   }
   .form__city {
     margin-bottom: 5px;
+  }
+  .contacts__phone {
+    font-size: 18px;
+    width: 100%;
+  }
+  .contacts__name {
+    font-size: 18px;
+    width: 100%;
   }
   .slogan {
     padding-left: 30px;
