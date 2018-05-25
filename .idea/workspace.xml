@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bca8ad9b-af13-44ca-875f-99f539da45bd" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ttf/Exo2-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/ttf/Exo2-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ttf/Exo2-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/fonts/ttf/Exo2-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/contacts.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/contacts.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/blocks/essence.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/blocks/essence.less" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +16,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
+            <state relative-caret-position="6233">
               <caret line="1396" column="70" selection-start-line="1396" selection-start-column="70" selection-end-line="1396" selection-end-column="70" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
@@ -71,7 +65,7 @@
       <file leaf-file-name="contacts.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/less/blocks/contacts.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
+            <state relative-caret-position="579">
               <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
             </state>
           </provider>
@@ -238,10 +232,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1288" />
-    <option name="y" value="46" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="26" />
+    <option name="y" value="37" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -302,7 +296,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="D:/ЯД-2017/YandexDisk/! 2017/23. Территория знаний/knowsarea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="web.server" />
@@ -368,8 +362,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
         <item itemvalue="Gulp.js.build" />
       </list>
     </recent_temporary>
@@ -424,6 +418,7 @@
       <workItem from="1526894784736" duration="1283000" />
       <workItem from="1527143908280" duration="13584000" />
       <workItem from="1527194516556" duration="1411000" />
+      <workItem from="1527232167058" duration="99000" />
     </task>
     <task id="LOCAL-00001" summary="save">
       <created>1523974739981</created>
@@ -471,23 +466,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419311000" />
+    <option name="totallyTimeSpent" value="419410000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1288" y="46" width="1296" height="1000" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5005325" side_tool="true" weight="0.20110497" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.17237309" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3325893" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.19952774" />
-      <window_info id="npm" order="3" sideWeight="0.4321534" side_tool="true" visible="true" weight="0.20631067" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32842582" />
-      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.19660194" />
+      <window_info id="npm" order="3" sideWeight="0.43369564" side_tool="true" visible="true" weight="0.20607029" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.19952774" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32826087" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.19648562" />
       <window_info id="Gulp" order="1" sideWeight="0.4281768" side_tool="true" weight="0.20340788" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.5678466" visible="true" weight="0.20631067" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.5663043" visible="true" weight="0.20607029" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
@@ -500,33 +494,34 @@
       <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32930845" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="13" weight="0.17237309" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3325893" />
       <window_info id="Gulp" order="1" sideWeight="0.4281768" side_tool="true" weight="0.20340788" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info id="npm" order="3" sideWeight="0.43031123" side_tool="true" weight="0.20305677" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.2" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.1970181" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.5696888" visible="true" weight="0.2028754" />
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.17348066" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32930845" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32842582" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5005325" side_tool="true" weight="0.20110497" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3325893" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="File Transfer" order="13" visible="true" weight="0.17348066" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.5696888" visible="true" weight="0.2028754" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32930845" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -898,7 +893,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
+        <state relative-caret-position="6233">
           <caret line="1396" column="70" selection-start-line="1396" selection-start-column="70" selection-end-line="1396" selection-end-column="70" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
@@ -945,7 +940,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/blocks/contacts.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
+        <state relative-caret-position="579">
           <caret line="77" column="3" selection-start-line="77" selection-start-column="3" selection-end-line="77" selection-end-column="3" />
         </state>
       </provider>
