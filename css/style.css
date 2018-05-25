@@ -678,11 +678,13 @@ p {
 }
 .icon-thorns {
   position: relative;
+  width: 36px;
+  display: inline-block;
 }
 .icon-thorns:before {
   position: absolute;
   content: '';
-  bottom: 0;
+  bottom: -2px;
   left: 0;
   display: block;
   width: 36px;
@@ -1236,6 +1238,35 @@ button:disabled {
 .video__btn {
   margin-top: 30px;
   width: 100%;
+}
+.video__youtube {
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  transition: all 200ms ease-out;
+  cursor: pointer;
+  background-image: url("/img/video-bg.jpg");
+}
+.video__youtube .play {
+  background: url('/img/icons/youtube-play-btn.png') no-repeat;
+  /*ВАЖНО: здесь укажите адрес до изображения*/
+  background-position: 0 -50px;
+  -webkit-background-size: 100% auto;
+  position: absolute;
+  height: 50px;
+  width: 69px;
+  transition: none;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-size: cover;
+}
+.video__youtube:hover .play {
+  background-position: 0 0;
 }
 .chains-stores {
   padding-top: 188px;

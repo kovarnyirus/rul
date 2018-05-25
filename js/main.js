@@ -26,7 +26,7 @@ $(document).ready(function () {
 
   $('.popup-youtube, .popup-vimeo, .popup-gmaps').each(function () { // the containers for all your galleries
     $(this).magnificPopup({
-      disableOn: 700,
+      disableOn: 320,
       type: 'iframe',
       mainClass: 'mfp-fade',
       removalDelay: 160,
@@ -35,6 +35,8 @@ $(document).ready(function () {
     });
   });
 });
+
+
 let animElements = $('.anim');
 const animate = function () {
   animElements.each(function () {
@@ -142,6 +144,55 @@ function toggleButton(id, target) {
     document.getElementById(id).setAttribute('disabled', 'disabled')
   }
 }
+
+
+function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}
+r(function(){
+  if (!document.getElementsByClassName) {
+    // Поддержка IE8
+    var getElementsByClassName = function(node, classname) {
+      var a = [];
+      var re = new RegExp('(^| )'+classname+'( |$)');
+      var els = node.getElementsByTagName("*");
+      for(var i=0,j=els.length; i<j; i++)
+        if(re.test(els[i].className))a.push(els[i]);
+      return a;
+    }
+    var videos = getElementsByClassName(document.body,"video__youtube");
+  } else {
+    var videos = document.getElementsByClassName("video__youtube");
+  }
+
+  var nb_videos = videos.length;
+  for (var i=0; i<nb_videos; i++) {
+    // Находим постер для видео, зная ID нашего видео
+    // videos[i].style.backgroundImage = 'url(http://i.ytimg.com/vi/' + videos[i].id + '/sddefault.jpg)';
+
+    // Размещаем над постером кнопку Play, чтобы создать эффект плеера
+    var play = document.createElement("div");
+    play.setAttribute("class","play");
+    videos[i].appendChild(play);
+
+    videos[i].onclick = function() {
+      // Создаем iFrame и сразу начинаем проигрывать видео, т.е. атрибут autoplay у видео в значении 1
+      var iframe = document.createElement("iframe");
+      var iframe_url = "https://www.youtube.com/embed/" + this.id + "?autoplay=1&fs=1&autohide=1&rel=0&amp&showinfo=0&encrypted-media=1";
+      if (this.getAttribute("data-params")) iframe_url+='&'+this.getAttribute("data-params");
+      iframe.setAttribute("src",iframe_url);
+      iframe.setAttribute("frameborder",'0');
+      iframe.setAttribute("allowfullscreen",'1');
+
+      // Высота и ширина iFrame будет как у элемента-родителя
+      iframe.style.width  = this.style.width;
+      iframe.style.height = this.style.height;
+
+      // Заменяем начальное изображение (постер) на iFrame
+      this.parentNode.replaceChild(iframe, this);
+    }
+  }
+});
+
+
 
 // const menuWrapper = document.querySelector('#navbarNav');
 // const menuLinks = menuWrapper.querySelectorAll('a');
