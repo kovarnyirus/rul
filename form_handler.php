@@ -11,21 +11,7 @@ $phone = htmlspecialchars($_REQUEST['phone'], ENT_QUOTES);
 $email = htmlspecialchars($_REQUEST['email'], ENT_QUOTES);
 $city = htmlspecialchars($_REQUEST['city'], ENT_QUOTES);
 
-
-//$citiesMSK = array ("москва", "мск", "санкт-петербург", "санкт петербург", "петербург", "питер", "спб");
-//$citiesMLN = array ("новосибирск", "нск", "новосиб", "екатеринбург", "нижний новгород", "новгород", "казань", "челябинск", "омск", "самара", "ростов-на-дону", "ростов на дону", "ростов", "уфа", "красноярск", "пермь", "воронеж", "врн", "волгоград");
-
-//if ( array_search($city2, $citiesMSK) !== false ) {
-//  $kp = "http://sol-plus.ru/formail/kp/sol-plus-kp.pdf";
-//} else if ( array_search($city2, $citiesMLN) !== false) {
-//  $kp = "http://sol-plus.ru/formail/kp/sol-plus-kp.pdf";
-//} else {
-//  $kp = "http://sol-plus.ru/formail/kp/sol-plus-kp.pdf";
-//}
-
-
-
-$tomail = 'kovarnyi48@gmail.com';
+$tomail = 'info@bixels.ru, info@rul-fr.ru';
 if ($phone == '') {$errors = 1;}
 if (!$errors) {
 
@@ -33,19 +19,19 @@ if (!$errors) {
 
   $header  = 'MIME-Version: 1.0'."\r\n";
   $header .= 'Content-type: text/html; charset=utf-8'."\r\n";
-  $header .= 'From: Rul / <rul@gmail.com>'."\r\n";
-  $header .= 'Subject: Заявка на франшизу ['.$name.']';
+  $header .= 'From: Rul / <no-reply@rul-fr.ru>'."\r\n";
+  $header .= 'Subject: РУЛЬ: Заявка на франшизу ['.$name.']';
 
-  $subject = 'Заявка на франшизу от ['.$name.']';
+  $subject = 'РУЛЬ: Заявка на франшизу от ['.$name.']';
 
   $msg = '<html>'."\n";
   $msg .= '    <head>'."\n";
   $msg .= '        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'."\n";
   $msg .= '    </head>'."\n";
   $msg .= '    <body>'."\n";
-  $msg .= '    <h2>Заявка на франшизу</h2>'."\n";
+  $msg .= '    <h2>Заявка на франшизу РУЛЬ</h2>'."\n";
   $msg .= '    <table cellpadding="5" cellspacing="0">'."\n";
-  $msg .= '        <tr><td><strong>Город:</strong></td><td>'.$city.' КП = '.$kp.'</td></tr>'."\n";
+  $msg .= '        <tr><td><strong>Город:</strong></td><td>'.$city.'</td></tr>'."\n";
   $msg .= '        <tr><td><strong>Имя:</strong></td><td>'.$name.'</td></tr>'."\n";
   $msg .= '        <tr><td><strong>E-mail:</strong></td><td>'.$email.'</td></tr>'."\n";
   $msg .= '        <tr><td><strong>Телефон:</strong></td><td>'.$phone.'</td></tr>'."\n";
@@ -54,12 +40,12 @@ if (!$errors) {
   $msg .= '</html>'."\n";
 
   if (mail($to, $subject, $msg, $header)) {
-    $output .= '<p class="alert alert-success text-center gr"><strong>Ваша заявка принята!</strong><br>На Вашу почту отправлено коммерческое предложение.<br /> Проверьте папку СПАМ, если в течении 5-ти минут письмо не пришло. </p>';
+    $output = '<p class="alert alert-success text-center gr"><strong>Ваша заявка принята!</strong><br>На Вашу почту отправлено коммерческое предложение.<br /> Проверьте папку СПАМ, если в течении 5-ти минут письмо не пришло. </p>';
   } else {
     $output = '<p>Произошла ошибка, пожалуйста повторите попытку позже.</p>';
   }
 }
-
+print $output;
 
 //Массив менеджеров
 // 959728 - Макс
@@ -67,11 +53,11 @@ if (!$errors) {
 // 2185033 - Мария
 // 2168830 - Дмитрий (Удаленный)
 
-$manager = array(647493, 959728, 2185033);
-$select_manager = $manager[rand(0, 3)];
+// $manager = array(647493, 959728, 2185033);
+// $select_manager = $manager[rand(0, 3)];
 
 if (!$errors) {
-
+/*
   $user=array(
     'USER_LOGIN'=>'fr@sol-plus.ru', #Ваш логин (электронная почта)
     'USER_HASH'=>'b619850b32404de2a60436f415b30a5a' #Хэш для доступа к API (смотрите в профиле пользователя)
@@ -95,7 +81,7 @@ if (!$errors) {
   $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
   $code=curl_getinfo($curl,CURLINFO_HTTP_CODE); #Получим HTTP-код ответа сервера
   curl_close($curl); #Завершаем сеанс cURL
-  /* Теперь мы можем обработать ответ, полученный от сервера. Это пример. Вы можете обработать данные своим способом. */
+  /* Теперь мы можем обработать ответ, полученный от сервера. Это пример. Вы можете обработать данные своим способом. * /
   $code=(int)$code;
   $errors=array(
     301=>'Moved permanently',
@@ -120,7 +106,7 @@ if (!$errors) {
   /*
    Данные получаем в формате JSON, поэтому, для получения читаемых данных,
    нам придётся перевести ответ в формат, понятный PHP
-   */
+   * /
   $Response=json_decode($out,true);
   $Response=$Response['response'];
   if(isset($Response['auth'])){
@@ -240,7 +226,7 @@ if (!$errors) {
     curl_setopt($curl,CURLOPT_SSL_VERIFYHOST,0);
     $out=curl_exec($curl); #Инициируем запрос к API и сохраняем ответ в переменную
     $code=curl_getinfo($curl,CURLINFO_HTTP_CODE);
-    /* Теперь мы можем обработать ответ, полученный от сервера. Это пример. Вы можете обработать данные своим способом. */
+    /* Теперь мы можем обработать ответ, полученный от сервера. Это пример. Вы можете обработать данные своим способом. * /
     $code=(int)$code;
     $errors=array(
       301=>'Moved permanently',
@@ -270,16 +256,16 @@ if (!$errors) {
 
   }
 
-
+*/
 
   //------
 
   $toFr = $email;
   $headerFr = 'MIME-Version: 1.0' . "\r\n";
   $headerFr .= 'Content-type: text/html; charset=utf-8' . "\r\n";
-  $headerFr .= 'From: Руль / <fr@sol-plus.ru>' . "\r\n";
+  $headerFr .= 'From: Руль / <info@rul-fr.ru>' . "\r\n";
   $headerFr .= 'Subject: РУЛЬ: Подробное предложение по франшизе';
-  $subjectFr = 'Соль+: Подробное предложение по франшизе';
+  $subjectFr = 'РУЛЬ: Подробное предложение по франшизе';
 
   $msgFr = '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns:v="urn:schemas-microsoft-com:vml">
@@ -520,7 +506,7 @@ if (!$errors) {
 	<tbody>
 	<tr>
 		<td class="change_bg" align="center">
-			<img src="http://sol-plus.ru/formail/mail-bg.jpg" alt="" width="686" height="547"/>
+			<img src="http://rul-fr.ru/formail/bg.jpg" alt="" width="600" height="357"/>
 
 		</td>
 	</tr>
@@ -589,7 +575,7 @@ if (!$errors) {
 				</tbody>
 			</table>
 			<table border="0" align="center" width="320" cellpadding="0"
-			       cellspacing="0" class="main-button" bgcolor="ff7e05">
+			       cellspacing="0" class="main-button" bgcolor="ffe200">
 
 				<tbody>
 				<tr>
@@ -603,8 +589,8 @@ if (!$errors) {
 						<!-- ======= main section button ======= -->
 
 						<div class="edit_text" style="line-height: 26px;">
-							<multiline class="button"><a href="'.$kp.'" download
-							                             style="color: #ffffff; text-decoration: none; font-weight: bold;">СКАЧАТЬ КОММЕРЧЕСКОЕ ПРЕДЛОЖЕНИЕ</a></multiline>
+							<multiline class="button"><a href="https://yadi.sk/i/yrYw75Zj3W7zDh" download
+							                             style="color: #000000; text-decoration: none; font-weight: bold;">СКАЧАТЬ КОММЕРЧЕСКОЕ ПРЕДЛОЖЕНИЕ</a></multiline>
 						</div>
 					</td>
 				</tr>
@@ -627,7 +613,7 @@ if (!$errors) {
 				</tbody>
 			</table>
 			<table border="0" align="center" width="320" cellpadding="0"
-			       cellspacing="0" class="main-button" bgcolor="518fb6">
+			       cellspacing="0" class="main-button" bgcolor="CCCCCC">
 
 				<tbody>
 				<tr>
@@ -641,7 +627,7 @@ if (!$errors) {
 						<!-- ======= main section button ======= --> 
 
 						<div class="edit_text" style="line-height: 26px;">
-							<multiline class="button"><a href="http://sol-plus.ru/unisender-mail.php?name='. $name .'&mail='. $email .'&city='. $city .'&phone='. $phone .'&whatbutton=Подробная_консультация&lead_id='.$lead_id.'"
+							<multiline class="button"><a href="http://rul-fr.ru/unisender-mail.php?name='. $name .'&mail='. $email .'&city='. $city .'&phone='. $phone .'&whatbutton=Подробная_консультация&lead_id='.$lead_id.'"
 							                             style="color: #ffffff; text-decoration: none;">СВЯЗАТЬСЯ С ОТДЕЛОМ ПРОДАЖ</a></multiline>
 						</div>
 					</td>
@@ -678,8 +664,6 @@ if (!$errors) {
 
 						<div class="edit_text" style="line-height: 24px">
 							<multiline>
-								В связи с большим количеством входящих обращений,<br>возможны задержки по времени ответа.<br>
-								Наши менеджеры обязательно свяжутся с Вами.<br>Ожидайте звонка. Спасибо за понимание!
 								<br>
 								<br>
 								['.date('G:i:s  d/m/o',time()).']

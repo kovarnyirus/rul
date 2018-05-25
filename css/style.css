@@ -1220,6 +1220,23 @@ button:disabled {
 .format__tour span {
   border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
+.video {
+  padding-top: 70px;
+}
+.video__title {
+  max-width: 70%;
+}
+.video__subtitle {
+  max-width: 70%;
+  margin-bottom: 30px;
+}
+.video__player {
+  margin-top: 15px;
+}
+.video__btn {
+  margin-top: 30px;
+  width: 100%;
+}
 .chains-stores {
   padding-top: 188px;
   position: relative;
@@ -1398,7 +1415,7 @@ button:disabled {
 }
 .sell {
   padding-top: 50px;
-  z-index: 0;
+  z-index: 1;
 }
 .sell .container {
   padding-left: 35px;
@@ -1744,6 +1761,7 @@ button:disabled {
   font-style: italic;
   line-height: 1.5;
   text-align: left;
+  display: none;
 }
 .technologies__screen-link {
   display: -ms-flexbox;
@@ -2021,6 +2039,12 @@ button:disabled {
   margin-bottom: -450px;
   position: relative;
 }
+.plan__link {
+  margin-top: 22px;
+  display: inline-block;
+  border-bottom: 1px solid #C7C7C7;
+  color: #0D0D0D;
+}
 .promotion {
   margin-top: 40px;
 }
@@ -2060,12 +2084,6 @@ button:disabled {
 }
 .profit__item:before {
   display: none;
-}
-.plan__link {
-  margin-top: 22px;
-  display: inline-block;
-  border-bottom: 1px solid #C7C7C7;
-  color: #0D0D0D;
 }
 .appeal {
   padding-top: 35px;
@@ -2161,6 +2179,75 @@ button:disabled {
 .form-btn {
   width: 100%;
 }
+.contacts__item {
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 25px;
+}
+.contacts__wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.contacts__photo {
+  margin-right: 15px;
+  width: 96px;
+  height: 96px;
+}
+.contacts__title {
+  font-size: 31px;
+  font-family: "Exo 2", sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.contacts__name {
+  font-size: 23px;
+  font-weight: bold;
+}
+.contacts__phone {
+  font-size: 23px;
+  color: #0d0d0d;
+  margin-bottom: 20px;
+}
+.contacts__vk {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+.contacts__vk:before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 25px;
+  left: 0;
+  top: 0;
+  background-image: url("/img/icons/vk-yellow.svg");
+  background-size: cover;
+}
+.contacts__instagramm {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  margin-left: 5px;
+}
+.contacts__instagramm:before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 25px;
+  left: 0;
+  top: 0;
+  background-image: url("/img/icons/insta.svg");
+  background-size: cover;
+}
 .slogan {
   text-align: center;
   margin-top: 112px;
@@ -2229,9 +2316,6 @@ button:disabled {
   border-radius: 10px;
   background-color: #221f1f;
   transform: rotate(-45deg);
-}
-.accordion {
-  z-index: -2;
 }
 .accordion .container {
   position: relative;
@@ -2718,9 +2802,6 @@ button:disabled {
   .profit__item {
     font-size: 12px;
   }
-  .plan__link {
-    display: none;
-  }
   .appeal {
     margin-top: 50px;
     padding-top: 30px;
@@ -3064,7 +3145,12 @@ button:disabled {
     border-left: none;
   }
   .page-header__action {
-    display: none;
+    bottom: -15px;
+    left: 25%;
+    width: 103px;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
   }
   .navbar-toggler {
     border: none;
@@ -3248,6 +3334,7 @@ button:disabled {
     height: 102px;
     left: -70%;
     top: -22px;
+    background-position: -20px;
   }
   .essence__name-social-link {
     top: 0px;
@@ -3733,6 +3820,11 @@ button:disabled {
   .plan__bottom-img {
     margin-top: 4px;
   }
+  .plan__link {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
   .promotion {
     padding-left: 15px;
     padding-right: 15px;
@@ -3772,9 +3864,6 @@ button:disabled {
   }
   .profit__item {
     font-size: 12px;
-  }
-  .plan__link {
-    display: none;
   }
   .appeal {
     margin-top: 50px;
@@ -3821,6 +3910,14 @@ button:disabled {
   .form__city {
     margin-bottom: 5px;
   }
+  .contacts__phone {
+    font-size: 18px;
+    width: 100%;
+  }
+  .contacts__name {
+    font-size: 18px;
+    width: 100%;
+  }
   .slogan {
     padding-left: 30px;
     padding-right: 30px;
@@ -3844,6 +3941,16 @@ button:disabled {
     text-align: center;
     padding-left: 0;
     margin-top: 20px;
+  }
+  .accordion {
+    z-index: -2;
+  }
+  .accordion .container {
+    position: relative;
+  }
+  .accordion .container:before {
+    right: 0;
+    left: 0;
   }
 }
 @media (max-width: 1150px) {
