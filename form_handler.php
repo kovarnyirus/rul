@@ -11,7 +11,7 @@ $phone = htmlspecialchars($_REQUEST['phone'], ENT_QUOTES);
 $email = htmlspecialchars($_REQUEST['email'], ENT_QUOTES);
 $city = htmlspecialchars($_REQUEST['city'], ENT_QUOTES);
 
-$tomail = 'info@bixels.ru, info@rul-fr.ru';
+$tomail = 'kovarnyi@gmail.com';
 if ($phone == '') {$errors = 1;}
 if (!$errors) {
 

@@ -689,7 +689,7 @@ p {
   display: block;
   width: 36px;
   height: 29px;
-  background-image: url("/img/icons/thorns.svg");
+  background-image: url("../img/icons/thorns.svg");
   background-size: cover;
 }
 .bottom-line {
@@ -773,7 +773,7 @@ button:disabled {
   display: block;
   width: 33px;
   height: 35px;
-  background-image: url("/img/icons/mobile.svg");
+  background-image: url("../img/icons/mobile.svg");
   background-size: cover;
 }
 .phone-number:after {
@@ -790,7 +790,7 @@ button:disabled {
   color: #000;
 }
 .phone-number--black:before {
-  background-image: url("/img/icons/mobile-black.svg");
+  background-image: url("../img/icons/mobile-black.svg");
   top: 5px;
 }
 .subtitle {
@@ -886,7 +886,7 @@ button:disabled {
   transition-delay: 0.9s;
 }
 .page-header {
-  background: url("/img/header-bg.jpg");
+  background: url("../img/header-bg.jpg");
   padding-top: 71px;
   margin-left: 3%;
   margin-right: 3%;
@@ -1247,10 +1247,10 @@ button:disabled {
   overflow: hidden;
   transition: all 200ms ease-out;
   cursor: pointer;
-  background-image: url("/img/video-bg.jpg");
+  background-image: url("../img/video-bg.jpg");
 }
 .video__youtube .play {
-  background: url('/img/icons/youtube-play-btn.png') no-repeat;
+  background: url('../img/icons/youtube-play-btn.png') no-repeat;
   /*ВАЖНО: здесь укажите адрес до изображения*/
   background-position: 0 -50px;
   -webkit-background-size: 100% auto;
@@ -1319,7 +1319,7 @@ button:disabled {
   top: -17px;
   right: 195px;
   width: 80px;
-  background-image: url("/img/icons/youtube.svg");
+  background-image: url("../img/icons/youtube.svg");
   background-size: cover;
   height: 68px;
 }
@@ -1393,7 +1393,7 @@ button:disabled {
   height: 128px;
   border-radius: 100px;
   border: 5px solid #fff;
-  background-image: url(/img/igor.jpg);
+  background-image: url(../img/igor.jpg);
   content: '';
   left: -140px;
   top: -25px;
@@ -1603,7 +1603,7 @@ button:disabled {
   position: absolute;
   top: -125px;
   content: '';
-  background-image: url(/img/get-conrt.jpg);
+  background-image: url(../img/get-conrt.jpg);
   height: 392px;
   left: 11%;
   right: 11%;
@@ -1666,7 +1666,7 @@ button:disabled {
   position: relative;
 }
 .installation:before {
-  background: url("/img/installation-block/installation-bg.jpg");
+  background: url(".../img/installation-block/installation-bg.jpg");
   position: absolute;
   width: 94%;
   top: 0px;
@@ -1707,7 +1707,7 @@ button:disabled {
   bottom: 0;
   height: 100%;
   width: 40px;
-  background-image: url("/img/right-triangle.png");
+  background-image: url(".../img/right-triangle.png");
   background-size: cover;
 }
 .installation-top__left-col h3 {
@@ -1870,7 +1870,7 @@ button:disabled {
   height: 25px;
   left: 50%;
   top: 50%;
-  background: url("/img/icons/lock.svg");
+  background: url("../img/icons/lock.svg");
   transform: translate(-50%, -50%);
   background-size: cover;
 }
@@ -1911,7 +1911,7 @@ button:disabled {
   left: 0;
   letter-spacing: normal;
   text-align: left;
-  background: url("/img/icons/question-button.svg");
+  background: url("../img/icons/question-button.svg");
   background-size: cover;
 }
 .personal__btn {
@@ -1979,7 +1979,7 @@ button:disabled {
   content: '';
   bottom: -177px;
   right: 460px;
-  background-image: url("/img/icons/bottom-row.svg");
+  background-image: url("../img/icons/bottom-row.svg");
   background-size: cover;
   width: 140px;
   height: 130px;
@@ -2033,7 +2033,7 @@ button:disabled {
   bottom: -245px;
   left: 0;
   display: block;
-  background-image: url("/img/icons/yellow-borrom-bg.png");
+  background-image: url("../img/icons/yellow-borrom-bg.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0px 0px;
@@ -2119,7 +2119,7 @@ button:disabled {
 .appeal {
   padding-top: 35px;
   padding-bottom: 80px;
-  background: url("/img/appeal/appeal-bg.jpg");
+  background: url("../img/appeal/appeal-bg.jpg");
   width: 94%;
   margin-left: 3%;
   margin-right: 3%;
@@ -2259,7 +2259,7 @@ button:disabled {
   height: 25px;
   left: 0;
   top: 0;
-  background-image: url("/img/icons/vk-yellow.svg");
+  background-image: url("../img/icons/vk-yellow.svg");
   background-size: cover;
 }
 .contacts__instagramm {
@@ -2276,7 +2276,7 @@ button:disabled {
   height: 25px;
   left: 0;
   top: 0;
-  background-image: url("/img/icons/insta.svg");
+  background-image: url("../img/icons/insta.svg");
   background-size: cover;
 }
 .slogan {
